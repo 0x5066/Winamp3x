@@ -95,6 +95,7 @@
 	<truetypefont id="DOS" file="fonts\VGA.ttf" allowmapping="1"/>
 	<truetypefont id="chaptertitle" file="fonts\TrebuchetSource.ttf" allowmapping="1"/>
 	<bitmap id="hl2" file="images/hl2time.png" x="0" y="0" w="191" h="67" gammagroup="none"/>
+	<truetypefont id="vgasys2" file="fonts\S_10pt_bold.ttf" allowmapping="1"/>
 	
 	<!-- about window additions -->
 
@@ -106,9 +107,9 @@
 	
 	<!-- player-normal additions -->
 	
-	<bitmap id="posbar.left" file="images/posbar_bg.png" x="0" y="0" w="1" h="4" gammagroup="3D Objects"/>
-	<bitmap id="posbar.center" file="images/posbar_bg.png" x="2" y="0" w="1" h="4" gammagroup="3D Objects"/>
-	<bitmap id="posbar.right" file="images/posbar_bg.png" x="4" y="0" w="2" h="4" gammagroup="3D Objects"/>	
+	<bitmap id="posbar.left" file="images/posbar_bg.png" x="0" y="0" w="1" h="14" gammagroup="3D Objects"/>
+	<bitmap id="posbar.center" file="images/posbar_bg.png" x="2" y="0" w="1" h="14" gammagroup="3D Objects"/>
+	<bitmap id="posbar.right" file="images/posbar_bg.png" x="4" y="0" w="2" h="14" gammagroup="3D Objects"/>	
 	
 	<bitmap id="sngtic.left" file="images/songticker.png" x="0" y="0" w="23" h="22" gammagroup="3D Objects"/>
 	<bitmap id="sngtic.mid" file="images/songticker.png" x="24" y="0" w="6" h="22" gammagroup="3D Objects"/>
