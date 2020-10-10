@@ -88,29 +88,29 @@
 
 	<group id="wasabi.frame.layout.region" x="0" y="0" w="0" h="0" relatw="1" relath="1"/>
 
-  <layer x="4" y="4" w="20" h="19" image="new.titlebar.beam.default.color1" activealpha="255" inactivealpha="0"/>
+  <layer x="4" y="4" w="20" h="18" image="new.titlebar.beam.default.color1" activealpha="255" inactivealpha="0"/>
 
 	<gradient id="wasabi.titlebar.active1"
-		x="24" y="4" w="-81" h="19" relatw="1"
+		x="24" y="4" w="-81" h="18" relatw="1"
 		points="0.0=128,128,128,255;1.0=128,128,128,255" activealpha="255" inactivealpha="0" gammagroup="Active Title Bar Color 1"/>
 
 	<gradient id="wasabi.titlebar.active2"
-		x="24" y="4" w="-81" h="19" relatw="1"
+		x="24" y="4" w="-81" h="18" relatw="1"
 		points="0.0=128,128,128,0;1.0=128,128,128,255" activealpha="255" inactivealpha="0" gammagroup="Active Title Bar Color 2"/>
 
-  <layer x="-57" y="4" w="53" h="19" relatx="1" image="new.titlebar.beam.default.color2" activealpha="255" inactivealpha="0"/>
+  <layer x="-57" y="4" w="53" h="18" relatx="1" image="new.titlebar.beam.default.color2" activealpha="255" inactivealpha="0"/>
 
-  <layer x="4" y="4" w="20" h="19" image="new.titlebar.beam.default.color3" activealpha="0" inactivealpha="255"/>
+  <layer x="4" y="4" w="20" h="18" image="new.titlebar.beam.default.color3" activealpha="0" inactivealpha="255"/>
 
 	<gradient id="wasabi.titlebar.inactive1"
-		x="24" y="4" w="-81" h="19" relatw="1"
+		x="24" y="4" w="-81" h="18" relatw="1"
 		points="0.0=128,128,128,255;1.0=128,128,128,255" activealpha="0" inactivealpha="255" gammagroup="Inactive Title Bar Color 1"/>
 
 	<gradient id="wasabi.titlebar.inactive2"
-		x="24" y="4" w="-81" h="19" relatw="1"
+		x="24" y="4" w="-81" h="18" relatw="1"
 		points="0.0=128,128,128,0;1.0=128,128,128,255" activealpha="0" inactivealpha="255" gammagroup="Inactive Title Bar Color 2"/>
 
-  <layer x="-57" y="4" w="53" h="19" relatx="1" image="new.titlebar.beam.default.color4" activealpha="0" inactivealpha="255"/>
+  <layer x="-57" y="4" w="53" h="18" relatx="1" image="new.titlebar.beam.default.color4" activealpha="0" inactivealpha="255"/>
 
   <layer id="window.resize.disabler" x="10" y="10" w="-20" h="-20" relatw="1" relath="1" cursor="cur.normal" alpha="0"/>
 
