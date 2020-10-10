@@ -184,25 +184,27 @@
 	colorosc5="128,128,128"
 	fps="60" alpha="0"/>
 
-	<text id="pledit.info" x="-85" y="-21" h="19" w="78" relatx="1" relaty="1" display="PE_Info" font="micross" fontsize="14" valign="middle" align="right" 
+	<text id="pledit.info" x="-95" y="-24" h="19" w="78" relatx="1" relaty="1" display="PE_Info" font="sserif" fontsize="10" valign="middle" align="right" 
 	rightclickaction="trackmenu" color="wasabi.text.color" alpha="255" cursor="cur.normal" antialias="0"/>
 	
-	<playlistPlus id="main.pl" x="3" y="-20" w="-187" h="13" relaty="1" relatw="1" font="micross" fontsize="14" linespacing="1" color="wasabi.text.color" antialias="0" 
-			playcolor="wasabi.text.color" sysregion="1"/>	
+	<SongTicker id="main.pl" x="16" y="-24" w="-227" h="19" relaty="1" relatw="1" font="sserif" fontsize="10" color="wasabi.text.color" antialias="0"/>
+
+	<!-- playlistPlus id="main.pl" x="3" y="-20" w="-187" h="19" relaty="1" relatw="1" font="sserif" fontsize="10" linespacing="1" color="wasabi.text.color" antialias="0" 
+			playcolor="wasabi.text.color" sysregion="1"/ -->	
 	
-	<grid x="4" y="-22" w="-190" h="18" relaty="1" relatw="1" topleft="wnd.topleft2" top="wnd.topmid2" topright="wnd.topright2" 
+	<grid x="12" y="-24" w="-220" h="18" relaty="1" relatw="1" topleft="wnd.topleft2" top="wnd.topmid2" topright="wnd.topright2" 
 	left="wnd.left2" middle="wnd.mid2" right="wnd.right2"
 	bottomleft="wnd.btmleft2" bottom="wnd.btmmid2" bottomright="wnd.btmright2"/>
 	
-	<grid x="-84" y="-22" w="80" h="18" relatx="1" relaty="1" topleft="wnd.topleft2" top="wnd.topmid2" topright="wnd.topright2" 
+	<grid x="-94" y="-24" w="80" h="18" relatx="1" relaty="1" topleft="wnd.topleft2" top="wnd.topmid2" topright="wnd.topright2" 
 	left="wnd.left2" middle="wnd.mid2" right="wnd.right2"
 	bottomleft="wnd.btmleft2" bottom="wnd.btmmid2" bottomright="wnd.btmright2"/>
 	
-	<grid id="progressbar" x="-184" y="-22" w="98" h="18" relatx="1" relaty="1" topleft="wnd.topleft2" top="wnd.topmid2" topright="wnd.topright2" 
+	<grid id="progressbar" x="-200" y="-24" w="98" h="18" relatx="1" relaty="1" topleft="wnd.topleft2" top="wnd.topmid2" topright="wnd.topright2" 
 	left="wnd.left2" middle="wnd.mid2" right="wnd.right2"
 	bottomleft="wnd.btmleft2" bottom="wnd.btmmid2" bottomright="wnd.btmright2"/>
 	
-	<group id="some.complex.stuff" relatx="1" relaty="1" x="-181" y="-19"/>
+	<group id="some.complex.stuff" relatx="1" relaty="1" x="-197" y="-21"/>
 	<group id="pledit.switch.button" x="-85" y="-1" h="30" w="61" relatx="1"/>
 
 	<sendparams target="winshade.disabled" alpha="0"/>
