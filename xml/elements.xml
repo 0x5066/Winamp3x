@@ -51,6 +51,20 @@
   <bitmap id="newlist.hover" file="images/menus.png" x="204" y="19" h="18" w="68" gammagroup="3D Objects"/>
   <bitmap id="newlist.pressed" file="images/menus.png" x="204" y="38" h="18" w="68" gammagroup="3D Objects"/>
 
+  <!-- window frame -->
+
+  <bitmap id="windowframe.top.left" file="images/window/windowframe.png" x="0" y="0" w="23" h="23" gammagroup="Window Frame"/>
+  <bitmap id="windowframe.top.middle" file="images/window/windowframe.png" x="24" y="0" w="1" h="23" gammagroup="Window Frame"/>
+  <bitmap id="windowframe.top.right" file="images/window/windowframe.png" x="26" y="0" w="42" h="23" gammagroup="Window Frame"/>
+
+  <bitmap id="windowframe.left" file="images/window/windowframe.png" x="0" y="24" w="4" h="1" gammagroup="Window Frame"/>
+  <bitmap id="windowframe.middle" file="images/window/windowframe.png" x="4" y="24" w="60" h="1" gammagroup="Window Frame"/>
+  <bitmap id="windowframe.right" file="images/window/windowframe.png" x="64" y="24" w="4" h="1" gammagroup="Window Frame"/>
+
+  <bitmap id="windowframe.bottom.left" file="images/window/windowframe.png" x="0" y="26" w="23" h="23" gammagroup="Window Frame"/>
+  <bitmap id="windowframe.bottom.middle" file="images/window/windowframe.png" x="24" y="26" w="1" h="23" gammagroup="Window Frame"/>
+  <bitmap id="windowframe.bottom.right" file="images/window/windowframe.png" x="45" y="26" w="23" h="23" gammagroup="Window Frame"/>
+
 	<!-- new titlebar stuff -->
 
 	<bitmap id="new.titlebar.beam.default.color1" file="images/titlebarclickable.png" x="0" y="0" h="18" w="20" gammagroup="Active Title Bar Color 1"/>
@@ -181,17 +195,17 @@
   <bitmap id="player.button.mainmenu.h" file="images/player-main.png" x="56" y="29" w="26" h="28" gammagroup="3D Objects"/>
   <bitmap id="player.button.mainmenu.d" file="images/player-main.png" x="83" y="29" w="26" h="28" gammagroup="3D Objects"/>
   
-  <bitmap id="player.button.minimize" file="images/player-main.png" x="467" y="0" w="26" h="28" gammagroup="3D Objects"/>
-  <bitmap id="player.button.minimize.h" file="images/player-main.png" x="467" y="29" w="26" h="28" gammagroup="3D Objects"/>
-  <bitmap id="player.button.minimize.d" file="images/player-main.png" x="467" y="58" w="26" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.minimize" file="images/player-main.png" x="467" y="0" w="26" h="28" gammagroup="none"/>
+  <bitmap id="player.button.minimize.h" file="images/player-main.png" x="467" y="29" w="26" h="28" gammagroup="none"/>
+  <bitmap id="player.button.minimize.d" file="images/player-main.png" x="467" y="58" w="26" h="28" gammagroup="none"/>
   
-  <bitmap id="player.button.switch" file="images/player-main.png" x="493" y="0" w="26" h="28" gammagroup="3D Objects"/>
-  <bitmap id="player.button.switch.h" file="images/player-main.png" x="493" y="29" w="26" h="28" gammagroup="3D Objects"/>
-  <bitmap id="player.button.switch.d" file="images/player-main.png" x="493" y="58" w="26" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.switch" file="images/player-main.png" x="493" y="0" w="26" h="28" gammagroup="none"/>
+  <bitmap id="player.button.switch.h" file="images/player-main.png" x="493" y="29" w="26" h="28" gammagroup="none"/>
+  <bitmap id="player.button.switch.d" file="images/player-main.png" x="493" y="58" w="26" h="28" gammagroup="none"/>
   
-  <bitmap id="player.button.close" file="images/player-main.png" x="519" y="0" w="26" h="28" gammagroup="3D Objects"/>
-  <bitmap id="player.button.close.h" file="images/player-main.png" x="519" y="29" w="26" h="28" gammagroup="3D Objects"/>
-  <bitmap id="player.button.close.d" file="images/player-main.png" x="519" y="58" w="26" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.close" file="images/player-main.png" x="519" y="0" w="26" h="28" gammagroup="none"/>
+  <bitmap id="player.button.close.h" file="images/player-main.png" x="519" y="29" w="26" h="28" gammagroup="none"/>
+  <bitmap id="player.button.close.d" file="images/player-main.png" x="519" y="58" w="26" h="28" gammagroup="none"/>
 
   <bitmap id="player.button.previous.n" file="images/player-main.png" x="23" y="560" w="45" h="48" gammagroup="3D Objects"/>
   <bitmap id="player.button.previous.h" file="images/player-main.png" x="23" y="609" w="45" h="48" gammagroup="3D Objects"/>

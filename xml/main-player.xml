@@ -109,14 +109,18 @@
   	  <!--Wasabi:TitleBar id="wasabi.titlebar" x="12" y="0" w="-47" h="34" relatw="1"/-->
 	  
 	  <layer id="titlebar.switch" x="30" y="0" w="-83" h="30" relatw="1" dblclickaction="SWITCH;shade" move="1" ghost="0" cursor="cur.move"/>
-  
+
+	<grid id="windowframe.top" x="0" y="0" h="23" w="0" relatw="1" left="windowframe.top.left" middle="windowframe.top.middle" right="windowframe.top.right" move="1" alpha="255" ghost="1" cursor="cur.normal"/>
+	<grid id="windowframe.middle" x="0" y="23" h="-46" w="0" relatw="1" relath="1" left="windowframe.left" middle="windowframe.middle" right="windowframe.right" alpha="255" ghost="1" cursor="cur.normal"/>
+  	<grid id="windowframe.bottom" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" left="windowframe.bottom.left" middle="windowframe.bottom.middle" right="windowframe.bottom.right" ghost="1" alpha="255" cursor="cur.normal"/>
+
 	<button id="player.button.mainmenu" action="SYSMENU" w="26" h="28" x="0" y="-2" image="player.button.mainmenu" hoverimage="player.button.mainmenu.h" downimage="player.button.mainmenu.d" activealpha="255" inactivealpha="255" tooltip="Winamp Menu" cursor="cur.normal"/>
-	<rect id="minimize" color="64,64,64" x="-56" y="6" w="16" h="14" relatx="1" ghost="1"/>
-	<button id="player.button.minimize" action="MINIMIZE" x="-62" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
-	<rect id="shade" color="64,64,64" x="-40" y="6" w="16" h="14" relatx="1" ghost="1"/>  
-	<button id="player.button.switch" action="SWITCH" param="SHADE" x="-45" y="-1" relatx="1" image="player.button.switch" hoverimage="player.button.switch.h" downimage="player.button.switch.d" tooltip="Toggle Windowshade Mode" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
-	<rect id="close" color="64,64,64" x="-22" y="6" w="16" h="14" relatx="1" ghost="1"/> 
-	<button id="player.button.close" action="CLOSE" x="-26" y="-1" relatx="1" image="player.button.close" hoverimage="player.button.close.h" downimage="player.button.close.d" tooltip="Close" activealpha="255" inactivealpha="255" cursor="cur.close"/>
+	<!-- rect id="minimize" color="64,64,64" x="-56" y="6" w="16" h="14" relatx="1" ghost="1"/-->
+	<button id="player.button.minimize" action="MINIMIZE" x="-46" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
+	<!-- rect id="shade" color="64,64,64" x="-40" y="6" w="16" h="14" relatx="1" ghost="1"/ -->  
+	<button id="player.button.switch" action="SWITCH" param="SHADE" x="-26" y="-1" relatx="1" image="player.button.switch" hoverimage="player.button.switch.h" downimage="player.button.switch.d" tooltip="Toggle Windowshade Mode" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
+	<!-- rect id="close" color="64,64,64" x="-22" y="6" w="16" h="14" relatx="1" ghost="1"/ --> 
+	<button id="player.button.close" action="CLOSE"  x="1" y="-1" image="player.button.close" hoverimage="player.button.close.h" downimage="player.button.close.d" tooltip="Close" activealpha="255" inactivealpha="255" cursor="cur.close"/>
 	
 	<!--group id="songticker.options" x="0" y="43" h="0" w="295" alpha="0" sysregion="1"/>
   <script file="scripts\centerobject.maki" param="songticker.options,1,0"/-->

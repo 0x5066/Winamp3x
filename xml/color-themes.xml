@@ -15,6 +15,7 @@
   <gammagroup id="Visualizers2" value="0,0,0" gray="0" boost="0" />
   <gammagroup id="VGUI Visualizer Background" value="0,0,0" gray="0" boost="0" />
   <gammagroup id="VGUI Visualizer" value="0,0,0" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Digits" value="0,0,0" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Labels" value="0,0,0" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 HUD Elements" value="0,0,0" gray="0" boost="0" />
