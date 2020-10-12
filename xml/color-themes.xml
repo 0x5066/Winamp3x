@@ -45,6 +45,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="REVOCS Media Player">
@@ -52,7 +53,6 @@
   <gammagroup id="3D Objects-Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window" value="3870,3289,3450" gray="0" boost="0" />
   <gammagroup id="Window-text" value="-4096,-4096,-4096" gray="0" boost="0" />
-
   <gammagroup id="Active Title Bar Color 1" value="-774,-4096,-3773" gray="0" boost="0" />
   <gammagroup id="Active Title Bar Color 2" value="1419,-4096,-3321" gray="0" boost="0" />
   <gammagroup id="Selected Items-Text" value="4096,4096,4096" gray="0" boost="0" />
@@ -70,6 +70,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="3192,-3999,-4063" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-1508,-2572,-2572" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="A.P.E Media Player">
@@ -94,6 +95,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-2465,-2997,-3848" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Brick">
@@ -118,6 +120,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Desert">
@@ -142,6 +145,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Eggplant">
@@ -166,6 +170,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Lilac">
@@ -190,6 +195,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Maple">
@@ -214,6 +220,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Marine (high color)">
@@ -238,6 +245,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Plum (high color)">
@@ -262,6 +270,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Pumpkin">
@@ -286,6 +295,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Rainy Day">
@@ -310,6 +320,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Red, White, and Blue (VGA)">
@@ -334,6 +345,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Rose">
@@ -358,6 +370,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Slate">
@@ -382,6 +395,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Spruce">
@@ -406,6 +420,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Storm (VGA)">
@@ -430,6 +445,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Teal (VGA)">
@@ -454,6 +470,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Wheat">
@@ -478,6 +495,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows XP (blue)">
@@ -502,6 +520,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-3257,1967" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Standard (1 Colored Title bar beam)">
@@ -526,6 +545,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Classic">
@@ -550,6 +570,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Classic (1 Colored Title bar beam)">
@@ -574,6 +595,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows XP (Olive Green)">
@@ -598,6 +620,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-322,451,-1064" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows XP (Silver)">
@@ -622,6 +645,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-806,-806,-32" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows 7 (Aero)">
@@ -646,6 +670,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Winamp Modern">
@@ -670,6 +695,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-3192,-2031,-64" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,4096,4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Bento">
@@ -694,6 +720,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="645,1548,1870" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="2676,2676,2676" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Winamp 3">
@@ -718,6 +745,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,4096,2225" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-2257,-2257,-1999" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Winamp Classic">
@@ -742,6 +770,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="-4096,4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-3063,-3063,-2451" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Big Bento Modern">
@@ -766,6 +795,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-1257,-1193,-870" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="-645,-935,1386" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="645,1548,1870" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-3671,-3635,-2891" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="GoldSrc VGUI">
@@ -790,6 +820,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-2805,-2612,-2999" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="More Windows">
@@ -814,6 +845,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="2730,1509,-2867" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Source VGUI">
@@ -838,6 +870,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="4096,2644,-2096" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Crimson">
@@ -862,6 +895,7 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="2464,-3245,-2891" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="-3352,3705,-3494" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="1152,3280,-4096" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-3033,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Commodore 64">
@@ -886,4 +920,5 @@
   <gammagroup id="Half-Life 2 HUD Elements" value="-2193,-2451,1161" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Crosshair" value="-161,-387,2967" gray="0" boost="0" />
   <gammagroup id="Half-Life 2 Subtitle Text" value="-161,-387,2967" gray="0" boost="0" />
+  <gammagroup id="Window Frame" value="-161,-387,2999" gray="0" boost="0" />
 </gammaset>
