@@ -135,11 +135,8 @@
 <container id="ryuko" name="Ryuko and Satsuki Visualizer" default_visible="0">
 
 
-<layout id="stupidassworkaround" minimum_w="486" minimum_h="265" h="265" w="486" maximum_w="486" maximum_h="265">
-	<Wasabi:Standardframe:NoStatus x="0" y="0" w="486" h="265" content="sunkenborder"/>
-	<sendparams target="wasabi.frame.layout.base.bg" alpha="255"/>
-	<sendparams target="player.button.mainmenu" alpha="0"/>
-	<layer x="6" y="5" image="revocsmediaplayer" ghost="1"/>
+<layout id="stupidassworkaround" minimum_w="482" minimum_h="259" h="259" w="482" maximum_w="482" maximum_h="259">
+	<Wasabi:Standardframe:NoStatus x="0" y="0" h="259" w="482" content="ryukovis"/>
   <!--sendparams target="titlebar.title.bg.group" w="170"/-->
 	
   <layer id="resize.disabler" x="0" y="35" w="3" h="0" relath="1" image="none" cursor="cur.normal"/>
