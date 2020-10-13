@@ -83,7 +83,7 @@
   <cursor id="cur.resbottomleft" bitmap="cursors\resbottomleft.png" hotspot_x="7" hotspot_y="7"/>
   <cursor id="cur.restopright" bitmap="cursors\restopright.png" hotspot_x="7" hotspot_y="7"/>
   <cursor id="cur.restopleft" bitmap="cursors\restopleft.png" hotspot_x="7" hotspot_y="7"/>
-  <cursor id="cur.resvert" bitmap="cursors\resvert.png" hotspot_x="4" hotspot_y="10"/>
+  <cursor id="cur.resvert" bitmap="cursors\resvert.png" hotspot_x="6" hotspot_y="10"/>
 	
 	<!--ragyovis-->
 	
