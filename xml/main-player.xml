@@ -142,14 +142,14 @@
 
 <groupdef id="titlebar.winamptxt.group">
 
-	<text id="titlebar.winamptxt" x="22" y="4" text="Winamp" relatw="1" w="-30" h="18" font="vgasys2" fontsize="11"
+	<text id="titlebar.winamptxt" x="23" y="4" text="Winamp" relatw="1" w="-35" h="18" font="vgasys2" fontsize="11"
     color="wasabi.text.active" align="center" antialias="0" ghost="1" activealpha="255" inactivealpha="0"/>
-	<text id="titlebar.winamptxt.inactive" x="22" y="4" text="Winamp" relatw="1" w="-30" h="18" font="vgasys2" fontsize="11"
+	<text id="titlebar.winamptxt.inactive" x="23" y="4" text="Winamp" relatw="1" w="-35" h="18" font="vgasys2" fontsize="11"
     color="wasabi.text.inactive" align="center" antialias="0" ghost="1" activealpha="0" inactivealpha="255"/>
 
-	<text id="titlebar.wacuptxt" x="22" y="4" text="WACUP (WinAmp Community Update Project)" relatw="1" w="-30" h="18" font="vgasys2" fontsize="11"
+	<text id="titlebar.wacuptxt" x="23" y="4" text="WACUP (WinAmp Community Update Project)" relatw="1" w="-35" h="18" font="vgasys2" fontsize="11"
     color="wasabi.text.active" align="center" antialias="0" ghost="1" activealpha="255" inactivealpha="0"/>
-	<text id="titlebar.wacuptxt.inactive" x="22" y="4" text="WACUP (WinAmp Community Update Project)" relatw="1" w="-30" h="18" font="vgasys2" fontsize="11"
+	<text id="titlebar.wacuptxt.inactive" x="23" y="4" text="WACUP (WinAmp Community Update Project)" relatw="1" w="-35" h="18" font="vgasys2" fontsize="11"
     color="wasabi.text.inactive" align="center" antialias="0" ghost="1" activealpha="0" inactivealpha="255"/>
 
 </groupdef>

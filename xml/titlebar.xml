@@ -10,12 +10,12 @@
       - Layer id="mousetrap" (this object shoud cover the content of the group)
 ======================================================================================================== -->
 
-<groupdef id="wasabi.titlebar" xuitag="Wasabi:TitleBar" embed_xui="window.titlebar.title" relatw="1" w="-30">
+<groupdef id="wasabi.titlebar" xuitag="Wasabi:TitleBar" embed_xui="window.titlebar.title" relatw="1" w="-35">
 
-  <text id="window.titlebar.title.active" x="10" y="-8" relatw="1" w="-30" h="42" default=":componentname" font="vgasys2" fontsize="11"
+  <text id="window.titlebar.title.active" x="23" y="-8" relatw="1" w="-35" h="42" default=":componentname" font="vgasys2" fontsize="11"
     color="wasabi.text.active" activealpha="255" inactiveAlpha="0" forceuppercase="0" antialias="0" align="center"/>
 
-  <text id="window.titlebar.title.inactive" x="10" y="-8" relatw="1" w="-30" h="42" default=":componentname" font="vgasys2" fontsize="11"
+  <text id="window.titlebar.title.inactive" x="23" y="-8" relatw="1" w="-35" h="42" default=":componentname" font="vgasys2" fontsize="11"
     color="wasabi.text.inactive" activealpha="0" inactiveAlpha="255" forceuppercase="0" antialias="0" align="center"/>
 
   <layer id="mousetrap" x="0" y="2" w="0" h="-10" relatw="1" relath="1" image="none" move="1" cursor="cur.move"/>
