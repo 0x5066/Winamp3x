@@ -116,14 +116,11 @@
 
   <Wasabi:TitleBar id="wasabi.titlebar" x="12" y="0" w="-47" h="34" relatw="1"/>
 
-  	<rect id="close" color="64,64,64" x="-22" y="6" w="16" h="14" relatx="1" ghost="1"/> 
-	<button id="window.button.close" action="CLOSE" x="-26" y="-1" relatx="1" image="window.normal.button.close" hoverimage="window.normal.button.close.h" 
+	<button id="window.button.close" action="SYSMENU" x="1" y="-1"  image="window.normal.button.close" hoverimage="window.normal.button.close.h" 
 	downimage="window.normal.button.close.down" tooltip="Close" cursor="cur.close"/>
-	<rect id="shade" color="64,64,64" x="-40" y="6" w="16" h="14" relatx="1" ghost="1"/> 
 	<layer id="winshade.disabled" x="-40" y="6" h="14" w="16" relatx="1" image="wasabi.button.winshade.disabled" move="1" cursor="cur.normal"/>
-	<rect id="minimize" color="64,64,64" x="-56" y="6" w="16" h="14" relatx="1" ghost="1"/>
 	<button id="player.button.minimize" action="MINIMIZE" x="-62" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" cursor="cur.normal"/>
-	<button id="player.button.mainmenu" action="SYSMENU" x="0" y="-2" image="player.button.mainmenu" hoverimage="player.button.mainmenu.h" downimage="player.button.mainmenu.d" tooltip="Winamp Menu" cursor="cur.normal"/>
+	<button id="player.button.mainmenu" action="SYSMENU" visible="0" x="0" y="-2" image="window.normal.button.close" hoverimage="window.normal.button.close.h" downimage="window.normal.button.close.down" tooltip="Winamp Menu" cursor="cur.normal"/>
 
 
 
@@ -186,7 +183,7 @@
   <layer x="-15" y="-15" relatx="1" relaty="1" image="normal.resizer.bottomright" ghost="1" alpha="0"/>
   <layer x="-20" y="-4" w="20" h="4" relatx="1" relaty="1" image="none" resize="bottomright" cursor="cur.resbottomright" alpha="0"/>
   
-  <script id="standardframe.script" file="scripts/standardframe.maki" param="4,24,-8,-28,0,0,1,1" />
+  <script id="standardframe.script" file="scripts/standardframe.maki" param="4,23,-8,-27,0,0,1,1" />
 
 
 </groupdef>
