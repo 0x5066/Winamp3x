@@ -13,23 +13,14 @@
 	<layer id="window.inner.top.left" x="0" y="20" image="window.normal.inner.top.left" move="0"/>
 	<layer id="window.inner.top.middle" x="85" y="20" w="-109" relatw="1" image="window.normal.inner.top.middle" stretch="1" move="0"/>
 
-	<layer id="window.inner.top.left2" x="0" y="20" image="window.normal.inner.top.left2" move="0"/>
-	<layer id="window.inner.top.middle2" x="85" y="20" w="-109" relatw="1" image="window.normal.inner.top.middle2" stretch="1" move="0"/>
-
 	<layer id="window.inner.top.right" x="-85" y="20" relatx="1" image="window.normal.inner.top.right" move="0"/>
-	<layer id="window.inner.top.right2" x="-85" y="20" relatx="1" image="window.normal.inner.top.right2" move="0"/>
 	
 	<layer id="window.inner.left" x="0" y="38" h="-96" resize="left" relath="1" image="window.normal.inner.left" cursor="cur.posbar" stretch="1" move="0"/>
 	<layer id="window.inner.middle" x="85" y="38" w="-170" h="-96" relatw="1" relath="1" image="window.normal.inner.middle" stretch="1" move="0"/>
 
-	<layer id="window.inner.left2" x="0" y="38" h="-96" resize="left" relath="1" image="window.normal.inner.left2" cursor="cur.posbar" stretch="1" move="0"/>
-	<layer id="window.inner.middle2" x="85" y="38" w="-170" h="-96" relatw="1" relath="1" image="window.normal.inner.middle2" stretch="1" move="0"/>
-
 	<layer id="window.inner.right" x="-85" y="38" h="-96" relatx="1" relath="1" image="window.normal.inner.right" stretch="1" move="0"/>
 	
 	<layer id="window.inner.bottom.left" x="0" y="-58" relaty="1" image="window.normal.inner.bottom.left" move="1"/>
-
-	<layer id="window.inner.bottom.left2" x="0" y="-58" relaty="1" image="window.normal.inner.bottom.left2" move="1"/>
 
 	<layer id="window.inner.bottom.middle" x="85" y="-58" w="-109" relaty="1" relatw="1" image="window.normal.inner.bottom.middle" stretch="1" move="1"/>
 	<layer id="window.inner.bottom.right" x="-85" y="-58" relatx="1" relaty="1" image="window.normal.inner.bottom.right" move="1"/>
