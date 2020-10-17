@@ -53,36 +53,24 @@
 
 <groupdef id="wasabi.frame.layout">
 
-	<layer id="window.top" x="0" y="0" image="windowborder.top" ghost="1"/>
-	<layer id="window.mid" x="0" y="3" h="151" relath="1" image="windowborder.middle" ghost="1"/>
-	<layer id="window.btm" x="0" y="-3" relaty="1" image="windowborder.bottom" ghost="1"/>
-
 	<layer id="window.titlebar.left" x="0" y="0" resize="left" image="window.normal.titlebar.left" ghost="1" move="0"/>
 	<layer id="window.titlebar.middle" x="267" y="0" w="-538" relatw="1" image="window.normal.titlebar.middle" stretch="1" ghost="1" move="0"/>
 	<layer id="window.titlebar.right" x="-271" y="0" relatx="1" image="window.normal.titlebar.right" ghost="1" move="0"/>
-	<layer id="window.titlebar.right2" x="-271" y="0" relatx="1" image="window.normal.titlebar.right2" ghost="1" move="0"/>
 
 	<layer id="window.top.left" x="0" y="34" image="window.normal.top.left" resize="left" move="0" cursor="cur.posbar"/>
 	<layer id="window.top.middle" x="267" y="34" w="-238" relatw="1" image="window.normal.top.middle" stretch="1" move="0"/>
   	<layer id="window.top.right" x="-271" y="34" relatx="1" image="window.normal.top.right" resize="right" move="0" cursor="cur.posbar"/>
-  	<layer id="window.top.right2" x="-271" y="34" relatx="1" image="window.normal.top.right2" resize="right" move="0" cursor="cur.posbar"/>
   	<layer id="resizer.right" x="-4" relatx="1" y="37" w="4" h="-32" relath="1" image="none" resize="right" regionop="1" rectrgn="1" cursor="cur.posbar"/>
 	
 	<layer id="window.left" x="0" y="48" h="-51" relath="1" image="window.normal.left" stretch="1" resize="left" move="0" cursor="cur.posbar"/>
 	<layer id="window.middle" x="267" y="48" w="-538" h="-51" relatw="1" relath="1" image="window.normal.middle" stretch="1" move="0"/>
 	<layer id="window.right" x="-271" y="48" h="-51" relatx="1" relath="1" image="window.normal.right" stretch="1" resize="right" move="0" cursor="cur.posbar"/>
-	
-	<layer id="window.left2" x="0" y="48" h="-51" relath="1" image="window.normal.left2" stretch="1" resize="left" move="0" cursor="cur.posbar"/>
-	<layer id="window.middle2" x="267" y="48" w="-538" h="-51" relatw="1" relath="1" image="window.normal.middle2" stretch="1" move="0"/>
-	<layer id="window.right2" x="-271" y="48" h="-51" relatx="1" relath="1" image="window.normal.right2" stretch="1" resize="right" move="0" cursor="cur.posbar"/>
+
 
 	<layer id="window.bottom.left" x="0" y="-51" relaty="1" image="window.normal.bottom.left" move="1" cursor="cur.normal"/>
 	<layer id="window.bottom.middle" x="267" y="-51" w="-238" relaty="1" relatw="1" image="window.normal.bottom.middle" stretch="1" move="1"/>
 	<layer id="window.bottom.right" x="-271" y="-51" relatx="1" relaty="1" image="window.normal.bottom.right" move="1" cursor="cur.normal"/>
 
-	<layer id="window.bottom.left2" x="0" y="-51" relaty="1" image="window.normal.bottom.left2" move="1" cursor="cur.normal"/>
-	<layer id="window.bottom.middle2" x="267" y="-51" w="-238" relaty="1" relatw="1" image="window.normal.bottom.middle2" stretch="1" move="1"/>
-	<layer id="window.bottom.right2" x="-271" y="-51" relatx="1" relaty="1" image="window.normal.bottom.right2" move="1" cursor="cur.normal"/>
 		
   <group id="wasabi.frame.layout.base.bg" x="0" y="0" w="0" h="40" relatw="1" relath="1" cursor="cur.normal" alpha="0"/>
 
@@ -118,8 +106,9 @@
 
 	<button id="window.button.close" action="SYSMENU" x="1" y="-1"  image="window.normal.button.close" hoverimage="window.normal.button.close.h" 
 	downimage="window.normal.button.close.down" tooltip="Close" cursor="cur.close"/>
-	<layer id="winshade.disabled" x="-40" y="6" h="14" w="16" relatx="1" image="wasabi.button.winshade.disabled" move="1" cursor="cur.normal"/>
-	<button id="player.button.minimize" action="MINIMIZE" x="-62" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" cursor="cur.normal"/>
+	<rect x="22" y="4" w="1" h="18" color="0,0,0"/>
+	<button id="player.button.minimize" action="MINIMIZE" x="-27" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" cursor="cur.normal"/>
+	<rect x="-23" y="4" w="1" h="18" relatx="1" color="0,0,0"/>
 	<button id="player.button.mainmenu" action="SYSMENU" visible="0" x="0" y="-2" image="window.normal.button.close" hoverimage="window.normal.button.close.h" downimage="window.normal.button.close.down" tooltip="Winamp Menu" cursor="cur.normal"/>
 
 
@@ -163,14 +152,6 @@
 <groupdef id="wasabi.standardframe.nostatusbar" background="wasabi.frame.basetexture" sysregion="1" xuitag="Wasabi:StandardFrame:NoStatus" cursor="cur.normal">
 
   <group id="wasabi.frame.layout" x="0" y="0" w="0" h="0" relatw="1" relath="1"/>
-  
-  	<layer id="window.topmid" x="2" y="0" w="-4" relatw="1" image="windowborder.topmiddle" ghost="1"/>
-	<layer id="window.topright" x="-2" y="0" relatx="1" image="windowborder.topright" ghost="1"/>
-  
-  	<layer id="window.top" x="0" y="0" image="windowborder.top" ghost="1"/>
-	<layer id="window.mid" x="0" y="3" h="151" relath="1" image="windowborder.middle" ghost="1"/>
-	<layer id="window.btm" x="0" y="-3" relaty="1" image="windowborder.bottom" ghost="1"/>
-	<layer id="window.btm2" x="0" y="-3" relaty="1" image="windowborder.bottom2" ghost="1"/>
   
   <layer x="0" y="0" w="20" h="4" image="none" resize="topleft" cursor="cur.restopleft" alpha="0"/>
   <layer x="20" y="0" w="-20" h="4" relatw="1" image="none" resize="top" cursor="cur.resvert" alpha="0"/>

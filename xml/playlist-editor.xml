@@ -133,8 +133,8 @@
 
 <groupdef id="pledit.switch.button">
   <!--layer id="window.top.middle" x="0" y="0" w="0" relatw="1" image="window.normal.titlebar.middle" resize="top" stretch="1" ghost="1" cursor="cur.restop"/--> <!--causes some huge area to appear right around the switch button, me no likey-->
-  <layer id="window.grip.top.right" x="-7" y="5" image="titlebar.stripes.right" activealpha="255" inactivealpha="255" ghost="1"/>
-	<button id="pledit.button.switch" action="SWITCH" param="SHADE" x="40" y="0" image="window.shade.button.switch" hoverimage="window.shade.button.switch.h" downimage="window.shade.button.switch.d" tooltip="Toggle Windowshade Mode" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
+	<button id="pledit.button.switch" action="SWITCH" param="SHADE" x="39" y="0" image="window.shade.button.switch" hoverimage="window.shade.button.switch.h" downimage="window.shade.button.switch.d" tooltip="Toggle Windowshade Mode" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
+	<rect x="42" y="5" w="1" h="18" color="0,0,0"/>
 </groupdef>
 
 
@@ -205,9 +205,11 @@
 	bottomleft="wnd.btmleft2" bottom="wnd.btmmid2" bottomright="wnd.btmright2"/>
 	
 	<group id="some.complex.stuff" relatx="1" relaty="1" x="-197" y="-21"/>
-	<group id="pledit.switch.button" x="-85" y="-1" h="30" w="61" relatx="1"/>
+	<group id="pledit.switch.button" x="-65" y="-1" h="30" w="61" relatx="1"/>
 
 	<sendparams target="winshade.disabled" alpha="0"/>
+	<sendparams target="player.button.minimize" x="-46"/>
+	<rect x="-42" y="4" w="1" h="18" relatx="1" color="0,0,0"/>
 	
 </layout> 
 
