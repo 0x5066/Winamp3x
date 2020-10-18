@@ -65,6 +65,36 @@
   <bitmap id="windowframe.bottom.left" file="images/window/windowframe.png" x="0" y="26" w="23" h="23" gammagroup="Window Frame"/>
   <bitmap id="windowframe.bottom.middle" file="images/window/windowframe.png" x="24" y="26" w="1" h="23" gammagroup="Window Frame"/>
   <bitmap id="windowframe.bottom.right" file="images/window/windowframe.png" x="45" y="26" w="23" h="23" gammagroup="Window Frame"/>
+  
+  <!-- active -->
+  
+  <bitmap id="windowframe.top.left.active" file="images/window/windowframeinside_active.png" x="0" y="0" w="23" h="23" gammagroup="Active Border"/>
+  <bitmap id="windowframe.top.middle.active" file="images/window/windowframeinside_active.png" x="24" y="0" w="1" h="23" gammagroup="Active Border"/>
+  <bitmap id="windowframe.top.right.active" file="images/window/windowframeinside_active.png" x="26" y="0" w="42" h="23" gammagroup="Active Border"/>
+  <bitmap id="standardwindowframe.top.right.active" file="images/window/standardwindowframe_active.png" x="26" y="0" w="42" h="23" gammagroup="Active Border"/>
+
+  <bitmap id="windowframe.left.active" file="images/window/windowframeinside_active.png" x="0" y="24" w="4" h="1" gammagroup="Active Border"/>
+  <bitmap id="windowframe.middle.active" file="images/window/windowframeinside_active.png" x="4" y="24" w="60" h="1" gammagroup="Active Border"/>
+  <bitmap id="windowframe.right.active" file="images/window/windowframeinside_active.png" x="64" y="24" w="4" h="1" gammagroup="Active Border"/>
+
+  <bitmap id="windowframe.bottom.left.active" file="images/window/windowframeinside_active.png" x="0" y="26" w="23" h="23" gammagroup="Active Border"/>
+  <bitmap id="windowframe.bottom.middle.active" file="images/window/windowframeinside_active.png" x="24" y="26" w="1" h="23" gammagroup="Active Border"/>
+  <bitmap id="windowframe.bottom.right.active" file="images/window/windowframeinside_active.png" x="45" y="26" w="23" h="23" gammagroup="Active Border"/>
+  
+  <!-- inactive -->
+  
+  <bitmap id="windowframe.top.left.inactive" file="images/window/windowframeinside_inactive.png" x="0" y="0" w="23" h="23" gammagroup="Inactive Border"/>
+  <bitmap id="windowframe.top.middle.inactive" file="images/window/windowframeinside_inactive.png" x="24" y="0" w="1" h="23" gammagroup="Inactive Border"/>
+  <bitmap id="windowframe.top.right.inactive" file="images/window/windowframeinside_inactive.png" x="26" y="0" w="42" h="23" gammagroup="Inactive Border"/>
+  <bitmap id="standardwindowframe.top.right.inactive" file="images/window/standardwindowframe_inactive.png" x="26" y="0" w="42" h="23" gammagroup="Inactive Border"/>
+
+  <bitmap id="windowframe.left.inactive" file="images/window/windowframeinside_inactive.png" x="0" y="24" w="4" h="1" gammagroup="Inactive Border"/>
+  <bitmap id="windowframe.middle.inactive" file="images/window/windowframeinside_inactive.png" x="4" y="24" w="60" h="1" gammagroup="Inactive Border"/>
+  <bitmap id="windowframe.right.inactive" file="images/window/windowframeinside_inactive.png" x="64" y="24" w="4" h="1" gammagroup="Inactive Border"/>
+
+  <bitmap id="windowframe.bottom.left.inactive" file="images/window/windowframeinside_active.png" x="0" y="26" w="23" h="23" gammagroup="Inactive Border"/>
+  <bitmap id="windowframe.bottom.middle.inactive" file="images/window/windowframeinside_active.png" x="24" y="26" w="1" h="23" gammagroup="Inactive Border"/>
+  <bitmap id="windowframe.bottom.right.inactive" file="images/window/windowframeinside_inactive.png" x="45" y="26" w="23" h="23" gammagroup="Inactive Border"/>
 
 	<!-- new titlebar stuff -->
 

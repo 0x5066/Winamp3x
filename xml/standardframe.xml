@@ -147,6 +147,14 @@
 	<grid id="windowframe.middle" x="0" y="23" h="-46" w="0" relatw="1" relath="1" left="windowframe.left" middle="windowframe.middle" right="windowframe.right" alpha="255" ghost="1" cursor="cur.normal"/>
   	<grid id="windowframe.bottom" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" left="windowframe.bottom.left" middle="windowframe.bottom.middle" right="windowframe.bottom.right" ghost="1" alpha="255" cursor="cur.normal"/>
 
+	<grid id="windowframe.top.active" x="0" y="0" h="23" w="0" activealpha="255" inactivealpha="0" relatw="1" left="windowframe.top.left.active" middle="windowframe.top.middle.active" right="standardwindowframe.top.right.active" move="1" ghost="1" cursor="cur.normal"/>
+	<grid id="windowframe.middle.active" x="0" y="23" h="-46" w="0" relatw="1" relath="1" activealpha="255" inactivealpha="0" left="windowframe.left.active" middle="windowframe.middle.active" right="windowframe.right.active" ghost="1" cursor="cur.normal"/>
+  	<grid id="windowframe.bottom.active" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="255" inactivealpha="0" left="windowframe.bottom.left.active" middle="windowframe.bottom.middle.active" right="windowframe.bottom.right.active" ghost="1" cursor="cur.normal"/>
+
+	<grid id="windowframe.top.inactive" x="0" y="0" h="23" w="0" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.top.left.inactive" middle="windowframe.top.middle.inactive" right="standardwindowframe.top.right.inactive" move="1" ghost="1" cursor="cur.normal"/>
+	<grid id="windowframe.middle.inactive" x="0" y="23" h="-46" w="0" relatw="1" relath="1" activealpha="0" inactivealpha="255" left="windowframe.left.inactive" middle="windowframe.middle.inactive" right="windowframe.right.inactive" ghost="1" cursor="cur.normal"/>
+  	<grid id="windowframe.bottom.inactive" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.bottom.left.inactive" middle="windowframe.bottom.middle.inactive" right="windowframe.bottom.right.inactive" ghost="1" cursor="cur.normal"/>
+
   
   <layer x="0" y="0" w="20" h="4" image="none" resize="topleft" cursor="cur.restopleft" alpha="0"/>
   <layer x="20" y="0" w="-20" h="4" relatw="1" image="none" resize="top" cursor="cur.resvert" alpha="0"/>

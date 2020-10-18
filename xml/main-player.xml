@@ -114,6 +114,14 @@
 	<grid id="windowframe.middle" x="0" y="23" h="-46" w="0" relatw="1" relath="1" left="windowframe.left" middle="windowframe.middle" right="windowframe.right" alpha="255" ghost="1" cursor="cur.normal"/>
   	<grid id="windowframe.bottom" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" left="windowframe.bottom.left" middle="windowframe.bottom.middle" right="windowframe.bottom.right" ghost="1" alpha="255" cursor="cur.normal"/>
 
+	<grid id="windowframe.top.active" x="0" y="0" h="23" w="0" activealpha="255" inactivealpha="0" relatw="1" left="windowframe.top.left.active" middle="windowframe.top.middle.active" right="windowframe.top.right.active" move="1" ghost="1" cursor="cur.normal"/>
+	<grid id="windowframe.middle.active" x="0" y="23" h="-46" w="0" relatw="1" relath="1" activealpha="255" inactivealpha="0" left="windowframe.left.active" middle="windowframe.middle.active" right="windowframe.right.active" ghost="1" cursor="cur.normal"/>
+  	<grid id="windowframe.bottom.active" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="255" inactivealpha="0" left="windowframe.bottom.left.active" middle="windowframe.bottom.middle.active" right="windowframe.bottom.right.active" ghost="1" cursor="cur.normal"/>
+
+	<grid id="windowframe.top.inactive" x="0" y="0" h="23" w="0" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.top.left.inactive" middle="windowframe.top.middle.inactive" right="windowframe.top.right.inactive" move="1" ghost="1" cursor="cur.normal"/>
+	<grid id="windowframe.middle.inactive" x="0" y="23" h="-46" w="0" relatw="1" relath="1" activealpha="0" inactivealpha="255" left="windowframe.left.inactive" middle="windowframe.middle.inactive" right="windowframe.right.inactive" ghost="1" cursor="cur.normal"/>
+  	<grid id="windowframe.bottom.inactive" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.bottom.left.inactive" middle="windowframe.bottom.middle.inactive" right="windowframe.bottom.right.inactive" ghost="1" cursor="cur.normal"/>
+
 	<button id="player.button.mainmenu" action="SYSMENU" w="26" h="28" x="0" y="-2" image="player.button.mainmenu" hoverimage="player.button.mainmenu.h" downimage="player.button.mainmenu.d" activealpha="255" inactivealpha="255" tooltip="Winamp Menu" cursor="cur.normal"/>
 	<!-- rect id="minimize" color="64,64,64" x="-56" y="6" w="16" h="14" relatx="1" ghost="1"/-->
 	<button id="player.button.minimize" action="MINIMIZE" x="-46" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
