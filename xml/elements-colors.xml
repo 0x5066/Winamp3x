@@ -16,6 +16,7 @@
 	
 	<color id="wasabi.text.active" value="128,128,128" gammagroup="Active Title Bar-Text"/>
 	<color id="wasabi.text.inactive" value="128,128,128" gammagroup="Inactive Title Bar-Text"/>
+	<color id="wasabi.windowframe" value="128,128,128" gammagroup="Window Frame"/>
 
 	<!-- Generic Lists -->
 	<color id="wasabi.list.text" value="128,128,128" gammagroup="Window-Text"/> <!--lists/trees item foreground (also edit text) -->

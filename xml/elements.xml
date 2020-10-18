@@ -56,6 +56,7 @@
   <bitmap id="windowframe.top.left" file="images/window/windowframe.png" x="0" y="0" w="23" h="23" gammagroup="Window Frame"/>
   <bitmap id="windowframe.top.middle" file="images/window/windowframe.png" x="24" y="0" w="1" h="23" gammagroup="Window Frame"/>
   <bitmap id="windowframe.top.right" file="images/window/windowframe.png" x="26" y="0" w="42" h="23" gammagroup="Window Frame"/>
+  <bitmap id="standardwindowframe.top.right" file="images/window/standardwindowframe.png" x="26" y="0" w="42" h="23" gammagroup="Window Frame"/>
 
   <bitmap id="windowframe.left" file="images/window/windowframe.png" x="0" y="24" w="4" h="1" gammagroup="Window Frame"/>
   <bitmap id="windowframe.middle" file="images/window/windowframe.png" x="4" y="24" w="60" h="1" gammagroup="Window Frame"/>

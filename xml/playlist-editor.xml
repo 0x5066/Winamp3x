@@ -209,7 +209,11 @@
 
 	<sendparams target="winshade.disabled" alpha="0"/>
 	<sendparams target="player.button.minimize" x="-46"/>
-	<rect x="-42" y="4" w="1" h="18" relatx="1" color="0,0,0"/>
+	
+	<grid id="windowframe.top" x="0" y="0" h="23" w="0" relatw="1" left="windowframe.top.left" middle="windowframe.top.middle" right="windowframe.top.right" move="1" alpha="255" ghost="1" cursor="cur.normal"/>
+	<grid id="windowframe.middle" x="0" y="23" h="-46" w="0" relatw="1" relath="1" left="windowframe.left" middle="windowframe.middle" right="windowframe.right" alpha="255" ghost="1" cursor="cur.normal"/>
+  	<grid id="windowframe.bottom" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" left="windowframe.bottom.left" middle="windowframe.bottom.middle" right="windowframe.bottom.right" ghost="1" alpha="255" cursor="cur.normal"/>
+
 	
 </layout> 
 
