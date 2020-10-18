@@ -46,34 +46,34 @@
 	<slider id="player.slider.seek" action="SEEK" x="23" y="144" w="-39" h="21" relatw="1" orientation="horizontal" thumb="player.seeker.slider.n" hoverthumb="player.seeker.slider.h" downthumb="player.seeker.slider.d" rectrgn="1" cursor="cur.normal" tooltip="Seeking Bar"/>
 	<slider id="player.slider.seek.ghost" action="SEEK" x="23" y="144" w="-39" h="21" relatw="1" orientation="horizontal" thumb="player.seeker.slider.n" hoverthumb="player.seeker.slider.h" downthumb="player.seeker.slider.d" rectrgn="1" cursor="cur.normal"/>
 
-	<rect id="prev" color="64,64,64" x="26" y="181" w="42" h="35" ghost="1"/>
-	<button id="button.previous" action="PREV" x="23" y="174" image="player.button.previous.n" hoverimage="player.button.previous.h" downimage="player.button.previous.d" alpha="255" cursor="cur.normal" tooltip="Previous Track"/>
+	<!-- rect id="prev" color="64,64,64" x="26" y="181" w="42" h="35" ghost="1"/-->
+	<button id="button.previous" action="PREV" x="27" y="180" image="player.button.previous.n" hoverimage="player.button.previous.h" downimage="player.button.previous.d" alpha="255" cursor="cur.normal" tooltip="Previous Track"/>
 
-	<rect id="play" color="64,64,64" x="68" y="181" w="41" h="35" ghost="1"/>
-	<button id="button.play" action="PLAY" x="68" y="174" image="player.button.play.n" hoverimage="player.button.play.h" downimage="player.button.play.d" alpha="255" cursor="cur.normal" tooltip="Play"/>
+	<!-- rect id="play" color="64,64,64" x="68" y="181" w="41" h="35" ghost="1"/-->
+	<button id="button.play" action="PLAY" x="76" y="180" image="player.button.play.n" hoverimage="player.button.play.h" downimage="player.button.play.d" alpha="255" cursor="cur.normal" tooltip="Play"/>
 
-	<rect id="pause" color="64,64,64" x="109" y="181" w="41" h="35" ghost="1"/>
-	<button id="button.pause" action="PAUSE" x="109" y="174" image="player.button.pause.n" hoverimage="player.button.pause.h" downimage="player.button.pause.d" alpha="255" cursor="cur.normal" tooltip="Pause"/>
+	<!-- rect id="pause" color="64,64,64" x="109" y="181" w="41" h="35" ghost="1"/-->
+	<button id="button.pause" action="PAUSE" x="125" y="180" image="player.button.pause.n" hoverimage="player.button.pause.h" downimage="player.button.pause.d" alpha="255" cursor="cur.normal" tooltip="Pause"/>
 
-	<rect id="stop" color="64,64,64" x="150" y="181" w="41" h="35" ghost="1"/>
-	<button id="button.stop" action="STOP" x="150" y="174" image="button.stop.n" hoverimage="button.stop.h" downimage="button.stop.d" alpha="255" cursor="cur.normal" tooltip="Stop"/>
+	<!-- rect id="stop" color="64,64,64" x="150" y="181" w="41" h="35" ghost="1"/-->
+	<button id="button.stop" action="STOP" x="174" y="180" image="button.stop.n" hoverimage="button.stop.h" downimage="button.stop.d" alpha="255" cursor="cur.normal" tooltip="Stop"/>
 
-	<rect id="next" color="64,64,64" x="191" y="181" w="41" h="35" ghost="1"/>
-	<button id="button.next" action="NEXT" x="191" y="174" image="player.button.next.n" hoverimage="player.button.next.h" downimage="player.button.next.d" alpha="255" cursor="cur.normal" tooltip="Next Track"/>
+	<!-- rect id="next" color="64,64,64" x="191" y="181" w="41" h="35" ghost="1"/-->
+	<button id="button.next" action="NEXT" x="223" y="180" image="player.button.next.n" hoverimage="player.button.next.h" downimage="player.button.next.d" alpha="255" cursor="cur.normal" tooltip="Next Track"/>
 
-	<rect id="open" color="64,64,64" x="248" y="181" w="42" h="35" ghost="1"/>
-	<button id="player.button.open" action="EJECT" x="241" y="174" image="player.button.eject.n" hoverimage="player.button.eject.h" downimage="player.button.eject.d" alpha="255" cursor="cur.normal" tooltip="Open File(s)"/>
+	<!-- rect id="open" color="64,64,64" x="248" y="181" w="42" h="35" ghost="1"/-->
+	<button id="player.button.open" action="EJECT" x="272" y="180" image="player.button.eject.n" hoverimage="player.button.eject.h" downimage="player.button.eject.d" alpha="255" cursor="cur.normal" tooltip="Open File(s)"/>
 
   <!-- Shuffle and Repeat buttons gfx and light indicators handled by script -->
 
-	<rect id="shuf" color="64,64,64" x="-246" y="185" w="112" h="28" relatx="1" ghost="1"/>
-  <NStatesButton id="button.shuffle" x="-253" y="175" w="119" h="48" relatx="1" cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Shuffle" cfgvals="0;1" nstates="2" image="shuffle.n." hoverimage="shuffle.h." downimage="shuffle.d." tooltip="Toggle Shuffle" alpha="255" cursor="cur.normal"/>
-	<togglebutton id="shuffle.light" x="-258" y="171" w="48" h="48" relatx="1" image="repeat.light.off" activeImage="repeat.light.on" ghost="1" alpha="255" cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Shuffle"/>
+	<!-- rect id="shuf" color="64,64,64" x="-246" y="185" w="112" h="28" relatx="1" ghost="1"/-->
+  <NStatesButton id="button.shuffle" x="-165" y="180" relatx="1" cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Shuffle" cfgvals="0;1" nstates="2" image="shuffle.n." hoverimage="shuffle.h." downimage="shuffle.d." tooltip="Toggle Shuffle" alpha="255" cursor="cur.normal"/>
+	<togglebutton id="shuffle.light" x="-182" y="163" w="48" h="48" relatx="1" image="repeat.light.off" activeImage="repeat.light.on" ghost="1" alpha="255" cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Shuffle"/>
 
-	<rect id="rep" color="64,64,64" x="-134" y="185" w="62" h="28" relatx="1" ghost="1"/>
-	<NStatesButton id="button.repeat" x="-134" y="175" relatx="1" image="repeat.n." hoverimage="repeat.h." downimage="repeat.d."
+	<!-- rect id="rep" color="64,64,64" x="-134" y="185" w="62" h="28" relatx="1" ghost="1"/-->
+	<NStatesButton id="button.repeat" x="-116" y="180" relatx="1" image="repeat.n." hoverimage="repeat.h." downimage="repeat.d."
 		rectrgn="1" nstates="3" cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Repeat" cfgvals="0;1;-1" tooltip="Toggle Repeat" alpha="255" cursor="cur.normal"/>
-	<togglebutton id="repeat.light" x="-147" y="171" relatx="1" image="repeat.light.off" activeImage="repeat.light.on" ghost="1" alpha="255" cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Repeat"/>
+	<togglebutton id="repeat.light" x="-133" y="163" relatx="1" image="repeat.light.off" activeImage="repeat.light.on" ghost="1" alpha="255" cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Repeat"/>
 
 	<layer id="about.bg" x="-71" y="175" relatx="1" image="about.bg" alpha="255" ghost="1"/>
 	<togglebutton id="player.button.about" x="-63" y="174" relatx="1" image="button.about.n" hoverimage="button.about.h" downimage="button.about.d" rectrgn="1" action="TOGGLE" param="guid:{D6201408-476A-4308-BF1B-7BACA1124B12}" alpha="255" tooltip="About Winamp / Toggle Library" cursor="cur.normal"/>

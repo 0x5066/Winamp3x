@@ -239,31 +239,31 @@
   <bitmap id="player.button.close.d" file="images/player-main.png" x="519" y="58" w="26" h="28" gammagroup="3D Objects"/>
   <bitmap id="player.button.close.d" file="images/player-main.png" x="519" y="58" w="26" h="28" gammagroup="3D Objects"/>
 
-  <bitmap id="player.button.previous.n" file="images/player-main.png" x="23" y="560" w="45" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.previous.h" file="images/player-main.png" x="23" y="609" w="45" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.previous.d" file="images/player-main.png" x="23" y="658" w="45" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.play.n" file="images/player-main.png" x="68" y="560" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.play.h" file="images/player-main.png" x="68" y="609" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.play.d" file="images/player-main.png" x="68" y="658" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.pause.n" file="images/player-main.png" x="109" y="560" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.pause.h" file="images/player-main.png" x="109" y="609" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.pause.d" file="images/player-main.png" x="109" y="658" w="41" h="48" gammagroup="3D Objects"/>
+  <bitmap id="player.button.previous.n" file="images/player-main.png" x="23" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.previous.h" file="images/player-main.png" x="23" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.previous.d" file="images/player-main.png" x="23" y="618" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.play.n" file="images/player-main.png" x="72" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.play.h" file="images/player-main.png" x="72" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.play.d" file="images/player-main.png" x="72" y="618" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.pause.n" file="images/player-main.png" x="121" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.pause.h" file="images/player-main.png" x="121" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.pause.d" file="images/player-main.png" x="121" y="618" w="48" h="28" gammagroup="3D Objects"/>
 
-  <bitmap id="button.stop.n" file="images/player-main.png" x="150" y="560" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="button.stop.h" file="images/player-main.png" x="150" y="609" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="button.stop.d" file="images/player-main.png" x="150" y="658" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="button.stop.ac.n" file="images/player-main.png" x="164" y="756" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="button.stop.ac.h" file="images/player-main.png" x="206" y="756" w="41" h="48" gammagroup="3D Objects"/>
-  <bitmap id="button.stop.ac.d" file="images/player-main.png" x="248" y="756" w="41" h="48" gammagroup="3D Objects"/>
+  <bitmap id="button.stop.n" file="images/player-main.png" x="170" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="button.stop.h" file="images/player-main.png" x="170" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="button.stop.d" file="images/player-main.png" x="170" y="618" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="button.stop.ac.n" file="images/player-main.png" x="164" y="756" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="button.stop.ac.h" file="images/player-main.png" x="206" y="756" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="button.stop.ac.d" file="images/player-main.png" x="248" y="618" w="48" h="28" gammagroup="3D Objects"/>
 
-  <bitmap id="player.button.next.n" file="images/player-main.png" x="191" y="560" w="45" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.next.h" file="images/player-main.png" x="191" y="609" w="45" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.next.d" file="images/player-main.png" x="191" y="658" w="45" h="48" gammagroup="3D Objects"/>
+  <bitmap id="player.button.next.n" file="images/player-main.png" x="219" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.next.h" file="images/player-main.png" x="219" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.next.d" file="images/player-main.png" x="219" y="618" w="48" h="28" gammagroup="3D Objects"/>
 
-  <bitmap id="player.button.eject.bg" file="images/player-main.png" x="240" y="514" w="54" h="45" gammagroup="plastic"/>
-  <bitmap id="player.button.eject.n" file="images/player-main.png" x="239" y="560" w="56" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.eject.h" file="images/player-main.png" x="239" y="609" w="56" h="48" gammagroup="3D Objects"/>
-  <bitmap id="player.button.eject.d" file="images/player-main.png" x="239" y="658" w="56" h="48" gammagroup="3D Objects"/>
+  <bitmap id="player.button.eject.bg" file="images/player-main.png" x="240" y="514" w="48" h="28" gammagroup="plastic"/>
+  <bitmap id="player.button.eject.n" file="images/player-main.png" x="268" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.eject.h" file="images/player-main.png" x="268" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="player.button.eject.d" file="images/player-main.png" x="268" y="618" w="48" h="28" gammagroup="3D Objects"/>
 
   <bitmap id="player.normal.button.eqplshadow" file="images/player-main.png" x="358" y="514" w="44" h="32" gammagroup="plastic"/>
   
@@ -293,25 +293,25 @@
   <bitmap id="button.about.wacup.d" file="images/player-main.png" x="211" y="707" w="52" h="48" gammagroup="greybuttons"/>
 
 
-  <bitmap id="shuffle.n.1" file="images/player-main.png" x="295" y="560" w="119" h="48" gammagroup="3D Objects"/>
-  <bitmap id="shuffle.n.0" file="images/player-main.png" x="295" y="560" w="119" h="48" gammagroup="3D Objects"/>
-  <bitmap id="shuffle.h.1" file="images/player-main.png" x="295" y="609" w="119" h="48" gammagroup="3D Objects"/>
-  <bitmap id="shuffle.h.0" file="images/player-main.png" x="295" y="609" w="119" h="48" gammagroup="3D Objects"/>
-  <bitmap id="shuffle.d.1" file="images/player-main.png" x="295" y="658" w="119" h="48" gammagroup="3D Objects"/>
-  <bitmap id="shuffle.d.0" file="images/player-main.png" x="295" y="658" w="119" h="48" gammagroup="3D Objects"/>
+  <bitmap id="shuffle.n.1" file="images/player-main.png" x="317" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="shuffle.n.0" file="images/player-main.png" x="317" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="shuffle.h.1" file="images/player-main.png" x="317" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="shuffle.h.0" file="images/player-main.png" x="317" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="shuffle.d.1" file="images/player-main.png" x="317" y="618" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="shuffle.d.0" file="images/player-main.png" x="317" y="618" w="48" h="28" gammagroup="3D Objects"/>
 
 
-  <bitmap id="repeat.n.0" file="images/player-main.png" x="414" y="560" w="70" h="48" gammagroup="3D Objects"/>
-  <bitmap id="repeat.h.0" file="images/player-main.png" x="414" y="609" w="70" h="48" gammagroup="3D Objects"/>
-  <bitmap id="repeat.d.0" file="images/player-main.png" x="414" y="658" w="70" h="48" gammagroup="3D Objects"/>
+  <bitmap id="repeat.n.0" file="images/player-main.png" x="366" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="repeat.h.0" file="images/player-main.png" x="366" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="repeat.d.0" file="images/player-main.png" x="366" y="618" w="48" h="28" gammagroup="3D Objects"/>
 
-  <bitmap id="repeat.n.1" file="images/player-main.png" x="414" y="560" w="70" h="48" gammagroup="3D Objects"/>
-  <bitmap id="repeat.h.1" file="images/player-main.png" x="414" y="609" w="70" h="48" gammagroup="3D Objects"/>
-  <bitmap id="repeat.d.1" file="images/player-main.png" x="414" y="658" w="70" h="48" gammagroup="3D Objects"/>
+  <bitmap id="repeat.n.1" file="images/player-main.png" x="366" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="repeat.h.1" file="images/player-main.png" x="366" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="repeat.d.1" file="images/player-main.png" x="366" y="618" w="48" h="28" gammagroup="3D Objects"/>
   
-  <bitmap id="repeat.n.2" file="images/player-main.png" x="272" y="707" w="70" h="48" gammagroup="3D Objects"/>
-  <bitmap id="repeat.h.2" file="images/player-main.png" x="343" y="707" w="70" h="48" gammagroup="3D Objects"/>
-  <bitmap id="repeat.d.2" file="images/player-main.png" x="414" y="707" w="70" h="48" gammagroup="3D Objects"/>  
+  <bitmap id="repeat.n.2" file="images/player-main.png" x="415" y="560" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="repeat.h.2" file="images/player-main.png" x="415" y="589" w="48" h="28" gammagroup="3D Objects"/>
+  <bitmap id="repeat.d.2" file="images/player-main.png" x="415" y="618" w="48" h="28" gammagroup="3D Objects"/>  
 
 
   <bitmap id="repeat.light.off" file="images/player-main.png" x="290" y="756" w="48" h="48" gammagroup="3D Objects"/>
