@@ -30,12 +30,12 @@
 	
   <!--script file="scripts\color_themes_patch_fix.maki"/--> <!-- This script makes the switch between the safe layer and the multicolor-bar (only seen on default theme) -->
 
-  	<rect id="EQ" color="64,64,64" x="-107" y="111" w="38" h="21" relatx="1" ghost="1"/>
+  	<!-- rect id="EQ" color="64,64,64" x="-107" y="111" w="38" h="21" relatx="1" ghost="1"/-->
 	<!--layer id="player.button.eq.shadow" x="-110" y="107" relatx="1" image="player.normal.button.eqplshadow" alpha="255" ghost="1"/-->
 	<layer id="player.button.eq" x="-110" y="107" relatx="1" image="player.normal.button.eq" alpha="255" cursor="cur.normal"/>
   <NStatesButton id="player.button.eq.light" x="-112" y="104" relatx="1" image="button.eqpl.light.1." hoverimage="button.eqpl.light.2." downimage="button.eqpl.light.3." rectrgn="1" action="TOGGLE" param="equalizer" nstates="2" cfgvals="0;1" tooltip="Toggle Graphical Equalizer" cursor="cur.normal"/>
 
-	<rect id="PL" color="64,64,64" x="-60" y="111" w="38" h="21" relatx="1" ghost="1"/>
+	<!-- rect id="PL" color="64,64,64" x="-60" y="111" w="38" h="21" relatx="1" ghost="1"/-->
   <layer id="player.button.pl.shadow" x="-63" y="107" relatx="1" image="player.normal.button.eqplshadow" alpha="255" ghost="1"/>
   <layer id="player.button.pl" x="-63" y="107" relatx="1" image="player.normal.button.pl" alpha="255" cursor="cur.normal"/>
   <NStatesButton id="player.button.pl.light" x="-66" y="104" relatx="1" image="button.eqpl.light.1." hoverimage="button.eqpl.light.2." downimage="button.eqpl.light.3." rectrgn="1" action="TOGGLE" param="GUID:PL" nstates="2" cfgvals="0;1" tooltip="Toggle Playlist Editor" cursor="cur.normal"/>
