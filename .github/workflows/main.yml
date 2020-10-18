@@ -8,12 +8,12 @@ jobs:
     - name: Archive latest commit
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'winamp2ksp4latestcommit.wal'
+        filename: 'winamp3xlatestcommit.wal'
         exclusions: '*.git* *.ini *.bak *.pdn *.md'
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
       # Artifact name
-        name: 'latestbuild'
+        name: 'winamp3xlatestbuild'
         # Directory containing files to upload
-        path: 'winamp2ksp4latestcommit.wal'
+        path: 'winamp3xlatestcommit.wal'
