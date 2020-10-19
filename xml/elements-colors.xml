@@ -17,6 +17,7 @@
 	<color id="wasabi.text.active" value="128,128,128" gammagroup="Active Title Bar-Text"/>
 	<color id="wasabi.text.inactive" value="128,128,128" gammagroup="Inactive Title Bar-Text"/>
 	<color id="wasabi.windowframe" value="128,128,128" gammagroup="Window Frame"/>
+	<color id="wasabi.button.face" value="128,128,128" gammagroup="Button Face"/> <!-- seriously, who at microsoft thought that this would also be used in the status area back then?! -->
 
 	<!-- Generic Lists -->
 	<color id="wasabi.list.text" value="128,128,128" gammagroup="Window-Text"/> <!--lists/trees item foreground (also edit text) -->
@@ -38,7 +39,7 @@
 	<color id="wasabi.list.text.selected.background.inactive" value="128,128,128" gammagroup="3D Objects"/> <!-- listview/treeview selectionbar back color (inactive) -->
 
 	<!-- edit wnds -->
-	<color id="wasabi.window.background" value="128,128,128" gammagroup="3D Objects"/> <!-- window background. -	If this color is not defined, a whole container is created in memory to 
+	<color id="wasabi.window.background" value="128,128,128" gammagroup="Window Background"/> <!-- window background. -	If this color is not defined, a whole container is created in memory to 
 	extract a pixel, so specifying it makes skin loading faster --> <!-- also, look below, this needs to be loaded 1st, don't move it -->
 	
 	<color id="wasabi.list.column.background" value="128,128,128" gammagroup="3D Objects"/> <!-- listview header background color -->

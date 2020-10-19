@@ -484,27 +484,27 @@
 
 	<!-- Window -->
 	
-  <bitmap id="window.normal.titlebar.left" file="images/window/windows-background-main.png" x="0" y="99" w="267" h="34" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.titlebar.middle" file="images/window/windows-background-main.png" x="267" y="99" w="10" h="34" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.titlebar.right" file="images/window/windows-background-main.png" x="277" y="99" w="271" h="34" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.titlebar.left" file="images/window/windows-background-main.png" x="0" y="99" w="267" h="34" gammagroup="Window Background"/>
+  <bitmap id="window.normal.titlebar.middle" file="images/window/windows-background-main.png" x="267" y="99" w="10" h="34" gammagroup="Window Background"/>
+  <bitmap id="window.normal.titlebar.right" file="images/window/windows-background-main.png" x="277" y="99" w="271" h="34" gammagroup="Window Background"/>
 
   <bitmap id="window.normal.titlebar.right2" file="images/window/windows-background-main2.png" x="277" y="99" w="271" h="34"/>
 
-  <bitmap id="window.normal.top.left" file="images/window/windows-background-main.png" x="0" y="133" w="267" h="14" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.top.middle" file="images/window/windows-background-main.png" x="267" y="133" w="10" h="14" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.top.right" file="images/window/windows-background-main.png" x="277" y="133" w="271" h="14" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.top.left" file="images/window/windows-background-main.png" x="0" y="133" w="267" h="14" gammagroup="Window Background"/>
+  <bitmap id="window.normal.top.middle" file="images/window/windows-background-main.png" x="267" y="133" w="10" h="14" gammagroup="Window Background"/>
+  <bitmap id="window.normal.top.right" file="images/window/windows-background-main.png" x="277" y="133" w="271" h="14" gammagroup="Window Background"/>
 
   <bitmap id="window.normal.top.right2" file="images/window/windows-background-main2.png" x="277" y="133" w="271" h="14"/>
 
-  <bitmap id="window.normal.left" file="images/window/windows-background-main.png" x="0" y="147" w="267" h="42" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.middle" file="images/window/windows-background-main.png" x="267" y="147" w="10" h="42" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.right" file="images/window/windows-background-main.png" x="277" y="147" w="271" h="42" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.left" file="images/window/windows-background-main.png" x="0" y="147" w="267" h="42" gammagroup="Window Background"/>
+  <bitmap id="window.normal.middle" file="images/window/windows-background-main.png" x="267" y="147" w="10" h="42" gammagroup="Window Background"/>
+  <bitmap id="window.normal.right" file="images/window/windows-background-main.png" x="277" y="147" w="271" h="42" gammagroup="Window Background"/>
 
   <bitmap id="window.normal.right2" file="images/window/windows-background-main2.png" x="277" y="147" w="271" h="42"/>
 
-  <bitmap id="window.normal.bottom.left" file="images/window/windows-background-main.png" x="0" y="189" w="267" h="51" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.bottom.middle" file="images/window/windows-background-main.png" x="267" y="189" w="10" h="51" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.bottom.right" file="images/window/windows-background-main.png" x="277" y="189" w="271" h="51" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.bottom.left" file="images/window/windows-background-main.png" x="0" y="189" w="267" h="51" gammagroup="Window Background"/>
+  <bitmap id="window.normal.bottom.middle" file="images/window/windows-background-main.png" x="267" y="189" w="10" h="51" gammagroup="Window Background"/>
+  <bitmap id="window.normal.bottom.right" file="images/window/windows-background-main.png" x="277" y="189" w="271" h="51" gammagroup="Window Background"/>
 
   <bitmap id="window.normal.bottom.left2" file="images/window/windows-background-main2.png" x="0" y="189" w="267" h="51"/>
   <bitmap id="window.normal.bottom.middle2" file="images/window/windows-background-main2.png" x="267" y="189" w="10" h="51"/>
@@ -512,28 +512,28 @@
 
 	<!-- dro example elements -->
   
-  <bitmap id="window.normal.inner.top.left" file="images/window/windows-background-main.png" x="9" y="244" w="85" h="18" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.inner.top.middle" file="images/window/windows-background-main.png" x="94" y="244" w="85" h="18" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.inner.top.left" file="images/window/windows-background-main.png" x="9" y="244" w="85" h="18" gammagroup="Window Background"/>
+  <bitmap id="window.normal.inner.top.middle" file="images/window/windows-background-main.png" x="94" y="244" w="85" h="18" gammagroup="Window Background"/>
 
-  <bitmap id="window.normal.inner.top.left2" file="images/window/windows-background-main2.png" x="9" y="244" w="85" h="18" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.inner.top.middle2" file="images/window/windows-background-main2.png" x="94" y="244" w="85" h="18" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.inner.top.left2" file="images/window/windows-background-main2.png" x="9" y="244" w="85" h="18" gammagroup="Window Background"/>
+  <bitmap id="window.normal.inner.top.middle2" file="images/window/windows-background-main2.png" x="94" y="244" w="85" h="18" gammagroup="Window Background"/>
 
   <bitmap id="window.normal.inner.top.right" file="images/window/windows-background-main.png" x="179" y="244" w="85" h="18" gammagroup="3D Objects"/>
   <bitmap id="window.normal.inner.top.right2" file="images/window/windows-background-main2.png" x="179" y="244" w="85" h="18" gammagroup="3D Objects"/>
 
-  <bitmap id="window.normal.inner.left" file="images/window/windows-background-main.png" x="9" y="262" w="85" h="18" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.inner.middle" file="images/window/windows-background-main.png" x="94" y="262" w="85" h="18" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.inner.left" file="images/window/windows-background-main.png" x="9" y="262" w="85" h="18" gammagroup="Window Background"/>
+  <bitmap id="window.normal.inner.middle" file="images/window/windows-background-main.png" x="94" y="262" w="85" h="18" gammagroup="Window Background"/>
 
   <bitmap id="window.normal.inner.left2" file="images/window/windows-background-main2.png" x="9" y="262" w="85" h="18" gammagroup="3D Objects"/>
   <bitmap id="window.normal.inner.middle2" file="images/window/windows-background-main2.png" x="94" y="262" w="85" h="18" gammagroup="3D Objects"/>
 
-  <bitmap id="window.normal.inner.right" file="images/window/windows-background-main.png" x="179" y="262" w="85" h="18" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.inner.bottom.left" file="images/window/windows-background-main.png" x="9" y="280" w="85" h="18" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.inner.right" file="images/window/windows-background-main.png" x="179" y="262" w="85" h="18" gammagroup="Window Background"/>
+  <bitmap id="window.normal.inner.bottom.left" file="images/window/windows-background-main.png" x="9" y="280" w="85" h="18" gammagroup="Window Background"/>
 
   <bitmap id="window.normal.inner.bottom.left2" file="images/window/windows-background-main2.png" x="9" y="280" w="85" h="18" gammagroup="3D Objects"/>
 
-  <bitmap id="window.normal.inner.bottom.middle" file="images/window/windows-background-main.png" x="94" y="280" w="85" h="18" gammagroup="3D Objects"/>
-  <bitmap id="window.normal.inner.bottom.right" file="images/window/windows-background-main.png" x="179" y="280" w="85" h="18" gammagroup="3D Objects"/>
+  <bitmap id="window.normal.inner.bottom.middle" file="images/window/windows-background-main.png" x="94" y="280" w="85" h="18" gammagroup="Window Background"/>
+  <bitmap id="window.normal.inner.bottom.right" file="images/window/windows-background-main.png" x="179" y="280" w="85" h="18" gammagroup="Window Background"/>
 
 	<!-- dro example elements -->
   

@@ -1,4 +1,4 @@
-#include "std.mi"
+#include "lib/std.mi"
 #include "lib/pldir.mi"
 #include "lib/application.mi"
 #include "lib/fileio.mi"
@@ -76,22 +76,6 @@ System.onScriptLoaded() {
 
   
 	setPrivateInt(getSkinName(),"WheelReturn",0);
-
-
-  myCheckerDoc = new File;
-  String temp = (Application.GetSettingsPath()+"/WACUP_Tools/koopa.ini");
-  myCheckerDoc.load (temp);
-  
-  if(myCheckerDoc.exists())
-  {
-    plwh.setXmlParam("x", "0");
-    plwh.setXmlParam("w", "0");
-  }
-  else
-  {
-    plwh.setXmlParam("x", "-2");
-    plwh.setXmlParam("w", "2");
-  }
 
 }
 

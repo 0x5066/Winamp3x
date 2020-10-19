@@ -13,7 +13,7 @@
 <container id="PLEdit" name="Playlist Editor" component="guid:{45F3F7C1-A6F3-4ee6-A15E-125E92FC3F8D}" default_visible="1" default_x="0" default_y="484" default_w="550" default_h="242">
 
 <groupdef id="pledit.content.group" cursor="cur.normal">
-	<component id="pl.wdh" x="-2" y="23" w="2" relatw="1" h="-43" relath="1" noshowcmdbar="1" autoopen="1" autoclose="0" param="guid:{45F3F7C1-A6F3-4ee6-A15E-125E92FC3F8D}" />
+	<component id="pl.wdh" x="-2" y="19" w="4" relatw="1" h="-39" relath="1" noshowcmdbar="0" autoopen="1" autoclose="0" param="guid:{45F3F7C1-A6F3-4ee6-A15E-125E92FC3F8D}" />
 </groupdef>
 
 <groupdef id="some.complex.stuff">
@@ -149,7 +149,7 @@
 
 	<layer id="menubar.place" relatw="1" w="-8" x="4" y="24" image="menubar.placeholder" ghost="1"/>
 
-	<sendparams target="wasabi.frame.layout.base.bg" y="23" h="-3" alpha="255"/> <!-- PL window specific -->
+	<sendparams target="wasabi.frame.layout.base.bg" x="-2" w="4" y="23" h="-3" alpha="255"/> <!-- PL window specific -->
 	<sendparams target="mousetrap" dblClickAction="SWITCH;shade"/>
 	
     <togglebutton id="pledit.button.add.menu" action="PE_ADD" x="4" y="107" w="1" h="1" image="none"/>
@@ -169,7 +169,9 @@
     <script file="scripts\sc_mouseredir.maki" param="pledit.button.misc.gfx;pledit.button.misc.menu"/>
 
 	<!--button id="pledit.button.list" action="PE_LIST" x="204" y="23" rectrgn="1" image="newlist.static" hoverimage="newlist.hover" downimage="newlist.pressed" tooltip="Manage Playlist" cursor="cur.normal"/-->
-	
+		
+		<rect id="this.isnt.a.button" x="4" y="-25" relaty="1" h="21" w="2" relatw="1" filled="1" color="wasabi.button.face"/>
+		
 	<togglebutton id="pledit.button.list.menu" action="PE_LIST" x="494" y="174" w="1" h="1" image="none"/>
     <button id="pledit.button.list.gfx" x="204" y="23" rectrgn="1" image="newlist.static" hoverimage="newlist.hover" downimage="newlist.pressed" tooltip="Manage Playlist" cursor="cur.normal"/>
     <script file="scripts\sc_mouseredir.maki" param="pledit.button.list.gfx;pledit.button.list.menu"/>
@@ -221,7 +223,7 @@
 	<grid id="windowframe.top.inactive" x="0" y="0" h="23" w="0" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.top.left.inactive" middle="windowframe.top.middle.inactive" right="windowframe.top.right.inactive" move="1" ghost="1" cursor="cur.normal"/>
 	<grid id="windowframe.middle.inactive" x="0" y="23" h="-46" w="0" relatw="1" relath="1" activealpha="0" inactivealpha="255" left="windowframe.left.inactive" middle="windowframe.middle.inactive" right="windowframe.right.inactive" ghost="1" cursor="cur.normal"/>
   	<grid id="windowframe.bottom.inactive" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.bottom.left.inactive" middle="windowframe.bottom.middle.inactive" right="windowframe.bottom.right.inactive" ghost="1" cursor="cur.normal"/>
-	
+
 </layout> 
 
 
