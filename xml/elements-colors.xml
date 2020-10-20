@@ -52,7 +52,7 @@
 
 
 	<color id="wasabi.window.text" value="128,128,128" gammagroup="Window-Text"/> <!--text color within windows -->
-	<color id="wasabi.border.sunken" value="85,85,85" gammagroup="3D Objects"/> <!-- color of dividers and sunken borders (also affects playlist scrollbar outline at the sides) -->
+	<color id="wasabi.border.sunken" value="128,128,128" gammagroup="Window Frame"/> <!-- color of dividers and sunken borders (also affects playlist scrollbar outline at the sides) -->
 
 
   <!-- Generic Trees -->
@@ -91,15 +91,15 @@
   <!-- Popup menus -->
 
   <!-- pre 5.55:	-->
-  <color id="wasabi.popupmenu.background" value="wasabi.window.background" gammagroup="3D Objects"/>
+  <color id="wasabi.popupmenu.background" value="wasabi.window.background" gammagroup="Menu Bar"/>
   <color id="wasabi.popupmenu.text" value="128,128,128" gammagroup="Window-Text"/>
   <color id="wasabi.popupmenu.text.selected" value="128,128,128" gammagroup="Selected Items-Text"/>
   <color id="wasabi.popupmenu.text.inactive" value="183,183,183" gammagroup="display-sui-text"/>
 
   <!-- Winamp 5.53+ PopupMenu -->
 
-  <color id="wasabi.popupmenu.frame" value="64,64,64"/>
-  <color id="wasabi.popupmenu.separator" value="85,85,85" gammagroup="3D Objects"/>
+  <color id="wasabi.popupmenu.frame" value="128,128,128" gammagroup="Window Frame"/>
+  <color id="wasabi.popupmenu.separator" value="128,128,128" gammagroup="Window Frame"/>
   <color id="wasabi.popupmenu.background.selected" value="128,128,128" gammagroup="Selected Items"/>
 
   <!-- Tooltip/Button -->	

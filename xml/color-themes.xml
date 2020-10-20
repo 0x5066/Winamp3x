@@ -25,6 +25,7 @@
   <gammagroup id="Inactive Border" value="2096,2096,2096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
   <gammagroup id="Button Face" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Standard">
