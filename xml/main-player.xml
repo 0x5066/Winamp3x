@@ -30,12 +30,10 @@
 	
   <!--script file="scripts\color_themes_patch_fix.maki"/--> <!-- This script makes the switch between the safe layer and the multicolor-bar (only seen on default theme) -->
 
-  	<!-- rect id="EQ" color="64,64,64" x="-107" y="111" w="38" h="21" relatx="1" ghost="1"/-->
 	<!--layer id="player.button.eq.shadow" x="-110" y="107" relatx="1" image="player.normal.button.eqplshadow" alpha="255" ghost="1"/-->
 	<layer id="player.button.eq" x="-110" y="178" relatx="1" image="player.normal.button.eq" alpha="255" cursor="cur.normal"/>
   <NStatesButton id="player.button.eq.light" x="-113" y="172" relatx="1" image="button.eqpl.light.1." hoverimage="button.eqpl.light.2." downimage="button.eqpl.light.3." rectrgn="1" action="TOGGLE" param="equalizer" nstates="2" cfgvals="0;1" tooltip="Toggle Graphical Equalizer" cursor="cur.normal"/>
 
-	<!-- rect id="PL" color="64,64,64" x="-60" y="111" w="38" h="21" relatx="1" ghost="1"/-->
   <layer id="player.button.pl.shadow" x="-63" y="107" relatx="1" image="player.normal.button.eqplshadow" alpha="255" ghost="1"/>
   <layer id="player.button.pl" x="-81" y="178" relatx="1" image="player.normal.button.pl" alpha="255" cursor="cur.normal"/>
   <NStatesButton id="player.button.pl.light" x="-84" y="172" relatx="1" image="button.eqpl.light.1." hoverimage="button.eqpl.light.2." downimage="button.eqpl.light.3." rectrgn="1" action="TOGGLE" param="GUID:PL" nstates="2" cfgvals="0;1" tooltip="Toggle Playlist Editor" cursor="cur.normal"/>
@@ -46,22 +44,11 @@
 	<slider id="player.slider.seek" action="SEEK" x="23" y="144" w="-39" h="21" relatw="1" orientation="horizontal" thumb="player.seeker.slider.n" hoverthumb="player.seeker.slider.h" downthumb="player.seeker.slider.d" rectrgn="1" cursor="cur.normal" tooltip="Seeking Bar"/>
 	<slider id="player.slider.seek.ghost" action="SEEK" x="23" y="144" w="-39" h="21" relatw="1" orientation="horizontal" thumb="player.seeker.slider.n" hoverthumb="player.seeker.slider.h" downthumb="player.seeker.slider.d" rectrgn="1" cursor="cur.normal"/>
 
-	<!-- rect id="prev" color="64,64,64" x="26" y="181" w="42" h="35" ghost="1"/-->
 	<button id="button.previous" action="PREV" x="27" y="180" image="player.button.previous.n" hoverimage="player.button.previous.h" downimage="player.button.previous.d" alpha="255" cursor="cur.normal" tooltip="Previous Track"/>
-
-	<!-- rect id="play" color="64,64,64" x="68" y="181" w="41" h="35" ghost="1"/-->
 	<button id="button.play" action="PLAY" x="76" y="180" image="player.button.play.n" hoverimage="player.button.play.h" downimage="player.button.play.d" alpha="255" cursor="cur.normal" tooltip="Play"/>
-
-	<!-- rect id="pause" color="64,64,64" x="109" y="181" w="41" h="35" ghost="1"/-->
 	<button id="button.pause" action="PAUSE" x="125" y="180" image="player.button.pause.n" hoverimage="player.button.pause.h" downimage="player.button.pause.d" alpha="255" cursor="cur.normal" tooltip="Pause"/>
-
-	<!-- rect id="stop" color="64,64,64" x="150" y="181" w="41" h="35" ghost="1"/-->
 	<button id="button.stop" action="STOP" x="174" y="180" image="button.stop.n" hoverimage="button.stop.h" downimage="button.stop.d" alpha="255" cursor="cur.normal" tooltip="Stop"/>
-
-	<!-- rect id="next" color="64,64,64" x="191" y="181" w="41" h="35" ghost="1"/-->
 	<button id="button.next" action="NEXT" x="223" y="180" image="player.button.next.n" hoverimage="player.button.next.h" downimage="player.button.next.d" alpha="255" cursor="cur.normal" tooltip="Next Track"/>
-
-	<!-- rect id="open" color="64,64,64" x="248" y="181" w="42" h="35" ghost="1"/-->
 	<button id="player.button.open" action="EJECT" x="272" y="180" image="player.button.eject.n" hoverimage="player.button.eject.h" downimage="player.button.eject.d" alpha="255" cursor="cur.normal" tooltip="Open File(s)"/>
 
   <!-- Shuffle and Repeat buttons gfx and light indicators handled by script -->
@@ -106,8 +93,6 @@
   <layer x="-57" y="4" w="53" h="18" relatx="1" image="new.titlebar.beam.default.color4" activealpha="0" inactivealpha="255"/>
 
 	<group id="titlebar.winamptxt.group" x="0" y="0" h="30" relatw="1" w="-30"/>
-  
-  	  <!--Wasabi:TitleBar id="wasabi.titlebar" x="12" y="0" w="-47" h="34" relatw="1"/-->
 	  
 	  <layer id="titlebar.switch" x="30" y="0" w="-83" h="30" relatw="1" dblclickaction="SWITCH;shade" move="1" ghost="0" cursor="cur.move"/>
 
@@ -124,11 +109,8 @@
   	<grid id="windowframe.bottom.inactive" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.bottom.left.inactive" middle="windowframe.bottom.middle.inactive" right="windowframe.bottom.right.inactive" ghost="1" cursor="cur.normal"/>
 
 	<button id="player.button.mainmenu" action="SYSMENU" w="26" h="28" x="0" y="-2" image="player.button.mainmenu" hoverimage="player.button.mainmenu.h" downimage="player.button.mainmenu.d" activealpha="255" inactivealpha="255" tooltip="Winamp Menu" cursor="cur.normal"/>
-	<!-- rect id="minimize" color="64,64,64" x="-56" y="6" w="16" h="14" relatx="1" ghost="1"/-->
 	<button id="player.button.minimize" action="MINIMIZE" x="-46" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
-	<!-- rect id="shade" color="64,64,64" x="-40" y="6" w="16" h="14" relatx="1" ghost="1"/ -->  
 	<button id="player.button.switch" action="SWITCH" param="SHADE" x="-26" y="-1" relatx="1" image="player.button.switch" hoverimage="player.button.switch.h" downimage="player.button.switch.d" tooltip="Toggle Windowshade Mode" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
-	<!-- rect id="close" color="64,64,64" x="-22" y="6" w="16" h="14" relatx="1" ghost="1"/ --> 
 	<button id="player.button.close" action="SYSMENU" x="1" y="-1" image="player.button.close" hoverimage="player.button.close.h" downimage="player.button.close.d" tooltip="Close" activealpha="255" inactivealpha="255" cursor="cur.close"/>
 	
 	<!--group id="songticker.options" x="0" y="43" h="0" w="295" alpha="0" sysregion="1"/>
