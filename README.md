@@ -6,7 +6,7 @@ If you want to contribute color themes (which is highly encouraged), [this guide
 ![Screenshot](https://cdn.discordapp.com/attachments/703667328835125248/768145083840069682/unknown.png)
 
 ## How to contribute
-Follow this rather simple guide [here](https://github.com/The1Freeman/Winamp2000SP4/blob/master/contributing.md) to begin work on this project.
+Follow this rather simple guide [here](https://github.com/0x5066/Winamp3x/blob/master/contributing.md) to begin work on this project.
 
 ## Changelog
 Changelog is [here](https://github.com/0x5066/Winamp3x/blob/master/CHANGELOG.md)
