@@ -113,6 +113,10 @@
 	<button id="player.button.switch" action="SWITCH" param="SHADE" x="-26" y="-1" relatx="1" image="player.button.switch" hoverimage="player.button.switch.h" downimage="player.button.switch.d" tooltip="Toggle Windowshade Mode" activealpha="255" inactivealpha="255" cursor="cur.normal"/>
 	<button id="player.button.close" action="SYSMENU" x="1" y="-1" image="player.button.close" hoverimage="player.button.close.h" downimage="player.button.close.d" tooltip="Close" activealpha="255" inactivealpha="255" cursor="cur.close"/>
 	
+	<rect x="-23" y="4" w="1" h="18" relatx="1" color="0,0,0" ghost="1"/>
+
+	<rect x="-42" y="4" w="1" h="18" relatx="1" color="0,0,0" ghost="1"/>
+	
 	<!--group id="songticker.options" x="0" y="43" h="0" w="295" alpha="0" sysregion="1"/>
   <script file="scripts\centerobject.maki" param="songticker.options,1,0"/-->
 	

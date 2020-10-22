@@ -180,6 +180,10 @@
   <group id="pledit.switch.button" x="-64" y="0" h="30" w="60" relatx="1"/>
   	<rect x="-42" y="4" w="1" h="18" relatx="1" color="wasabi.windowframe"/>
 		<sendparams target="player.button.minimize" x="-46"/>
+		
+	<rect x="-23" y="4" w="1" h="18" relatx="1" color="0,0,0" ghost="1"/>
+
+	<rect x="-42" y="4" w="1" h="18" relatx="1" color="0,0,0" ghost="1"/>
 
  <layer id="resize.disabler.top" x="10" y="0" w="-20" h="10" relatw="1" image="none" move="1" cursor="cur.move"/>
   <layer id="resize.disabler.top.left" x="0" y="0" w="12" h="53" image="none" resize="left" regionop="1" rectrgn="1" cursor="cur.posbar"/>

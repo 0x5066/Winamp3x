@@ -94,13 +94,13 @@
   <layer id="window.resize.disabler" x="10" y="10" w="-20" h="-20" relatw="1" relath="1" cursor="cur.normal" alpha="0"/>
 
   <Wasabi:TitleBar id="wasabi.titlebar" x="12" y="0" w="-47" h="34" relatw="1"/>
+  
 
 	<button id="window.button.close" action="SYSMENU" x="1" y="-1"  image="window.normal.button.close" hoverimage="window.normal.button.close.h" 
 	downimage="window.normal.button.close.down" tooltip="Close" cursor="cur.close"/>
 	<button id="player.button.minimize" action="MINIMIZE" x="-27" y="-1" relatx="1" image="player.button.minimize" hoverimage="player.button.minimize.h" downimage="player.button.minimize.d" tooltip="Minimize" cursor="cur.normal"/>
+
 	<button id="player.button.mainmenu" action="SYSMENU" visible="0" x="0" y="-2" image="window.normal.button.close" hoverimage="window.normal.button.close.h" downimage="window.normal.button.close.down" tooltip="Winamp Menu" cursor="cur.normal"/>
-
-
 
  </groupdef>
 
@@ -155,6 +155,7 @@
 	<grid id="windowframe.middle.inactive" x="0" y="23" h="-46" w="0" relatw="1" relath="1" activealpha="0" inactivealpha="255" left="windowframe.left.inactive" middle="windowframe.middle.inactive" right="windowframe.right.inactive" ghost="1" cursor="cur.normal"/>
   	<grid id="windowframe.bottom.inactive" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.bottom.left.inactive" middle="windowframe.bottom.middle.inactive" right="windowframe.bottom.right.inactive" ghost="1" cursor="cur.normal"/>
 
+	<rect x="-23" y="4" w="1" h="18" relatx="1" color="0,0,0" ghost="1"/>
   
   <layer x="0" y="0" w="20" h="4" image="none" resize="topleft" cursor="cur.restopleft" alpha="0"/>
   <layer x="20" y="0" w="-20" h="4" relatw="1" image="none" resize="top" cursor="cur.resvert" alpha="0"/>

@@ -224,6 +224,10 @@
 	<grid id="windowframe.middle.inactive" x="0" y="23" h="-46" w="0" relatw="1" relath="1" activealpha="0" inactivealpha="255" left="windowframe.left.inactive" middle="windowframe.middle.inactive" right="windowframe.right.inactive" ghost="1" cursor="cur.normal"/>
   	<grid id="windowframe.bottom.inactive" x="0" y="-23" h="23" w="0" relaty="1" relatw="1" activealpha="0" inactivealpha="255" left="windowframe.bottom.left.inactive" middle="windowframe.bottom.middle.inactive" right="windowframe.bottom.right.inactive" ghost="1" cursor="cur.normal"/>
 
+	<rect x="-23" y="4" w="1" h="18" relatx="1" color="0,0,0" ghost="1"/>
+
+	<rect x="-42" y="4" w="1" h="18" relatx="1" color="0,0,0" ghost="1"/>
+
 </layout> 
 
 
