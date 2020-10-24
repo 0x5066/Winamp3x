@@ -151,8 +151,8 @@
 
 
 <groupdef id="player.normal.group.songticker">
-	<rect id="sngtic.bg" x="1" y="7" w="-228" h="38" relatw="1" color="0,0,0" ghost="1" alpha="255"/>
-	<rect id="sngtic2.bg" x="2" y="8" w="-230" h="36" relatw="1" color="255,255,255" filled="1" ghost="1" alpha="255"/>
+	<rect id="sngtic.bg" x="1" y="7" w="-228" h="38" relatw="1" color="wasabi.windowframe" ghost="1" alpha="255"/>
+	<rect id="sngtic2.bg" x="2" y="8" w="-230" h="36" relatw="1" color="wasabi.list.background" filled="1" ghost="1" alpha="255"/>
 	<layer id="sngtic.icn" x="6" y="10" w="14" h="16" image="sngtic.icn"/>
 	<layer id="sngtic2.icn" x="6" y="26" w="14" h="16" image="sngtic.icn"/>
 	<SongTicker id="player.display.songname" x="23" y="11" w="-254" relatw="1" h="20" font="micross" fontsize="14" color="wasabi.list.text.alternate" dblclickaction="trackinfo" 
