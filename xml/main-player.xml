@@ -17,17 +17,17 @@
 
   <!--grid id="player.songticker.bg" x="221" y="50" h="21" w="-247" relatw="1" left="player.songticker.bg.left" middle="player.songticker.bg.middle" right="player.songticker.bg.right" move="1" cursor="cur.normal" antialias="0"/-->
  
-	<grid id="volume.bg" x="205" y="116" w="121" h="14" relatw="0" left="posbar.left" middle="posbar.center" right="posbar.right" />
+	<group id="volbalstuff" x="200" y="100"/>
+
+	<grid id="volume.bg" 								x="5" y="6" w="121" h="14" visible="0" relatw="0" left="posbar.left" middle="posbar.center" right="posbar.right" />
+	<slider id="player.slider.volume" action="VOLUME" 	x="1" y="3" w="131" h="21" visible="0" orientation="horizontal" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Volume Bar"/>
+	<grid id="balance.bg" 								x="150" y="6" w="72" h="14" visible="0" left="posbar.left" middle="posbar.center" right="posbar.right" />
+	<slider id="eq.slider.pan" action="PAN" 			x="146" y="3" w="80" h="21" visible="0" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Panning Bar"/>
+
 
   <Animatedlayer id="main.volume.anim" x="223" y="116" w="121" h="8" image="player.animation.volume" ghost="1" alpha="255"/>
-	<!--slider id="player.slider.volume.shadow" action="VOLUME" x="201" y="110" w="130" h="26" orientation="horizontal" thumb="thumb.volpan.slider.shadow" hoverthumb="thumb.volpan.slider.shadow" downthumb="thumb.volpan.slider.shadow"/-->
-	<slider id="player.slider.volume" action="VOLUME" x="201" y="113" w="131" h="21" orientation="horizontal" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Volume Bar"/>
-
-	<grid id="balance.bg" x="350" y="116" w="72" h="14" left="posbar.left" middle="posbar.center" right="posbar.right" />
   <Animatedlayer id="main.balance.anim" x="345" y="116" w="71" h="8" image="player.animation.balance" ghost="1" alpha="255"/>
-	<!--slider id="eq.slider.pan.shadow" action="PAN" x="341" y="110" w="81" h="26" thumb="thumb.volpan.slider.shadow" hoverthumb="thumb.volpan.slider.shadow" downthumb="thumb.volpan.slider.shadow"/-->
-	<slider id="eq.slider.pan" action="PAN" x="346" y="113" w="80" h="21" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Panning Bar"/>
-	
+
   <!--script file="scripts\color_themes_patch_fix.maki"/--> <!-- This script makes the switch between the safe layer and the multicolor-bar (only seen on default theme) -->
 
 	<!--layer id="player.button.eq.shadow" x="-110" y="107" relatx="1" image="player.normal.button.eqplshadow" alpha="255" ghost="1"/-->
@@ -121,8 +121,8 @@
   <script file="scripts\centerobject.maki" param="songticker.options,1,0"/-->
 	
 	<group id="player.normal.group.display" x="21" y="49" h="82" w="183" alpha="255"/>
-	<group id="player.normal.group.songticker" x="200" y="43" h="31" w="6" relatw="1" alpha="255"/>
-	<group id="player.normal.group.songinfo" x="199" y="76" h="26" w="-235" relatw="1" alpha="255"/>
+	<group id="player.normal.group.songticker" x="200" y="43" h="80" w="6" relatw="1" alpha="255"/>
+	<group id="player.normal.group.songinfo" visible="0" x="199" y="76" h="26" w="-235" relatw="1" alpha="255"/>
 
 </groupdef>
 
@@ -151,13 +151,14 @@
 
 
 <groupdef id="player.normal.group.songticker">
-	<rect id="sngtic.bg2" color="64,64,64" x="1" y="7" w="-230" h="20" relatw="1" ghost="1"/>
-	<grid id="sngtic.bg" x="0" y="6" w="-228" h="22" relatw="1" left="sngtic.left" middle="sngtic.mid" right="sngtic.right" ghost="1" alpha="255"/>
-	<grid id="sngtic.bg" x="2" y="8" w="-232" h="18" relatw="1" left="sngticbg.left" middle="sngticbg.mid" right="sngticbg.right" ghost="1" alpha="255"/>
-	<layer id="sngtic.icn" x="3" y="9" w="14" h="16" image="sngtic.icn"/>
-	<SongTicker id="player.display.songname" x="23" y="8" w="-254" relatw="1" h="20" font="sserif" fontsize="10" color="wasabi.list.text.alternate" dblclickaction="trackinfo" 
+	<rect id="sngtic.bg" x="1" y="7" w="-228" h="38" relatw="1" color="0,0,0" ghost="1" alpha="255"/>
+	<rect id="sngtic2.bg" x="2" y="8" w="-230" h="36" relatw="1" color="255,255,255" filled="1" ghost="1" alpha="255"/>
+	<layer id="sngtic.icn" x="6" y="10" w="14" h="16" image="sngtic.icn"/>
+	<layer id="sngtic2.icn" x="6" y="26" w="14" h="16" image="sngtic.icn"/>
+	<SongTicker id="player.display.songname" x="23" y="11" w="-254" relatw="1" h="20" font="micross" fontsize="14" color="wasabi.list.text.alternate" dblclickaction="trackinfo" 
 	rightclickaction="trackmenu" align="left" ghost="0" cursor="cur.normal" tooltip="Song Title (right-click for options)" antialias="0"/>
-	<text id="player.display.actioninfo" x="21" y="1" w="-254" relatw="1" h="33" font="sserif" fontsize="10" color="wasabi.list.text.alternate" align="left" ghost="1" antialias="0"/> 
+	<text id="player.display.actioninfo" x="21" y="2" w="-254" relatw="1" h="33" font="micross" fontsize="14" color="wasabi.list.text.alternate" align="left" ghost="1" antialias="0"/> 
+	<text id="infoline" ticker="1" display="songinfo" default="" x="21" y="25" w="-254" relatw="1" h="20" font="micross" fontsize="14" color="wasabi.list.text.alternate" align="left" ghost="1" antialias="0"/>
   <!--script file="scripts\songticker.maki"/-->
 </groupdef>
 
@@ -219,7 +220,14 @@
 
 </groupdef>
 
+<groupdef id="volbalstuff">
 
+	<grid id="volume.bg" 								x="5" y="6" w="121" h="14" relatw="0" left="posbar.left" middle="posbar.center" right="posbar.right" />
+	<slider id="player.slider.volume" action="VOLUME" 	x="1" y="3" w="131" h="21" orientation="horizontal" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Volume Bar"/>
+	<grid id="balance.bg" 								x="150" y="6" w="72" h="14" left="posbar.left" middle="posbar.center" right="posbar.right" />
+	<slider id="eq.slider.pan" action="PAN" 			x="146" y="3" w="80" h="21" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Panning Bar"/>
+	
+</groupdef>
 
 <layout id="normal" minimum_h="242" minimum_w="550" maximum_w="10000" w="550" h="242" desktopalpha="1" droptarget="pldr" linkwidth="shade" appbar="top|bottom" >
 	<group id="player.normal.group.main" x="0" y="0" h="242" w="0" relatw="1" ghost="1"/>
