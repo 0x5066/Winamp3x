@@ -1,4 +1,4 @@
-#include "std.mi"
+#include "lib/std.mi"
 #include "lib/winampconfig.mi"
 
 #define ISOBANDS "31.5 Hz,63 Hz,125 Hz,250 Hz,500 Hz,1 KHz,2 KHz,4 KHz,8 KHz,16 KHz"

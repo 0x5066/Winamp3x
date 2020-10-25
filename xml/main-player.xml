@@ -19,14 +19,13 @@
  
 	<group id="volbalstuff" x="200" y="100"/>
 
-	<grid id="volume.bg" 								x="5" y="6" w="121" h="14" visible="0" relatw="0" left="posbar.left" middle="posbar.center" right="posbar.right" />
-	<slider id="player.slider.volume" action="VOLUME" 	x="1" y="3" w="131" h="21" visible="0" orientation="horizontal" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Volume Bar"/>
-	<grid id="balance.bg" 								x="150" y="6" w="72" h="14" visible="0" left="posbar.left" middle="posbar.center" right="posbar.right" />
-	<slider id="eq.slider.pan" action="PAN" 			x="146" y="3" w="80" h="21" visible="0" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Panning Bar"/>
+	<grid id="volume.bg" x="5" y="6" w="121" h="14" visible="0" relatw="0" left="posbar.left" middle="posbar.center" right="posbar.right" />
+	<slider id="player.slider.volume" action="VOLUME" x="1" y="3" w="131" h="21" visible="0" orientation="horizontal" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Volume Bar"/>
+	<grid id="balance.bg" x="150" y="6" w="72" h="14" visible="0" left="posbar.left" middle="posbar.center" right="posbar.right"/>
+	<slider id="eq.slider.pan" action="PAN" x="146" y="3" w="80" h="21" visible="0" thumb="thumb.volpan.slider.n" hoverthumb="thumb.volpan.slider.h" downthumb="thumb.volpan.slider.d" cursor="cur.normal" tooltip="Panning Bar"/>
 
-
-  <Animatedlayer id="main.volume.anim" x="223" y="116" w="121" h="8" image="player.animation.volume" ghost="1" alpha="255"/>
-  <Animatedlayer id="main.balance.anim" x="345" y="116" w="71" h="8" image="player.animation.balance" ghost="1" alpha="255"/>
+  <Animatedlayer id="main.volume.anim" x="223" y="116" w="121" h="8" visible="0" image="player.animation.volume" ghost="1" alpha="255"/>
+  <Animatedlayer id="main.balance.anim" x="345" y="116" w="71" h="8" visible="0" image="player.animation.balance" ghost="1" alpha="255"/>
 
   <!--script file="scripts\color_themes_patch_fix.maki"/--> <!-- This script makes the switch between the safe layer and the multicolor-bar (only seen on default theme) -->
 
