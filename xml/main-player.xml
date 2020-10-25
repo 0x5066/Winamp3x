@@ -205,9 +205,9 @@
   <status id="status" x="33" y="7" stopBitmap="status.icon.stop" playBitmap="status.icon.play" pauseBitmap="status.icon.pause" ghost="1"/>
   
 	<layer id="player.background.display.vis.scale" x="19" y="0" image="display.vis.bg" alpha="255" ghost="1"/>
-
-	<text id="Timer" display="TIME" x="50" y="-0" w="122" h="36" ticker="0" font="vgasys2" fontsize="24" forcefixed="1" color="white" 
-	valign="top" align="right" cursor="cur.normal" tooltip="Time Display (click to toggle elapsed/remaining)" antialias="0"/>
+	<layer id="timer.dis" x="111" y="7" image="disabledtimer" cursor="cur.normal"/>
+	<text id="Timer" display="TIME" x="48" y="7" w="122" h="40" ticker="0" font="playerNUM" timecolonwidth="5" timeroffstyle="0" fontsize="24"
+	valign="top" align="right" cursor="cur.normal" tooltip="Time Display (click to toggle elapsed/remaining)"/>
 	<!--rect id="plssayer.vis" x="27" y="41" w="143" h="31" color="0,0,250" filled="0"/-->
 	<vis id="player.vis" x="27" y="39" w="143" h="32" cursor="cur.normal"/>
 	<layer id="visgridimg.thick" x="27" y="39" image="visgrid_thick" ghost="1"/>
@@ -216,7 +216,6 @@
 	<layer id="hide.for.gordon" x="169" y="39" image="hide.for.gordon" ghost="1"/>
 	<layer id="hide.for.vic" x="27" y="71" image="show.for.gordon" ghost="1"/>
 	<layer id="player.vis.trigger" x="27" y="39" w="143" h="32" image="none" cursor="cur.normal"/>
-
 
 </groupdef>
 
