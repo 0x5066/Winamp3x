@@ -6,7 +6,7 @@
 //
 //----------------------------------------------------------------------
 
-#include "std.mi"
+#include "lib/std.mi"
 
 Function updateSlider(int number, int value);
 

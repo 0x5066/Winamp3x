@@ -1,4 +1,4 @@
-#include "std.mi"
+#include "lib/std.mi"
 
 #define MARGIN 0
 

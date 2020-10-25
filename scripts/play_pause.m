@@ -2,7 +2,7 @@
 Victhor Play-pause script taken and adapted from cPro2 script by pjn123
 */
 
-#include "std.mi"
+#include "lib/std.mi"
 
 Global Container containerMain;
 Global Layout layoutMainNormal, layoutMainShade;

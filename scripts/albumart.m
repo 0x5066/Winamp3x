@@ -1,4 +1,4 @@
-#include "std.mi"
+#include "lib/std.mi"
 
 Global AlbumArtLayer waaa;
 Global Layout aalayout;

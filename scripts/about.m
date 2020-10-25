@@ -2,7 +2,7 @@
 Author:		Victhor
 ---------------------------------------------------*/
 
-#include "std.mi"
+#include "lib/std.mi"
 
 Global Group scriptGroup;
 Global Button Donate, DeviantArt, Zsolt;
