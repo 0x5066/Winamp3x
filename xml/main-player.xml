@@ -154,10 +154,10 @@
 	<rect id="sngtic2.bg" x="2" y="8" w="-230" h="36" relatw="1" color="wasabi.list.background" filled="1" ghost="1" alpha="255"/>
 	<layer id="sngtic.icn" x="6" y="10" w="14" h="16" image="sngtic.icn"/>
 	<layer id="sngtic2.icn" x="6" y="26" w="14" h="16" image="sngtic.icn"/>
-	<SongTicker id="player.display.songname" x="23" y="11" w="-254" relatw="1" h="20" font="micross" fontsize="14" color="wasabi.list.text.alternate" dblclickaction="trackinfo" 
+	<SongTicker id="player.display.songname" x="23" y="11" w="-251" relatw="1" h="20" font="micross" fontsize="14" color="wasabi.list.text.alternate" dblclickaction="trackinfo" 
 	rightclickaction="trackmenu" align="left" ghost="0" cursor="cur.normal" tooltip="Song Title (right-click for options)" antialias="0"/>
-	<text id="player.display.actioninfo" x="21" y="2" w="-254" relatw="1" h="33" font="micross" fontsize="14" color="wasabi.list.text.alternate" align="left" ghost="1" antialias="0"/> 
-	<text id="infoline" ticker="1" display="songinfo" default="" x="21" y="25" w="-254" relatw="1" h="20" font="micross" fontsize="14" color="wasabi.list.text.alternate" align="left" ghost="1" antialias="0"/>
+	<text id="player.display.actioninfo" x="21" y="2" w="-251" relatw="1" h="33" font="micross" fontsize="14" color="wasabi.list.text.alternate" align="left" ghost="1" antialias="0"/> 
+	<text id="infoline" ticker="1" display="songinfo" default="" x="21" y="25" w="-251" relatw="1" h="20" font="micross" fontsize="14" color="wasabi.list.text.alternate" align="left" ghost="1" antialias="0"/>
   <!--script file="scripts\songticker.maki"/-->
 </groupdef>
 
