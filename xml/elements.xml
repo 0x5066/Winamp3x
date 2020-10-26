@@ -8,7 +8,7 @@
   
   	<bitmap id="bitmapfont.playerNUM" file="images/numfont.png" x="0" y="0" h="60" w="300" gammagroup="DisplayElements"/>
 	<bitmapfont id="playerNUM" file="bitmapfont.playerNUM" charwidth="14" charheight="24" hspacing="4" vspacing="0"/>
-	<bitmap id="disabledtimer" file="images/timerdisabled.png" x="0" y="0" h="24" w="55"/>
+	<bitmap id="disabledtimer" file="images/timerdisabled.png" x="0" y="0" h="24" w="73"/>
   
   <!-- old ass vu -->
   
