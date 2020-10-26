@@ -4,6 +4,12 @@
   <!--bitmap id="none" file="images/window/windows-background-main.png" x="0" y="0" h="10" w="10" gammagroup="none" /--> <!-- Pink (visual help) -->
   <bitmap id="none" file="images/counter-strike-source.png" x="0" y="0" h="10" w="10" gammagroup="none"/> <!-- transparent -->
   
+  <!-- bitmapped font -->
+  
+  	<bitmap id="bitmapfont.playerNUM" file="images/numfont.png" x="0" y="0" h="60" w="300" gammagroup="DisplayElements"/>
+	<bitmapfont id="playerNUM" file="bitmapfont.playerNUM" charwidth="14" charheight="24" hspacing="4" vspacing="0"/>
+	<bitmap id="disabledtimer" file="images/timerdisabled.png" x="0" y="0" h="24" w="55"/>
+  
   <!-- old ass vu -->
   
   <bitmap id="oldwin.vu" file="images\old_vu.png" x="0" y="0" w="15" h="760"/>
