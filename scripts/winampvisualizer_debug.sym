@@ -1,0 +1,562 @@
+-- Variables Table ---------------------------------------------------
+var# |                Class |                                    What 
+----------------------------------------------------------------------
+0000 |               System |                                   System*
+0001 |                  Int |                                     NULL
+0002 |                  Int |                     __deprecated_runtime
+0003 |               Double |                                        v
+0004 |                  Int |                                        2
+0005 |                  Int |                                    65535
+0006 |                  Int |                                        1
+0007 |               String |                           "runtimecheck"
+0008 |                  Int |                                        0
+0009 |                  Int |                                     last
+000A |                  Int |                                      now
+000B |                  Int |                                     5000
+000C |               String |                  "This script requires "
+000D |               String |        "Winamp 5.66 (skin version 1.36)"
+000E |               String |                                  "Error"
+000F |               String |                                       ""
+0010 |               String |                                        s
+0011 |               String |                                  "DEBUG"
+0012 |                  Int |                                        s
+0013 |            Container |                            containerMain
+0014 |            Container |                              containerPL
+0015 |               Layout |                                 layoutPL
+0016 |               Layout |                         layoutMainNormal
+0017 |               Layout |                          layoutMainShade
+0018 |                Group |                          NormalGroupMain
+0019 |                Group |                       NormalGroupDisplay
+001A |                Group |                           ShadeGroupMain
+001B |                Group |                        ShadeGroupDisplay
+001C |                  Vis |                               visualizer
+001D |                  Vis |                          visualizershade
+001E |                  Vis |                             visualizerpl
+001F |                Layer |                            visgrid_thick
+0020 |                Layer |                             visgrid_thin
+0021 |                Layer |                              visgrid_car
+0022 |               Button |                              OAIDUBtnUE1
+0023 |               Button |                              OAIDUBtnUE2
+0024 |               Button |                              OAIDUBtnUE3
+0025 |            PopupMenu |                                  visMenu
+0026 |            PopupMenu |                                 specmenu
+0027 |            PopupMenu |                                  oscmenu
+0028 |            PopupMenu |                                  pksmenu
+0029 |            PopupMenu |                                  anamenu
+002A |            PopupMenu |                                stylemenu
+002B |            PopupMenu |                                  fpsmenu
+002C |            PopupMenu |                                  colmenu
+002D |            PopupMenu |                                  wmpmenu
+002E |            PopupMenu |                                  winmenu
+002F |            PopupMenu |                                  animenu
+0030 |            PopupMenu |                                 gamemenu
+0031 |            PopupMenu |                                 plusmenu
+0032 |            PopupMenu |                                 gridmenu
+0033 |            PopupMenu |                                 waxpmenu
+0034 |                  Int |                              currentMode
+0035 |                  Int |                           a_falloffspeed
+0036 |                  Int |                           p_falloffspeed
+0037 |                  Int |                               a_coloring
+0038 |                  Int |                                    v_fps
+0039 |                  Int |                                  v_color
+003A |                  Int |                                     grid
+003B |              Boolean |                               show_peaks
+003C |                Layer |                                  Trigger
+003D |                Layer |                               HideForVic
+003E |                Layer |                           TriggerBlocker
+003F |                Layer |                      TriggerBlockerShade
+0040 |               String |                              "winampvis"
+0041 |               String |                             "winampvis2"
+0042 |               String |                  "i_hate_maki_sometimes"
+0043 |               String |                            "player.vis2"
+0044 |               String |                       "visgridimg.thick"
+0045 |               String |                        "visgridimg.thin"
+0046 |               String |                         "visgridimg.car"
+0047 |               String |                    "player.vis.trigger2"
+0048 |               String |                                  "peaks"
+0049 |               String |                                "visible"
+004A |               String |                            "peakfalloff"
+004B |               String |                                "falloff"
+004C |               String |                                    "fps"
+004D |               String |                             "ColorBand1"
+004E |               String |                             "ColorBand2"
+004F |               String |                             "ColorBand3"
+0050 |               String |                             "ColorBand4"
+0051 |               String |                             "ColorBand5"
+0052 |               String |                             "ColorBand6"
+0053 |               String |                             "ColorBand7"
+0054 |               String |                             "ColorBand8"
+0055 |               String |                             "ColorBand9"
+0056 |               String |                            "ColorBand10"
+0057 |               String |                            "ColorBand11"
+0058 |               String |                            "ColorBand12"
+0059 |               String |                            "ColorBand13"
+005A |               String |                            "ColorBand14"
+005B |               String |                            "ColorBand15"
+005C |               String |                            "ColorBand16"
+005D |               String |                          "colorbandpeak"
+005E |               String |                              "colorosc1"
+005F |               String |                              "colorosc2"
+0060 |               String |                              "colorosc3"
+0061 |               String |                              "colorosc4"
+0062 |               String |                              "colorosc5"
+0063 |               String |                          "colorallbands"
+0064 |               String |                       "Visualizer Mode2"
+0065 |               String |                 "Visualizer show Peaks2"
+0066 |               String |                  "Visualizer show Grid2"
+0067 |               String |           "Visualizer analyzer falloff2"
+0068 |                  Int |                                        4
+0069 |               String |              "Visualizer peaks falloff2"
+006A |               String |          "Visualizer analyzer coloring2"
+006B |               String |                        "Visualizer FPS2"
+006C |                  Int |                                        3
+006D |               String |               "Visualizer Color themes2"
+006E |               String |                               "coloring"
+006F |               String |                                 "Normal"
+0070 |               String |                                   "Fire"
+0071 |               String |                                   "Line"
+0072 |               String |                                     "30"
+0073 |               String |                                     "60"
+0074 |               String |                                     "75"
+0075 |               String |                                    "512"
+0076 |                  Int |                                        5
+0077 |               String |                                    "120"
+0078 |               String |                               "22,131,7"
+0079 |               String |                               "39,147,0"
+007A |               String |                               "47,155,7"
+007B |               String |                              "55,180,15"
+007C |               String |                              "48,189,15"
+007D |               String |                              "39,205,15"
+007E |               String |                             "146,221,32"
+007F |               String |                             "187,221,40"
+0080 |               String |                             "212,180,32"
+0081 |               String |                             "220,164,23"
+0082 |               String |                              "197,122,7"
+0083 |               String |                              "213,114,0"
+0084 |               String |                              "213,101,0"
+0085 |               String |                               "213,89,0"
+0086 |               String |                              "205,40,15"
+0087 |               String |                              "238,48,15"
+0088 |               String |                            "150,150,150"
+0089 |               String |                            "255,255,255"
+008A |               String |                            "214,214,222"
+008B |               String |                            "181,189,189"
+008C |               String |                            "160,170,175"
+008D |               String |                            "148,156,165"
+008E |               String |                               "0,176,32"
+008F |               String |                              "32,32,255"
+0090 |               String |                            "160,255,160"
+0091 |               String |                                "0,0,255"
+0092 |               String |                              "255,165,0"
+0093 |               String |                                "255,0,0"
+0094 |               String |                            "242,244,247"
+0095 |               String |                            "172,185,209"
+0096 |                  Int |                                        6
+0097 |               String |                              "82,97,102"
+0098 |               String |                               "74,88,93"
+0099 |               String |                               "78,92,97"
+009A |               String |                              "83,97,104"
+009B |               String |                             "88,102,107"
+009C |               String |                             "94,107,112"
+009D |               String |                            "100,113,118"
+009E |               String |                            "106,120,125"
+009F |               String |                            "112,121,131"
+00A0 |               String |                            "117,131,136"
+00A1 |               String |                            "122,137,142"
+00A2 |               String |                            "127,141,146"
+00A3 |               String |                            "131,145,150"
+00A4 |               String |                            "136,150,155"
+00A5 |               String |                            "140,154,159"
+00A6 |               String |                            "145,159,164"
+00A7 |               String |                            "162,193,204"
+00A8 |                  Int |                                        7
+00A9 |               String |                                "#5a5490"
+00AA |               String |                                "#60599a"
+00AB |               String |                                "#665ea1"
+00AC |               String |                                "#6c63ac"
+00AD |               String |                                "#7368b1"
+00AE |               String |                                "#7a6dba"
+00AF |               String |                                "#8274c4"
+00B0 |               String |                                "#8a7ad0"
+00B1 |               String |                                "#927bd9"
+00B2 |               String |                                "#9985e1"
+00B3 |               String |                                "#9f8ceb"
+00B4 |               String |                                "#a590f2"
+00B5 |               String |                                "#aa94f9"
+00B6 |               String |                                "#b199fa"
+00B7 |               String |                                "#bda4fc"
+00B8 |               String |                                "#b5bffb"
+00B9 |                  Int |                                        8
+00BA |               String |                               "255,4,55"
+00BB |               String |                               "242,5,55"
+00BC |               String |                               "229,6,55"
+00BD |               String |                               "217,7,57"
+00BE |               String |                              "203,10,56"
+00BF |               String |                              "190,10,58"
+00C0 |               String |                              "177,12,58"
+00C1 |               String |                              "164,13,58"
+00C2 |               String |                              "151,14,59"
+00C3 |               String |                              "138,16,59"
+00C4 |               String |                              "125,16,59"
+00C5 |               String |                              "112,18,60"
+00C6 |               String |                               "99,19,61"
+00C7 |               String |                               "86,21,61"
+00C8 |               String |                               "73,21,61"
+00C9 |               String |                               "60,23,62"
+00CA |                  Int |                                        9
+00CB |               String |                              "247,207,0"
+00CC |               String |                              "240,195,0"
+00CD |               String |                              "232,186,0"
+00CE |               String |                              "224,175,0"
+00CF |               String |                              "216,165,0"
+00D0 |               String |                              "207,154,0"
+00D1 |               String |                              "200,144,0"
+00D2 |               String |                              "191,135,0"
+00D3 |               String |                              "184,124,0"
+00D4 |               String |                              "175,114,0"
+00D5 |               String |                              "167,103,0"
+00D6 |               String |                               "160,92,0"
+00D7 |               String |                               "152,82,0"
+00D8 |               String |                               "143,73,0"
+00D9 |               String |                               "136,62,0"
+00DA |               String |                               "128,52,0"
+00DB |               String |                            "252,201,202"
+00DC |               String |                            "233,169,169"
+00DD |               String |                            "215,136,137"
+00DE |               String |                            "195,104,105"
+00DF |               String |                              "177,72,71"
+00E0 |                  Int |                                       10
+00E1 |               String |                               "36,44,66"
+00E2 |               String |                               "47,44,62"
+00E3 |               String |                               "59,44,59"
+00E4 |               String |                               "72,45,55"
+00E5 |               String |                               "83,45,52"
+00E6 |               String |                               "95,46,48"
+00E7 |               String |                              "107,46,45"
+00E8 |               String |                              "119,46,42"
+00E9 |               String |                              "131,47,38"
+00EA |               String |                              "142,47,35"
+00EB |               String |                              "154,48,31"
+00EC |               String |                              "166,48,28"
+00ED |               String |                              "178,48,25"
+00EE |               String |                              "190,49,21"
+00EF |               String |                              "201,49,18"
+00F0 |               String |                              "213,50,15"
+00F1 |               String |                               "36,44,65"
+00F2 |               String |                               "80,45,53"
+00F3 |               String |                              "124,47,40"
+00F4 |               String |                              "169,48,27"
+00F5 |                  Int |                                       11
+00F6 |               String |                            "130,185,217"
+00F7 |               String |                            "137,189,218"
+00F8 |               String |                            "144,192,220"
+00F9 |               String |                            "151,195,221"
+00FA |               String |                            "158,198,222"
+00FB |               String |                            "165,201,224"
+00FC |               String |                            "171,204,226"
+00FD |               String |                            "178,208,228"
+00FE |               String |                            "185,211,230"
+00FF |               String |                            "192,215,230"
+0100 |               String |                            "198,218,231"
+0101 |               String |                            "206,221,234"
+0102 |               String |                            "212,224,236"
+0103 |               String |                            "219,227,237"
+0104 |               String |                            "225,231,238"
+0105 |               String |                            "233,234,240"
+0106 |               String |                            "225,230,238"
+0107 |               String |                            "203,220,233"
+0108 |               String |                            "182,209,229"
+0109 |               String |                            "160,199,223"
+010A |               String |                            "138,189,219"
+010B |                  Int |                                       12
+010C |               String |                            "214,168,186"
+010D |               String |                             "182,43,171"
+010E |               String |                              "106,1,242"
+010F |               String |                               "8,34,245"
+0110 |               String |                              "4,166,251"
+0111 |               String |                              "3,246,118"
+0112 |               String |                               "80,245,0"
+0113 |               String |                              "223,245,5"
+0114 |               String |                              "247,143,5"
+0115 |               String |                               "254,41,5"
+0116 |               String |                               "216,34,5"
+0117 |               String |                            "209,160,158"
+0118 |               String |                            "230,242,246"
+0119 |               String |                            "216,208,232"
+011A |               String |                            "225,160,235"
+011B |                  Int |                                       13
+011C |               String |                            "247,192,193"
+011D |               String |                            "242,183,185"
+011E |               String |                            "236,176,175"
+011F |               String |                            "232,166,167"
+0120 |               String |                            "227,157,158"
+0121 |               String |                            "222,149,149"
+0122 |               String |                            "217,141,140"
+0123 |               String |                            "212,132,132"
+0124 |               String |                            "208,123,123"
+0125 |               String |                            "202,114,114"
+0126 |               String |                            "197,106,106"
+0127 |               String |                              "192,97,98"
+0128 |               String |                              "187,89,88"
+0129 |               String |                              "182,81,80"
+012A |                  Int |                                       14
+012B |               String |                                "0,255,0"
+012C |                  Int |                                       15
+012D |               String |                            "130,166,170"
+012E |               String |                            "137,171,175"
+012F |               String |                            "145,175,180"
+0130 |               String |                            "151,180,184"
+0131 |               String |                            "159,185,188"
+0132 |               String |                            "166,190,193"
+0133 |               String |                            "173,194,197"
+0134 |               String |                            "181,198,202"
+0135 |               String |                            "188,203,207"
+0136 |               String |                            "195,208,212"
+0137 |               String |                            "202,213,215"
+0138 |               String |                            "209,218,220"
+0139 |               String |                            "217,222,225"
+013A |               String |                            "224,227,229"
+013B |               String |                            "231,232,233"
+013C |               String |                            "235,234,236"
+013D |               String |                            "254,246,231"
+013E |               String |                               "47,44,50"
+013F |               String |                               "85,83,88"
+0140 |               String |                            "146,143,147"
+0141 |               String |                            "205,203,207"
+0142 |                  Int |                                       16
+0143 |               String |                             "181,231,94"
+0144 |               String |                             "186,228,94"
+0145 |               String |                             "190,227,94"
+0146 |               String |                             "195,224,94"
+0147 |               String |                             "198,223,94"
+0148 |               String |                             "203,221,94"
+0149 |               String |                             "207,218,94"
+014A |               String |                             "211,217,94"
+014B |               String |                             "216,215,94"
+014C |               String |                             "221,213,94"
+014D |               String |                             "225,212,94"
+014E |               String |                             "229,208,94"
+014F |               String |                             "234,207,94"
+0150 |               String |                             "236,186,94"
+0151 |               String |                             "232,146,94"
+0152 |               String |                             "229,108,94"
+0153 |               String |                             "196,181,80"
+0154 |                  Int |                                       17
+0155 |               String |                              "0,222,255"
+0156 |               String |                               "0,97,142"
+0157 |               String |                            "140,222,255"
+0158 |                  Int |                                       18
+0159 |               String |                                "105,0,0"
+015A |               String |                               "255,43,0"
+015B |                  Int |                                       19
+015C |                  Int |                                       20
+015D |               String |                              "59,51,163"
+015E |               String |                            "122,115,219"
+015F |                  Int |                                       21
+0160 |               String |                             "213,175,38"
+0161 |                  Int |                                       22
+0162 |                  Int |                                       23
+0163 |               String |                             "49,106,197"
+0164 |                  Int |                                       24
+0165 |               String |                            "147,160,112"
+0166 |               String |                              "153,84,10"
+0167 |                  Int |                                       25
+0168 |               String |                            "178,180,191"
+0169 |                  Int |                                       26
+016A |                  Int |                                       84
+016B |                  Int |                                      227
+016C |               String |                             "61,149,255"
+016D |               String |                               "3,84,227"
+016E |                  Int |                                       27
+016F |                  Int |                                      165
+0170 |                  Int |                                      179
+0171 |                  Int |                                      125
+0172 |               String |                            "231,240,197"
+0173 |               String |                            "165,179,125"
+0174 |                  Int |                                       28
+0175 |                  Int |                                      164
+0176 |                  Int |                                      190
+0177 |               String |                            "252,252,252"
+0178 |               String |                            "165,164,190"
+0179 |               String |                                      "0"
+017A |               String |                                      "1"
+017B |                  Int |                                        x
+017C |                  Int |                                        y
+017D |                  Int |                                        x
+017E |                  Int |                                        y
+017F |               String |                               "Presets:"
+0180 |                  Int |                                      999
+0181 |               String |                       "No Visualization"
+0182 |                  Int |                                      100
+0183 |               String |               "Visualizer Color Schemes"
+0184 |               String |                                  "Anime"
+0185 |               String |                                 "REVOCS"
+0186 |                  Int |                                      508
+0187 |               String |                                  "Ryuko"
+0188 |                  Int |                                      510
+0189 |               String |                                "Satsuki"
+018A |                  Int |                                      511
+018B |               String |                                  "Ragyo"
+018C |                  Int |                                      512
+018D |               String |                                  "A.P.E"
+018E |                  Int |                                      509
+018F |               String |                               "Zero Two"
+0190 |                  Int |                                      513
+0191 |               String |                     "Microsoft Plus! 98"
+0192 |               String |                           "More Windows"
+0193 |                  Int |                                      521
+0194 |               String |                            "Video Games"
+0195 |               String |                           "GoldSrc VGUI"
+0196 |                  Int |                                      516
+0197 |               String |                   "Windows Media Player"
+0198 |               String |                         "Bars and Scope"
+0199 |                  Int |                                      502
+019A |               String |                   "Ocean Mist and Scope"
+019B |                  Int |                                      503
+019C |               String |                   "Fire Storm and Scope"
+019D |                  Int |                                      504
+019E |               String |                           "Winamp Skins"
+019F |               String |                         "Winamp Classic"
+01A0 |                  Int |                                      500
+01A1 |               String |                          "Winamp Modern"
+01A2 |                  Int |                                      505
+01A3 |               String |                              "Winamp XP"
+01A4 |               String |                                  "Bento"
+01A5 |                  Int |                                      506
+01A6 |               String |                       "Big Bento Modern"
+01A7 |                  Int |                                      507
+01A8 |               String |                                   "Luna"
+01A9 |                  Int |                                      523
+01AA |               String |                        "Luna (Gradient)"
+01AB |                  Int |                                      526
+01AC |               String |                            "Olive Green"
+01AD |                  Int |                                      524
+01AE |               String |                 "Olive Green (Gradient)"
+01AF |                  Int |                                      527
+01B0 |               String |                                 "Silver"
+01B1 |                  Int |                                      525
+01B2 |               String |                      "Silver (Gradient)"
+01B3 |                  Int |                                      528
+01B4 |               String |                           "Commodore 64"
+01B5 |                  Int |                                      520
+01B6 |               String |                          "Midori Mizuno"
+01B7 |                  Int |                                      515
+01B8 |               String |                         "Sound Recorder"
+01B9 |                  Int |                                      514
+01BA |               String |                         "That old Hi-Fi"
+01BB |                  Int |                                      517
+01BC |               String |          "That old Hi-Fi in crimson red"
+01BD |                  Int |                                      518
+01BE |               String |                            "Thick Bands"
+01BF |               String |                             "Thin Bands"
+01C0 |               String |                      "Spectrum Analyzer"
+01C1 |               String |                                  "Lines"
+01C2 |               String |                                   "Dots"
+01C3 |               String |                                  "Solid"
+01C4 |               String |                           "Oscilloscope"
+01C5 |               String |                               "Options:"
+01C6 |                  Int |                                      102
+01C7 |               String |                             "Show Peaks"
+01C8 |                  Int |                                      101
+01C9 |               String |                          "Grid Options:"
+01CA |               String |                                "No Grid"
+01CB |                  Int |                                      600
+01CC |               String |                             "Thick Grid"
+01CD |                  Int |                                      602
+01CE |               String |                              "Thin Grid"
+01CF |                  Int |                                      603
+01D0 |               String |                            "Car Display"
+01D1 |                  Int |                                      604
+01D2 |               String |                       "All of the above"
+01D3 |                  Int |                                      605
+01D4 |               String |                                 "Slower"
+01D5 |                  Int |                                      200
+01D6 |               String |                                   "Slow"
+01D7 |                  Int |                                      201
+01D8 |               String |                               "Moderate"
+01D9 |                  Int |                                      202
+01DA |               String |                                   "Fast"
+01DB |                  Int |                                      203
+01DC |               String |                                 "Faster"
+01DD |                  Int |                                      204
+01DE |               String |                     "Peak Falloff Speed"
+01DF |                  Int |                                      300
+01E0 |                  Int |                                      301
+01E1 |                  Int |                                      302
+01E2 |                  Int |                                      303
+01E3 |                  Int |                                      304
+01E4 |               String |                 "Analyzer Falloff Speed"
+01E5 |                  Int |                                      400
+01E6 |                  Int |                                      402
+01E7 |                  Int |                                      403
+01E8 |               String |                      "Analyzer Coloring"
+01E9 |               String |                      "Frames Per Second"
+01EA |               String |                          "Lame (30 FPS)"
+01EB |                  Int |                                      407
+01EC |               String |                          "Fast (60 FPS)"
+01ED |                  Int |                                      409
+01EE |               String |                        "Faster (75 FPS)"
+01EF |                  Int |                                      410
+01F0 |               String |                "Impulse Speed (120 FPS)"
+01F1 |                  Int |                                      412
+01F2 |               String |                       "Warp 6 (512 FPS)"
+01F3 |                  Int |                                      411
+01F4 |                  Int |                                        a
+01F5 |                  Int |                                      413
+01F6 |               String |                                      rgb
+01F7 |                  Int |                                    start
+01F8 |                  Int |                                      end
+01F9 |                  Int |                                        i
+01FA |               String |                              "ColorBand"
+01FB |               String |                                      rgb
+01FC |                  Int |                                        i
+01FD |               String |                                      rgb
+01FE |                  Int |                                        i
+01FF |                  Int |                                        r
+0200 |                  Int |                                        g
+0201 |                  Int |                                        b
+0202 |                  Int |                                    stepr
+0203 |                  Int |                                    stepg
+0204 |                  Int |                                    stepb
+0205 |               String |                                      ","
+0206 |               String |                                     grad
+0207 |                  Int |                                        i
+0208 |               String |                                      rgb
+0209 |                  Int |                                        i
+020A |               String |                               "colorosc"
+020B |               String |                                      rgb
+020C |                  Int |                                    start
+020D |                  Int |                                      end
+020E |                  Int |                                        i
+020F |               String |                                      rgb
+0210 |                  Int |                                        i
+0211 |               String |                                      rgb
+0212 |                  Int |                                        i
+0213 |                  Int |                                     mode
+0214 |               String |                              "bandwidth"
+0215 |               String |                                   "wide"
+0216 |               String |                                   "thin"
+0217 |               String |                               "oscstyle"
+-- Events Table ------------------------------------------------------
+var# |         Code Pointer |                                    What 
+----------------------------------------------------------------------
+0000 |                 0153 |                                      S.o
+003C |                 2AFD |                                      T.o
+003C |                 2B4C |                                      T.o
+-- User Functions Table ----------------------------------------------
+               Code Pointer |                                    What 
+----------------------------------------------------------------------
+                       0000 |                             versionCheck
+                       00F2 |                                    debug
+                       011D |                                 debugInt
+                       0605 |                       refreshVisSettings
+                       5D74 |                                   setVis
+                       3670 |                        ProcessMenuResult
+                       595B |                            setColorBands
+                       59C5 |                         setColorBandsOdd
+                       5A30 |                        setColorBandsEven
+                       5A9B |                    setColorBandsGradient
+                       5BD4 |                              setColorosc
+                       5C34 |                         setColoroscRange
+                       5C9E |                           setColoroscOdd
+                       5D09 |                          setColoroscEven

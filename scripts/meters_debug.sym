@@ -1,0 +1,82 @@
+-- Variables Table ---------------------------------------------------
+var# |                Class |                                    What 
+----------------------------------------------------------------------
+0000 |               System |                                   System*
+0001 |                  Int |                                     NULL
+0002 |                  Int |                     __deprecated_runtime
+0003 |               Double |                                        v
+0004 |                  Int |                                        2
+0005 |                  Int |                                    65535
+0006 |                  Int |                                        1
+0007 |               String |                           "runtimecheck"
+0008 |                  Int |                                        0
+0009 |                  Int |                                     last
+000A |                  Int |                                      now
+000B |                  Int |                                     5000
+000C |               String |                  "This script requires "
+000D |               String |        "Winamp 5.66 (skin version 1.36)"
+000E |               String |                                  "Error"
+000F |               String |                                       ""
+0010 |               String |                                        s
+0011 |               String |                                  "DEBUG"
+0012 |                  Int |                                        s
+0013 |        AnimatedLayer |                               RightMeter
+0014 |        AnimatedLayer |                                LeftMeter
+0015 |                Timer |                                  Refresh
+0016 |                  Int |                                    ONOFF
+0017 |                  Int |                                   Level1
+0018 |                  Int |                                   Level2
+0019 |                  Int |                                    DivL1
+001A |                  Int |                                    DivL2
+001B |                  Int |                                    DivR1
+001C |                  Int |                                    DivR2
+001D |                Group |                                animgroup
+001E |               String |                            "leftVuMeter"
+001F |               String |                           "rightVuMeter"
+0020 |               String |                                    "EPS"
+0021 |               String |                      "Disable VU meters"
+0022 |               String |                      "Electronic meters"
+0023 |               String |                            "4;200;4;200"
+0024 |               String |                               paramslist
+0025 |               String |                                      ";"
+0026 |                  Int |                                        3
+0027 |                  Int |                                       10
+0028 |                  Int |                                   frame1
+0029 |                  Int |                                   frame2
+002A |               String |                                      key
+002B |               String |                                 "ctrl+m"
+002C |                  Int |                                        x
+002D |                  Int |                                        y
+002E |            PopupMenu |                                 MainMenu
+002F |            PopupMenu |                                 Div1Menu
+0030 |            PopupMenu |                                 Div2Menu
+0031 |                  Int |                                        i
+0032 |               String |                                   "info"
+0033 |                  Int |                                      100
+0034 |                  Int |                                        i
+0035 |                  Int |                                       26
+0036 |                  Int |                                       20
+0037 |               String |                             "Smoothness"
+0038 |               String |                            "Sensitivity"
+0039 |                  Int |                                      com
+003A |                  Int |                                      199
+003B |                  Int |                                      530
+003C |               String | "This is a amount of sections between two recent points.\nThese sections are not equal.\nMore sections - nicely animation, but less speed.\n 4 sections by default"
+003D |               String |                         "Animation info"
+003E |                  Int |                                        4
+003F |                  Int |                                      255
+-- Events Table ------------------------------------------------------
+var# |         Code Pointer |                                    What 
+----------------------------------------------------------------------
+0000 |                 0153 |                                      S.o
+0000 |                 02C4 |                                      S.o
+0015 |                 0367 |                                      R.o
+0000 |                 045F |                                      S.o
+0014 |                 0490 |                                      L.o
+-- User Functions Table ----------------------------------------------
+               Code Pointer |                                    What 
+----------------------------------------------------------------------
+                       0000 |                             versionCheck
+                       00F2 |                                    debug
+                       011D |                                 debugInt
+                       06C8 |                                     togg

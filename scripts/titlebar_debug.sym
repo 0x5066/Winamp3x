@@ -1,0 +1,75 @@
+-- Variables Table ---------------------------------------------------
+var# |                Class |                                    What 
+----------------------------------------------------------------------
+0000 |               System |                                   System*
+0001 |                  Int |                                     NULL
+0002 |                  Int |                     __deprecated_runtime
+0003 |               Double |                                        v
+0004 |                  Int |                                        2
+0005 |                  Int |                                    65535
+0006 |                  Int |                                        1
+0007 |               String |                           "runtimecheck"
+0008 |                  Int |                                        0
+0009 |                  Int |                                     last
+000A |                  Int |                                      now
+000B |                  Int |                                     5000
+000C |               String |                  "This script requires "
+000D |               String |        "Winamp 5.66 (skin version 1.36)"
+000E |               String |                                  "Error"
+000F |               String |                                       ""
+0010 |               String |                                        s
+0011 |               String |                                  "DEBUG"
+0012 |                  Int |                                        s
+0013 |            GuiObject |                                     left
+0014 |            GuiObject |                                    right
+0015 |            GuiObject |                                   center
+0016 |                 Text |                                  tcenter
+0017 |                Group |                                       sg
+0018 |                  Int |                                  padleft
+0019 |                  Int |                                 padright
+001A |               String | "titlebar.maki can only run within a group"
+001B |               String |                                      ";"
+001C |               String |                  "window.titlebar.title"
+001D |               String |                                      cmd
+001E |               String |                                    param
+001F |                  Int |                                        a
+0020 |                  Int |                                        b
+0021 |               String |                                      ","
+0022 |               String |                                 _command
+0023 |               String |                                   _param
+0024 |               String |                          "padtitleright"
+0025 |               String |                                    param
+0026 |               String |                                    value
+0027 |               String |                           "padtitleleft"
+0028 |                  Int |                               text_width
+0029 |                  Int |                             layout_width
+002A |                  Int |                              group_width
+002B |               Layout |                                        l
+002C |                  Int |                                       lx
+002D |               String |                                      "x"
+002E |               String |                                 "relatx"
+002F |               String |                                      "0"
+0030 |               String |                                      "w"
+0031 |               String |                                 "relatw"
+0032 |               String |                                      "-"
+0033 |               String |                                      "1"
+0034 |               String |                                  newtext
+0035 |                  Int |                                        x
+0036 |                  Int |                                        y
+0037 |                  Int |                                        w
+0038 |                  Int |                                        h
+-- Events Table ------------------------------------------------------
+var# |         Code Pointer |                                    What 
+----------------------------------------------------------------------
+0000 |                 0153 |                                      S.o
+0017 |                 0286 |                                      s.o
+0000 |                 0324 |                                      S.o
+0016 |                 063A |                                      t.o
+0017 |                 065B |                                      s.o
+-- User Functions Table ----------------------------------------------
+               Code Pointer |                                    What 
+----------------------------------------------------------------------
+                       0000 |                             versionCheck
+                       00F2 |                                    debug
+                       011D |                                 debugInt
+                       03AA |                            resizeObjects

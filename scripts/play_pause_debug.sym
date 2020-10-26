@@ -1,0 +1,54 @@
+-- Variables Table ---------------------------------------------------
+var# |                Class |                                    What 
+----------------------------------------------------------------------
+0000 |               System |                                   System*
+0001 |                  Int |                                     NULL
+0002 |                  Int |                     __deprecated_runtime
+0003 |               Double |                                        v
+0004 |                  Int |                                        2
+0005 |                  Int |                                    65535
+0006 |                  Int |                                        1
+0007 |               String |                           "runtimecheck"
+0008 |                  Int |                                        0
+0009 |                  Int |                                     last
+000A |                  Int |                                      now
+000B |                  Int |                                     5000
+000C |               String |                  "This script requires "
+000D |               String |        "Winamp 5.66 (skin version 1.36)"
+000E |               String |                                  "Error"
+000F |               String |                                       ""
+0010 |               String |                                        s
+0011 |               String |                                  "DEBUG"
+0012 |                  Int |                                        s
+0013 |            Container |                            containerMain
+0014 |               Layout |                         layoutMainNormal
+0015 |               Layout |                          layoutMainShade
+0016 |                Group |                              scriptgroup
+0017 |               Button |                               PlayButton
+0018 |               Button |                              PauseButton
+0019 |               String |                                   "main"
+001A |               String |                                 "normal"
+001B |               String |                                  "shade"
+001C |               String |                                      ";"
+001D |                  Int |                                        x
+001E |                  Int |                                        y
+001F |               String |                                 "action"
+0020 |                  Int |                                        x
+0021 |                  Int |                                        y
+0022 |               String |                                  "PAUSE"
+-- Events Table ------------------------------------------------------
+var# |         Code Pointer |                                    What 
+----------------------------------------------------------------------
+0000 |                 0153 |                                      S.o
+0000 |                 026F |                                      S.o
+0000 |                 029D |                                      S.o
+0000 |                 02CB |                                      S.o
+0000 |                 02F9 |                                      S.o
+0018 |                 0327 |                                      P.o
+0018 |                 035D |                                      P.o
+-- User Functions Table ----------------------------------------------
+               Code Pointer |                                    What 
+----------------------------------------------------------------------
+                       0000 |                             versionCheck
+                       00F2 |                                    debug
+                       011D |                                 debugInt

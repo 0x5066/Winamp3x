@@ -1,0 +1,57 @@
+-- Variables Table ---------------------------------------------------
+var# |                Class |                                    What 
+----------------------------------------------------------------------
+0000 |               System |                                   System*
+0001 |                  Int |                                     NULL
+0002 |                  Int |                     __deprecated_runtime
+0003 |               Double |                                        v
+0004 |                  Int |                                        2
+0005 |                  Int |                                    65535
+0006 |                  Int |                                        1
+0007 |               String |                           "runtimecheck"
+0008 |                  Int |                                        0
+0009 |                  Int |                                     last
+000A |                  Int |                                      now
+000B |                  Int |                                     5000
+000C |               String |                  "This script requires "
+000D |               String |        "Winamp 5.66 (skin version 1.36)"
+000E |               String |                                  "Error"
+000F |               String |                                       ""
+0010 |               String |                                        s
+0011 |               String |                                  "DEBUG"
+0012 |                  Int |                                        s
+0013 |        AlbumArtLayer |                                     waaa
+0014 |               Layout |                                 aalayout
+0015 |               String |                        "winamp.albumart"
+0016 |            Container |                                 albumart
+0017 |               String |                                 "normal"
+0018 |               String |                         "Album Art XPos"
+0019 |               String |                         "Album Art YPos"
+001A |                  Int |                                        x
+001B |                  Int |                                        y
+001C |            PopupMenu |                                        p
+001D |               String |                      "Refresh Album Art"
+001E |               String |                               "filename"
+001F |               String |                                     path
+0020 |               String |                            "Open Folder"
+0021 |                  Int |                                   result
+0022 |               String |                              "streamurl"
+0023 |               String |                                      url
+0024 |                  Int |                                        x
+0025 |                  Int |                                        y
+0026 |               String |                                     path
+0027 |               String |                                      url
+-- Events Table ------------------------------------------------------
+var# |         Code Pointer |                                    What 
+----------------------------------------------------------------------
+0000 |                 0153 |                                      S.o
+0000 |                 01BA |                                      S.o
+0014 |                 022F |                                      a.o
+0013 |                 02A7 |                                      w.o
+0013 |                 03ED |                                      w.o
+-- User Functions Table ----------------------------------------------
+               Code Pointer |                                    What 
+----------------------------------------------------------------------
+                       0000 |                             versionCheck
+                       00F2 |                                    debug
+                       011D |                                 debugInt
