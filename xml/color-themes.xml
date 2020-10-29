@@ -25,6 +25,8 @@
   <gammagroup id="Inactive Border" value="2096,2096,2096" gray="0" boost="0" />
   <gammagroup id="Menu Bar" value="4096,4096,4096" gray="0" boost="0" />
   <gammagroup id="Scroll Bars" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Standard">

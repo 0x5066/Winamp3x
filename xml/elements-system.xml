@@ -24,8 +24,8 @@
 
 <!-- Generic Lists and Trees -->
 
-  <bitmap id="studio.list.background" file="images/window/windows-elements.png" x="188" y="0" h="10" w="10" gammagroup="Window"/>
-  <bitmap id="studio.tree.background" file="images/window/windows-elements.png" x="188" y="0" h="10" w="10" gammagroup="Window"/>
+  <bitmap id="studio.list.background" file="images/window/windows-elements.png" x="188" y="0" h="10" w="10" gammagroup="Window Background"/>
+  <bitmap id="studio.tree.background" file="images/window/windows-elements.png" x="188" y="0" h="10" w="10" gammagroup="Window Background"/>
 
   <bitmap id="studio.tree.tab.closed" file="images/window/windows-elements.png" x="149" y="0" h="14" w="14" gammagroup="display"/>
   <bitmap id="studio.tree.tab.open" file="images/window/windows-elements.png" x="135" y="0" h="14" w="14" gammagroup="display"/>
