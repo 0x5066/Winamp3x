@@ -1,4 +1,5 @@
 @echo off
+del *.sym
 echo ----------------------------------------------------
 echo +                                                  +
 echo +      The compile all script for this skin.       +
@@ -7,12 +8,14 @@ echo +         You obviously need the WaSDP             +
 echo +        (WinAmp Skin Development Pack)            +
 echo +              and Winamp or WACUP                 +
 echo +               for this to work                   +
-echo +             Version 1.2 by 0x5066                +
+echo +             Version 1.3 by 0x5066                +
 echo +                                                  +
 echo ----------------------------------------------------
-set /p ask= Do you use Winamp or WACUP? 
+set /p ask= Do you use Winamp(1) or WACUP(2)? 
 echo.
-IF /I "%ask%" == "WACUP" (CALL :WACUP) ELSE (CALL :WINAMP)
+if not "%ask%" == "" set choice=%ask:~0,1%
+if "%ask%" == "1" goto WINAMP
+if "%ask%" == "2" goto WACUP
 timeout 2
 :WACUP
 "C:\Program Files (x86)\WACUP\mc.exe" about.m /debugfile
