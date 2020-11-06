@@ -54,6 +54,10 @@
   <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2741,2612,2354" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2741,2612,2354" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2741,2612,2354" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2741,2612,2354" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="REVOCS Media Player">
@@ -81,6 +85,10 @@
   <gammagroup id="Window Frame" value="-1508,-2572,-2572" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2748,-3387,-1082" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-266,-3423,-1650" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2676,1967,1902" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2676,1967,1902" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="3138,-3316,-905" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="3244,-3352,-905" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="A.P.E Media Player">
@@ -108,6 +116,10 @@
   <gammagroup id="Window Frame" value="-2465,-2997,-3848" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2429,1968,0" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-408,-1295,-3600" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3386,2967,1322" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3386,2967,1322" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,3422,0" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,3599,0" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Brick">
@@ -135,6 +147,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2160,2064,1225" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2160,2064,1225" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2160,2064,1225" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2160,2064,1225" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Desert">
@@ -162,6 +178,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2720,2432,1888" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2720,2432,1888" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2720,2432,1888" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2720,2432,1888" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Eggplant">
@@ -189,6 +209,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="512,1536,1280" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="512,1536,1280" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="512,1536,1280" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="512,1536,1280" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Lilac">
@@ -216,6 +240,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="1472,1280,2848" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="1472,1280,2848" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="1472,1280,2848" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="1472,1280,2848" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Maple">
@@ -243,6 +271,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="3264,2816,1472" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="3264,2816,1472" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3264,2816,1472" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3264,2816,1472" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Marine (high color)">
@@ -270,6 +302,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="256,2048,1792" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="256,2048,1792" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="256,2048,1792" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="256,2048,1792" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Plum (high color)">
@@ -297,6 +333,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="1280,768,512" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="1280,768,512" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="1280,768,512" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="1280,768,512" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Pumpkin">
@@ -324,6 +364,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="3456,2720,928" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="3456,2720,928" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3456,2720,928" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3456,2720,928" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Rainy Day">
@@ -351,6 +395,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="96,800,1568" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="96,800,1568" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="96,800,1568" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="96,800,1568" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Red, White, and Blue (VGA)">
@@ -378,6 +426,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2048,2048,2048" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Rose">
@@ -405,6 +457,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2528,1504,1760" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2528,1504,1760" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2528,1504,1760" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2528,1504,1760" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Slate">
@@ -432,6 +488,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="928,1824,2304" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="928,1824,2304" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="928,1824,2304" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="928,1824,2304" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Spruce">
@@ -459,6 +519,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="1088,2304,1312" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="1088,2304,1312" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="1088,2304,1312" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="1088,2304,1312" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Storm (VGA)">
@@ -486,6 +550,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2048,2048,2048" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Teal (VGA)">
@@ -513,6 +581,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2048,2048,2048" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2048,2048,2048" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="0,0,0" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Wheat">
@@ -540,6 +612,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="3008,3008,1024" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="3008,3008,1024" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3008,3008,1024" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3008,3008,1024" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows XP (blue)">
@@ -567,6 +643,10 @@
   <gammagroup id="Window Frame" value="-4096,-3257,1967" gray="0" boost="0" />
   <gammagroup id="Active Border" value="-4096,-1354,3289" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-129,774,3128" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3456,3360,2816" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3456,3360,2816" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Standard (1 Colored Title bar beam)">
@@ -594,6 +674,10 @@
   <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2741,2612,2354" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2741,2612,2354" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2741,2612,2354" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2741,2612,2354" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Classic">
@@ -621,6 +705,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2096,2096,2096" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows Classic (1 Colored Title bar beam)">
@@ -648,6 +736,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2096,2096,2096" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="2096,2096,2096" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows XP (Olive Green)">
@@ -675,6 +767,10 @@
   <gammagroup id="Window Frame" value="-322,451,-1064" gray="0" boost="0" />
   <gammagroup id="Active Border" value="1386,1838,129" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2741,2838,1935" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3456,3360,2816" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3456,3360,2816" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows XP (Silver)">
@@ -702,6 +798,10 @@
   <gammagroup id="Window Frame" value="-806,-806,-32" gray="0" boost="0" />
   <gammagroup id="Active Border" value="1193,1161,2031" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="2838,2838,3225" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3072,3040,3168" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3072,3040,3168" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Windows 7 (Aero)">
@@ -729,6 +829,10 @@
   <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
   <gammagroup id="Active Border" value="3644,3644,3644" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="3644,3644,3644" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="3644,3644,3644" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3644,3644,3644" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Winamp Modern">
@@ -756,6 +860,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="935,1161,1580" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-935,-516,225" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="0,258,709" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="3805,3805,3870" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Bento">
@@ -783,6 +891,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="-935,-806,-483" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-2483,-2322,-1870" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="-2451,-2322,-2289" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="-2451,-2322,-2289" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="1257,2354,2709" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="1257,2354,2709" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Winamp 3">
@@ -810,6 +922,10 @@
   <gammagroup id="Window Frame" value="-2257,-2257,-1999" gray="0" boost="0" />
   <gammagroup id="Active Border" value="2709,1580,-709" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-354,-967,-2225" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="64,64,645" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="64,64,645" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Winamp Classic">
@@ -837,6 +953,10 @@
   <gammagroup id="Window Frame" value="-3063,-3063,-2451" gray="0" boost="0" />
   <gammagroup id="Active Border" value="3515,2547,-161" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="258,-258,-1644" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="-2515,-2515,-1709" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="-2515,-2515,-1709" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="-4096,4096,-4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="-4096,4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Big Bento Modern">
@@ -864,6 +984,10 @@
   <gammagroup id="Window Frame" value="-3671,-3635,-2891" gray="0" boost="0" />
   <gammagroup id="Active Border" value="-2064,-1999,-1741" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-2322,-2257,-2031" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="-2322,-2257,-2031" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="-2322,-2257,-2031" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="GoldSrc VGUI">
@@ -891,6 +1015,10 @@
   <gammagroup id="Window Frame" value="-2805,-2612,-2999" gray="0" boost="0" />
   <gammagroup id="Active Border" value="4096,4096,4096" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="290,580,32" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="-1644,-1257,-1902" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="-1644,-1257,-1902" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="-1644,-1257,-1902" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="-1644,-1257,-1902" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="More Windows">
@@ -918,6 +1046,10 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="548,806,1064" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="548,806,1064" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="548,806,1064" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="548,806,1064" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="4096,4096,4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Source VGUI">
@@ -945,6 +1077,10 @@
   <gammagroup id="Window Frame" value="-2031,-2031,-2031" gray="0" boost="0" />
   <gammagroup id="Active Border" value="-290,-290,-290" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-290,-290,-290" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="-290,-290,-290" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="-290,-290,-290" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="0,0,0" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="0,0,0" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Crimson">
@@ -972,6 +1108,10 @@
   <gammagroup id="Window Frame" value="-3033,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="-940,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-940,-4096,-4096" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="-940,-4096,-4096" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="-940,-4096,-4096" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="2571,-4096,-4096" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="0,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
 <gammaset id="Commodore 64">
@@ -999,4 +1139,8 @@
   <gammagroup id="Window Frame" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Active Border" value="-161,-387,2999" gray="0" boost="0" />
   <gammagroup id="Inactive Border" value="-2193,-2451,1193" gray="0" boost="0" />
+  <gammagroup id="Menu Bar" value="-2193,-2451,1161" gray="0" boost="0" />
+  <gammagroup id="Scroll Bars" value="-2193,-2451,1161" gray="0" boost="0" />
+  <gammagroup id="Display - Timer" value="-193,-419,2967" gray="0" boost="0" />
+  <gammagroup id="Display - Playback" value="-193,-419,2967" gray="0" boost="0" />
 </gammaset>
