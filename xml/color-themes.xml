@@ -1,4 +1,4 @@
-<gammaset id="Windows Default">
+<gammaset id="(Windows 3.x) Windows Default">
   <gammagroup id="Button Face" value="2096,2096,2096" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -29,7 +29,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows Standard">
+<gammaset id="(Windows ME/2000) Windows Standard">
   <gammagroup id="Button Face" value="2741,2612,2354" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -60,7 +60,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="REVOCS Media Player">
+<gammaset id="(Winamp Skin) REVOCS Media Player">
   <gammagroup id="Button Face" value="2676,1967,1902" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="3870,3289,3450" gray="0" boost="0" />
@@ -91,7 +91,7 @@
   <gammagroup id="Display - Playback" value="3244,-3352,-905" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="A.P.E Media Player">
+<gammaset id="(Winamp Skin) A.P.E Media Player">
   <gammagroup id="Button Face" value="3386,2967,1322" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,3280" gray="0" boost="0" />
@@ -122,7 +122,7 @@
   <gammagroup id="Display - Playback" value="4096,3599,0" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Brick">
+<gammaset id="(Windows 9x) Brick">
   <gammagroup id="Button Face" value="2160,2064,1225" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -153,7 +153,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Desert">
+<gammaset id="(Windows 9x) Desert">
   <gammagroup id="Button Face" value="2720,2432,1888" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -184,7 +184,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Eggplant">
+<gammaset id="(Windows 9x) Eggplant">
   <gammagroup id="Button Face" value="512,1536,1280" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -215,7 +215,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Lilac">
+<gammaset id="(Windows 9x) Lilac">
   <gammagroup id="Button Face" value="1472,1280,2848" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -246,7 +246,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Maple">
+<gammaset id="(Windows 9x) Maple">
   <gammagroup id="Button Face" value="3264,2816,1472" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -277,7 +277,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Marine (high color)">
+<gammaset id="(Windows 9x) Marine (high color)">
   <gammagroup id="Button Face" value="256,2048,1792" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="2304,3072,2816" gray="0" boost="0" />
@@ -308,7 +308,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Plum (high color)">
+<gammaset id="(Windows 9x) Plum (high color)">
   <gammagroup id="Button Face" value="1280,768,512" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="2816,2560,2304" gray="0" boost="0" />
@@ -339,7 +339,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Pumpkin">
+<gammaset id="(Windows 9x) Pumpkin">
   <gammagroup id="Button Face" value="3456,2720,928" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -370,7 +370,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Rainy Day">
+<gammaset id="(Windows 9x) Rainy Day">
   <gammagroup id="Button Face" value="96,800,1568" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -401,7 +401,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Red, White, and Blue (VGA)">
+<gammaset id="(Windows 9x) Red, White, and Blue (VGA)">
   <gammagroup id="Button Face" value="2048,2048,2048" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -432,7 +432,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Rose">
+<gammaset id="(Windows 9x) Rose">
   <gammagroup id="Button Face" value="2528,1504,1760" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -463,7 +463,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Slate">
+<gammaset id="(Windows 9x) Slate">
   <gammagroup id="Button Face" value="928,1824,2304" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -494,7 +494,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Spruce">
+<gammaset id="(Windows 9x) Spruce">
   <gammagroup id="Button Face" value="1088,2304,1312" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -525,7 +525,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Storm (VGA)">
+<gammaset id="(Windows 9x) Storm (VGA)">
   <gammagroup id="Button Face" value="2048,2048,2048" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -556,7 +556,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Teal (VGA)">
+<gammaset id="(Windows 9x) Teal (VGA)">
   <gammagroup id="Button Face" value="2048,2048,2048" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -587,7 +587,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Wheat">
+<gammaset id="(Windows 9x) Wheat">
   <gammagroup id="Button Face" value="3008,3008,1024" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -618,7 +618,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows XP (blue)">
+<gammaset id="(Windows XP Luna) Default (blue)">
   <gammagroup id="Button Face" value="3456,3360,2816" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -649,7 +649,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows Standard (1 Colored Title bar beam)">
+<gammaset id="(Windows ME/2000) Windows Standard (1 Colored Title bar beam)">
   <gammagroup id="Button Face" value="2741,2612,2354" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -680,7 +680,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows Classic">
+<gammaset id="(Windows 9x) Windows Classic">
   <gammagroup id="Button Face" value="2096,2096,2096" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -711,7 +711,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows Classic (1 Colored Title bar beam)">
+<gammaset id="(Windows 9x) Windows Classic (1 Colored Title bar beam)">
   <gammagroup id="Button Face" value="2096,2096,2096" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -742,7 +742,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows XP (Olive Green)">
+<gammaset id="(Windows XP Luna) Olive Green">
   <gammagroup id="Button Face" value="3456,3360,2816" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -773,7 +773,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows XP (Silver)">
+<gammaset id="(Windows XP Luna) Silver">
   <gammagroup id="Button Face" value="3072,3040,3168" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -804,7 +804,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Windows 7 (Aero)">
+<gammaset id="(Windows 7) Aero">
   <gammagroup id="Button Face" value="3644,3644,3644" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -835,7 +835,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Winamp Modern">
+<gammaset id="(Winamp Skin) Winamp Modern">
   <gammagroup id="Button Face" value="0,258,709" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-3192,-2031,-64" gray="0" boost="0" />
@@ -866,7 +866,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Bento">
+<gammaset id="(Winamp Skin) Bento">
   <gammagroup id="Button Face" value="-2451,-2322,-2289" gray="0" boost="0" />
   <gammagroup id="Button Text" value="2676,2676,2676" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-4096,-4096,-4096" gray="0" boost="0" />
@@ -897,7 +897,7 @@
   <gammagroup id="Display - Playback" value="1257,2354,2709" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Winamp 3">
+<gammaset id="(Winamp Skin) Winamp 3">
   <gammagroup id="Button Face" value="64,64,645" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-4096,-4096,-4096" gray="0" boost="0" />
@@ -928,7 +928,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Winamp Classic">
+<gammaset id="(Winamp Skin) Winamp Classic">
   <gammagroup id="Button Face" value="-2515,-2515,-1709" gray="0" boost="0" />
   <gammagroup id="Button Text" value="4096,4096,4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-4096,-4096,-4096" gray="0" boost="0" />
@@ -959,7 +959,7 @@
   <gammagroup id="Display - Playback" value="-4096,4096,-4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Big Bento Modern">
+<gammaset id="(Winamp Skin) Big Bento Modern">
   <gammagroup id="Button Face" value="-2322,-2257,-2031" gray="0" boost="0" />
   <gammagroup id="Button Text" value="1644,2289,2709" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-2805,-2741,-2547" gray="0" boost="0" />
@@ -990,7 +990,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="GoldSrc VGUI">
+<gammaset id="(Video Game) GoldSrc VGUI">
   <gammagroup id="Button Face" value="-1644,-1257,-1902" gray="0" boost="0" />
   <gammagroup id="Button Text" value="2870,3063,2709" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-2096,-1838,-2322" gray="0" boost="0" />
@@ -1021,7 +1021,7 @@
   <gammagroup id="Display - Playback" value="-1644,-1257,-1902" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="More Windows">
+<gammaset id="(Windows 9x: Microsoft Plus!) More Windows">
   <gammagroup id="Button Face" value="548,806,1064" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="4096,4096,4096" gray="0" boost="0" />
@@ -1052,7 +1052,7 @@
   <gammagroup id="Display - Playback" value="4096,4096,4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Source VGUI">
+<gammaset id="(Video Game) Source VGUI">
   <gammagroup id="Button Face" value="-290,-290,-290" gray="0" boost="0" />
   <gammagroup id="Button Text" value="4096,4096,4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-1354,-1354,-1354" gray="0" boost="0" />
@@ -1083,7 +1083,7 @@
   <gammagroup id="Display - Playback" value="0,0,0" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Crimson">
+<gammaset id="(Contribution) Crimson">
   <gammagroup id="Button Face" value="-940,-4096,-4096" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-4096,-3387,-4096" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-3529,-2891,-3706" gray="0" boost="0" />
@@ -1114,7 +1114,7 @@
   <gammagroup id="Display - Playback" value="0,-4096,-4096" gray="0" boost="0" />
 </gammaset>
 
-<gammaset id="Commodore 64">
+<gammaset id="(Commodore 64) **** COMMODORE 64 BASIC V2 ****">
   <gammagroup id="Button Face" value="-2193,-2451,1161" gray="0" boost="0" />
   <gammagroup id="Button Text" value="-161,-387,2967" gray="0" boost="0" />
   <gammagroup id="Window Background" value="-2193,-2451,1161" gray="0" boost="0" />
