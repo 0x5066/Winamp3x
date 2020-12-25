@@ -2,3 +2,4 @@
 *.bak
 scripts/lib
 *.pdn
+scripts/*.sym
