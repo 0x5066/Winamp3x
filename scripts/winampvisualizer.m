@@ -1535,21 +1535,19 @@ rgbBandTimer2.onTimer(){
 
 rgbBandTimer3.onTimer(){
 	visualizer.setXmlParam("ColorBand3", visualizer.getXmlParam("ColorBand2"));
-	visualizer.setXmlParam("colorosc3", visualizer.getXmlParam("colorosc2"));
 }
 
 rgbBandTimer4.onTimer(){
 	visualizer.setXmlParam("ColorBand4", visualizer.getXmlParam("ColorBand3"));
-	visualizer.setXmlParam("colorosc4", visualizer.getXmlParam("colorosc3"));
 }
 
 rgbBandTimer5.onTimer(){
 	visualizer.setXmlParam("ColorBand5", visualizer.getXmlParam("ColorBand4"));
-	visualizer.setXmlParam("colorosc5", visualizer.getXmlParam("colorosc4"));
 }
 
 rgbBandTimer6.onTimer(){
 	visualizer.setXmlParam("ColorBand6", visualizer.getXmlParam("ColorBand5"));
+	visualizer.setXmlParam("colorosc3", visualizer.getXmlParam("colorosc2"));
 }
 
 rgbBandTimer7.onTimer(){
@@ -1562,6 +1560,7 @@ rgbBandTimer8.onTimer(){
 
 rgbBandTimer9.onTimer(){
 	visualizer.setXmlParam("ColorBand9", visualizer.getXmlParam("ColorBand8"));
+
 }
 
 rgbBandTimer10.onTimer(){
@@ -1574,6 +1573,7 @@ rgbBandTimer11.onTimer(){
 
 rgbBandTimer12.onTimer(){
 	visualizer.setXmlParam("ColorBand12", visualizer.getXmlParam("ColorBand11"));
+	visualizer.setXmlParam("colorosc4", visualizer.getXmlParam("colorosc3"));
 }
 
 rgbBandTimer13.onTimer(){
@@ -1591,6 +1591,7 @@ rgbBandTimer15.onTimer(){
 
 rgbBandTimer16.onTimer(){
 	visualizer.setXmlParam("ColorBand16", visualizer.getXmlParam("ColorBand15"));
+	visualizer.setXmlParam("colorosc5", visualizer.getXmlParam("colorosc4"));
 }
 
 
