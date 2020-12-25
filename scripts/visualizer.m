@@ -1067,6 +1067,23 @@ ProcessMenuResult (int a)
 	else if (a >= 500 && a <= 529)
 	{
 		v_color = a - 500;
+		rgbBandTimer1.stop();
+		rgbBandTimer2.stop();
+		rgbBandTimer3.stop();
+		rgbBandTimer4.stop();
+		rgbBandTimer5.stop();
+		rgbBandTimer6.stop();
+		rgbBandTimer7.stop();
+		rgbBandTimer8.stop();
+		rgbBandTimer9.stop();
+		rgbBandTimer10.stop();
+		rgbBandTimer11.stop();
+		rgbBandTimer12.stop();
+		rgbBandTimer13.stop();
+		rgbBandTimer14.stop();
+		rgbBandTimer15.stop();
+		rgbBandTimer16.stop();
+		rgbTimer.stop();
 		if (v_color == 0)
 		{
 			visualizer.setXmlParam("ColorBand1", "22,131,7");
@@ -1610,22 +1627,19 @@ rgbBandTimer1.onTimer(){
 
 rgbBandTimer2.onTimer(){
 	visualizer.setXmlParam("ColorBand2", visualizer.getXmlParam("ColorBand1"));
-	visualizer.setXmlParam("colorosc2", visualizer.getXmlParam("colorosc1"));
 }
 
 rgbBandTimer3.onTimer(){
 	visualizer.setXmlParam("ColorBand3", visualizer.getXmlParam("ColorBand2"));
-	visualizer.setXmlParam("colorosc3", visualizer.getXmlParam("colorosc2"));
 }
 
 rgbBandTimer4.onTimer(){
 	visualizer.setXmlParam("ColorBand4", visualizer.getXmlParam("ColorBand3"));
-	visualizer.setXmlParam("colorosc4", visualizer.getXmlParam("colorosc3"));
+	visualizer.setXmlParam("colorosc2", visualizer.getXmlParam("colorosc1"));
 }
 
 rgbBandTimer5.onTimer(){
 	visualizer.setXmlParam("ColorBand5", visualizer.getXmlParam("ColorBand4"));
-	visualizer.setXmlParam("colorosc5", visualizer.getXmlParam("colorosc4"));
 }
 
 rgbBandTimer6.onTimer(){
@@ -1638,6 +1652,7 @@ rgbBandTimer7.onTimer(){
 
 rgbBandTimer8.onTimer(){
 	visualizer.setXmlParam("ColorBand8", visualizer.getXmlParam("ColorBand7"));
+	visualizer.setXmlParam("colorosc3", visualizer.getXmlParam("colorosc2"));
 }
 
 rgbBandTimer9.onTimer(){
@@ -1654,6 +1669,7 @@ rgbBandTimer11.onTimer(){
 
 rgbBandTimer12.onTimer(){
 	visualizer.setXmlParam("ColorBand12", visualizer.getXmlParam("ColorBand11"));
+	visualizer.setXmlParam("colorosc4", visualizer.getXmlParam("colorosc3"));
 }
 
 rgbBandTimer13.onTimer(){
@@ -1668,16 +1684,18 @@ rgbBandTimer15.onTimer(){
 	visualizer.setXmlParam("ColorBand15", visualizer.getXmlParam("ColorBand14"));
 }
 
-
 rgbBandTimer16.onTimer(){
 	visualizer.setXmlParam("ColorBand16", visualizer.getXmlParam("ColorBand15"));
+	visualizer.setXmlParam("colorosc5", visualizer.getXmlParam("colorosc4"));
 }
 
 //sets every ColorBand in a range to a color
 setColorBands(String rgb, int start, int end)
 {
 	for(int i=start; i<=end; i++){
-		visualizer.setXmlParam("ColorBand"+integerToString(i)+"", rgb);
+		while(visualizer.getXmlParam("ColorBand"+integerToString(i)) != rgb){
+			visualizer.setXmlParam("ColorBand"+integerToString(i)+"", rgb);
+		}
 	}
 }
 
@@ -1685,7 +1703,9 @@ setColorBands(String rgb, int start, int end)
 setColorBandsOdd(String rgb)
 {
 	for(int i=1; i<=15; i=i+2){
-		visualizer.setXmlParam("ColorBand"+integerToString(i)+"", rgb);
+		while(visualizer.getXmlParam("ColorBand"+integerToString(i)) != rgb){
+			visualizer.setXmlParam("ColorBand"+integerToString(i)+"", rgb);
+		}
 	}
 }
 
@@ -1693,7 +1713,9 @@ setColorBandsOdd(String rgb)
 setColorBandsEven(String rgb)
 {
 	for(int i=2; i<=16; i=i+2){
-		visualizer.setXmlParam("ColorBand"+integerToString(i)+"", rgb);
+		while(visualizer.getXmlParam("ColorBand"+integerToString(i)) != rgb){
+			visualizer.setXmlParam("ColorBand"+integerToString(i)+"", rgb);
+		}
 	}
 }
 
@@ -1701,26 +1723,44 @@ setColorBandsEven(String rgb)
 setColorBandsGradient(int r, int g, int b, int stepr, int stepg, int stepb)
 {
 	String grad = integerToString(r) +","+ integerToString(g) +","+ integerToString(b);
+
+	//debug stuff 1
+	//String executed_loops = "Loops executed (should be 1 to 16):\n";
+
 	for(int i=1; i<=16; i++){
-		visualizer.setXmlParam("ColorBand"+integerToString(i)+"", grad);
+		//wacup pls
+		while(visualizer.getXmlParam("ColorBand"+integerToString(i)) != grad){
+			visualizer.setXmlParam("ColorBand"+integerToString(i)+"", grad);
+		}
+
+		//debug stuff 2
+		//executed_loops += "Executed loop " +integerToString(i)+ ", grad = " +grad+ "\n";
+
 		r=r+stepr; g=g+stepg; b=b+stepb;
 		grad = integerToString(r) +","+ integerToString(g) +","+ integerToString(b);
 	}
+
+	//debug stuff 3
+	//messagebox(""+executed_loops, "debug message", 1, "");
 }
 
 //sets every colorosc to a color
 setColorosc(String rgb)
 {
 	for(int i=1; i<=5; i++){
-		visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		while(visualizer.getXmlParam("colorosc"+integerToString(i)) != rgb){
+			visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		}
 	}
 }
 
-//sets every colorosc in a range to a color
+//sets every colorosc in a range color
 setColoroscRange(String rgb, int start, int end)
 {
 	for(int i=start; i<=end; i++){
-		visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		while(visualizer.getXmlParam("colorosc"+integerToString(i)) != rgb){
+			visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		}
 	}
 }
 
@@ -1728,7 +1768,9 @@ setColoroscRange(String rgb, int start, int end)
 setColoroscOdd(String rgb)
 {
 	for(int i=1; i<=5; i=i+2){
-		visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		while(visualizer.getXmlParam("colorosc"+integerToString(i)) != rgb){
+			visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		}
 	}
 }
 
@@ -1736,7 +1778,9 @@ setColoroscOdd(String rgb)
 setColoroscEven(String rgb)
 {
 	for(int i=2; i<=4; i=i+2){
-		visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		while(visualizer.getXmlParam("colorosc"+integerToString(i)) != rgb){
+			visualizer.setXmlParam("colorosc"+integerToString(i)+"", rgb);
+		}
 	}
 }
 
