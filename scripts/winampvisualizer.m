@@ -66,7 +66,8 @@ System.onScriptLoaded()
 	visgrid_car = NormalGroupMain.findObject("visgridimg.car");
 
 //more rgb junk
-  banddelay = 33;
+  banddelay = 32; //how fast we goin? goes in milliseconds, 16ms = 60FPS, double that and it's 30FPS -0x5066
+  //although going lower is guaranteed for the engine to mess up more likely -0x5066
 
   rgbTimer = new Timer;
   rgbTimer.setDelay(10);
@@ -107,8 +108,11 @@ System.onScriptLoaded()
   g1 = 0;
   b1 = 0;
 
-  //255 is divisible by 1, 3, 5, 15, 17, 51, or 85
-  rgb_val = 51;
+  //255 is divisible by 1, 3, 5, 15, 17, 51, or 85 -mirzi1
+  rgb_val = 51; 
+  //dictates the smoothness of the RGB gradient scroll, -0x5066
+  //use numbers other than the ones listed that are divisible -0x5066
+  //and you may get some interesting effects... -0x5066
 
   //prev2 = "255, 0, 0";
   //prev3 = "255, 0, 0";
