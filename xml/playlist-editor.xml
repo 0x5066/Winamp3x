@@ -65,12 +65,7 @@
 	<layer id="pledit.region.bottom.right" x="-3" y="-3" RELATX="1" RELATY="1" image="window.shade.region.bottom.right" ghost="1" sysregion="-2"/>
 	
 	<button id="player.button.mainmenu" action="SYSMENU" x="0" y="-2" image="player.button.mainmenu" hoverimage="player.button.mainmenu.h" downimage="player.button.mainmenu.d" tooltip="Winamp Menu" cursor="cur.normal"/>
-	
-	  <playlistPlus id="main.pl" x="3" y="5" w="-58" h="16" relatw="1" font="titlebar" fontsize="15" linespacing="1" color="wasabi.text.active" antialias="0" 
-			playcolor="wasabi.text.active" sysregion="1" bold="1" activealpha="255" inactivealpha="0" ghost="1"/>	
-	  <playlistPlus id="main.pl" x="3" y="5" w="-58" h="16" relatw="1" font="titlebar" fontsize="15" linespacing="1" color="wasabi.text.inactive" antialias="0" 
-			playcolor="wasabi.text.inactive" sysregion="1" bold="1" activealpha="0" inactivealpha="255" ghost="1"/>
-			
+		
 	<layer id="pledit.background.grip.mid" x="-4" y="0" w="4" h="26" image="shade.resizer" relatx="1" dblclickaction="SWITCH;normal" move="0" tooltip="Adjust Horizontal Size" resize="right" alpha="0" cursor="cur.posbar"/>
 
 	<group id="pledit.shade.group.display" x="4" y="3" cursor="cur.normal"/>
@@ -189,7 +184,7 @@
 	<text id="pledit.info" x="-95" y="-24" h="19" w="78" relatx="1" relaty="1" display="PE_Info" font="sserif" fontsize="10" valign="middle" align="right" 
 	rightclickaction="trackmenu" color="wasabi.text.color" alpha="255" cursor="cur.normal" antialias="0"/>
 	
-	<SongTicker id="main.pl" x="16" y="-24" w="-227" h="19" relaty="1" relatw="1" font="sserif" fontsize="10" color="wasabi.text.color" antialias="0"/>
+	<text display="SONGNAME" x="16" y="-24" w="-227" h="19" relaty="1" relatw="1" font="sserif" fontsize="10" color="wasabi.text.color" antialias="0"/>
 
 	<!-- playlistPlus id="main.pl" x="3" y="-20" w="-187" h="19" relaty="1" relatw="1" font="sserif" fontsize="10" linespacing="1" color="wasabi.text.color" antialias="0" 
 			playcolor="wasabi.text.color" sysregion="1"/ -->	
