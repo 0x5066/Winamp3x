@@ -2,6 +2,7 @@
 This is a Winamp Modern skin which is based on Victhor's [Winamp Classic Modern](https://www.deviantart.com/victhor/art/Winamp-Classic-Modern-by-Victhor-805797724) and on [Nullsoft Winamp 2000 SP4](https://github.com/0x5066/Winamp2000SP4) commit [f68a675](https://github.com/0x5066/Winamp3x/commit/f68a67556977c0d5387fd28d27542a1104c0eb71), making it a fork of the skin, the source code is uploaded to GitHub to easily allow for anyone else to make mods out of this, or to simply help me out on some of the stupid things I haven't yet gotten around to fix or add. :)
 
 **This is a hobbyist project, the developers working on this simply cannot dedicate themselves to this full time (due to school and/or apprenticeship), as such you shouldn't expect daily updates and any major releases any time soon.**
+**This skin causes a crash in Winamp 5.8 and we have no intentions of ever fixing this, either use Winamp 5.666 or WACUP and live with it.**
 
 If you want to contribute color themes (which is highly encouraged), [this guide](https://github.com/0x5066/Winamp3x/blob/master/contributing.md) will help you through the creation of a new color theme from the ground up.
 
