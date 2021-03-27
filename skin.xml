@@ -46,8 +46,10 @@
 	
 	<scripts>
 		<script id="script.system" file="scripts/system.maki"></script>
+		<script file="scripts\wa2timer.maki"/>
     <script file="scripts\visualizer.maki"/>
 	</scripts>
+
 
 	
 </WinampAbstractionLayer>
