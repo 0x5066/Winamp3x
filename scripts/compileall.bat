@@ -8,7 +8,7 @@ echo +         You obviously need the WaSDP             +
 echo +        (WinAmp Skin Development Pack)            +
 echo +              and Winamp or WACUP                 +
 echo +               for this to work                   +
-echo +             Version 1.3 by 0x5066                +
+echo +            Version 1.3.1 by 0x5066               +
 echo +                                                  +
 echo ----------------------------------------------------
 set /p ask= Do you use Winamp(1) or WACUP(2)? 
@@ -42,6 +42,8 @@ ren debug.sym system_debug.sym
 ren debug.sym titlebar_debug.sym
 "C:\Program Files (x86)\WACUP\mc.exe" tooltips.m /debugfile
 ren debug.sym tooltips_debug.sym
+"C:\Program Files (x86)\WACUP\mc.exe" wa2timer.m /debugfile
+ren debug.sym wa2timer_debug.sym
 "C:\Program Files (x86)\WACUP\mc.exe" visualizer.m /debugfile
 ren debug.sym visualizer_debug.sym
 "C:\Program Files (x86)\WACUP\mc.exe" winampvisualizer.m /debugfile
@@ -72,6 +74,8 @@ ren debug.sym system_debug.sym
 ren debug.sym titlebar_debug.sym
 "C:\Program Files (x86)\Winamp\mc.exe" tooltips.m /debugfile
 ren debug.sym tooltips_debug.sym
+"C:\Program Files (x86)\Winamp\mc.exe" wa2timer.m /debugfile
+ren debug.sym wa2timer_debug.sym
 "C:\Program Files (x86)\Winamp\mc.exe" visualizer.m /debugfile
 ren debug.sym visualizer_debug.sym
 "C:\Program Files (x86)\Winamp\mc.exe" winampvisualizer.m /debugfile

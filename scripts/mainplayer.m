@@ -11,7 +11,7 @@ Function setVolumeAnim(int volValue);
 Class ToggleButton RepeatShuffleHandler;
 
 Global RepeatShuffleHandler RepeatBtn, ShuffleBtn;
-Global Group ScriptGroup, MainGroup, WinampTxtGroup, SongInfoGroup, DisplayGroup, SongtickerGroup, MainGroupShade, DisplayGroupShade/*, SongtickerOptionsGroup*/;
+Global Group ScriptGroup, MainGroup, BalanceGroup, WinampTxtGroup, SongInfoGroup, DisplayGroup, SongtickerGroup, MainGroupShade, DisplayGroupShade/*, SongtickerOptionsGroup*/;
 
 // EQ shade mode stuff..
 Global Group EqShadeGroup, EqShadeVolbalance;
@@ -55,6 +55,7 @@ Global File myCheckerDoc;
 initMainPlayer() {
 	MainGroup = layoutMainNormal.getObject("player.normal.group.main");
 	SongInfoGroup = MainGroup.getObject("player.normal.group.songinfo");
+  BalanceGroup = MainGroup.getObject("volbalstuff");
 
 	AboutBG = MainGroup.getObject("about.bg");
 	AboutBtn = MainGroup.getObject("player.button.about");
@@ -108,7 +109,7 @@ initMainPlayer() {
 	EqLight = MainGroup.getObject("player.button.eq.light");
 
 	anlBalance = MainGroup.getObject("main.balance.anim");
-	EqBalance = MainGroup.getObject("eq.slider.pan");
+	EqBalance = BalanceGroup.getObject("eq.slider.pan");
 
 	PLButton = MainGroup.getObject("player.button.pl");
 	PLLight = MainGroup.getObject("player.button.pl.light");
