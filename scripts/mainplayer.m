@@ -23,7 +23,7 @@ Global ToggleButton OAIDUBtnA;
 Global AnimatedLayer VolumeAnim, MainVolumeAnim;
 Global AnimatedLayer anlBalance, MainanlBalance;
 Global Button OAIDUBtnI, OAIDUBtnD, OAIDUBtnU, AboutBtn;
-Global GuiObject DisplayTime, OAIDUBtnO;
+Global GuiObject DisplayTime, DisplayTimeShade, OAIDUBtnO/*, SongtickerObj*/;
 Global GuiObject SonginfoFrequencyBG, SonginfoFrequencyDISPLAY, SonginfoBitrateBG, SonginfoBitrateDISPLAY, ButtonClose;
 Global Layer EqButton, PLButton, SonginfoMono, SonginfoStereo, SonginfoBitrateLabel, SonginfoFrequencyLabel;
 Global togglebutton RepeatLight, ShuffleLight;
@@ -86,7 +86,7 @@ initMainPlayer() {
 	
 	MainGroupShade = layoutMainShade.getObject("player.shade.group.main");
 	DisplayGroupShade = MainGroupShade.getObject("player.shade.group.display");
-  //DisplayTimeShade = DisplayGroupShade.getObject("shade.time");
+  DisplayTimeShade = DisplayGroupShade.getObject("shade.time");
 
 	WinampTxtShade = MainGroupShade.getObject("winamp.txt");
 	WinampTxtShadeInactive = MainGroupShade.getObject("winamp.txt.inactive");
@@ -152,21 +152,6 @@ initMainPlayer() {
   Int PlayerStatus = System.getStatus();
   
   if (PlayerStatus != 0) { getchanneltimer.start(); }
-
-  timemodestring = getPrivateInt(getSkinName(), "timemodestring", timemodestring);
-
-  if (timemodestring == 1)
-  {
-    DisplayTime.setXmlParam("display", "TIMEELAPSED");
-    //DisplayTimeShade.setXmlParam("display", "TIMEELAPSED");
-    timemodestring = 1;
-  }
-  else if (timemodestring == 2)
-  {
-    DisplayTime.setXmlParam("display", "TIMEREMAINING");
-    //DisplayTimeShade.setXmlParam("display", "TIMEREMAINING");
-    timemodestring = 2;
-  }
 
   stopstate = getPrivateInt(getSkinName(), "stopstate", stopstate);
 
@@ -266,13 +251,13 @@ initMainPlayer() {
   WinampTxt.setXmlParam("text", "Winamp "+Application.GetVersionNumberString());
   WACUPTxtInactive.setXmlParam("text", "Winamp Community Update Project");
   WinampTxtInactive.setXmlParam("text", "Winamp "+Application.GetVersionNumberString());
-  WACUPTxtShade.setXmlParam("text", "Winamp Community Update Project");
+  WACUPTxtShade.setXmlParam("text", "WACUP");
   WinampTxtShade.setXmlParam("text", "Winamp "+Application.GetVersionNumberString());
-  WACUPTxtShadeInactive.setXmlParam("text", "Winamp Community Update Project");
+  WACUPTxtShadeInactive.setXmlParam("text", "WACUP");
   WinampTxtShadeInactive.setXmlParam("text", "Winamp "+Application.GetVersionNumberString());
 
   if(Application.GetVersionNumberString() == "5.8"){
-	  WinampTxt.setXmlParam("text", "Sinner");
+    WinampTxt.setXmlParam("text", "Sinner");
     WinampTxtInactive.setXmlParam("text", "Sinner");
     WinampTxtShade.setXmlParam("text", "Sinner");
     WinampTxtShadeInactive.setXmlParam("text", "Sinner");
@@ -322,8 +307,6 @@ unloadMainPlayer() {
 	delayload.stop();
 	delete delayload;
 }
-
-
 
 EqLight.onEnterArea()
 {	
@@ -738,24 +721,25 @@ System.onAccelerator(String action, String section, String key)
 	}
 }
 
-
+/*
 DisplayTime.onLeftButtonUp (int x, int y)
 {
   if (DisplayTime.getXmlParam("display") == "TIMEELAPSED")
   {
     DisplayTime.setXmlParam("display", "TIMEREMAINING");
-    //DisplayTimeShade.setXmlParam("display", "TIMEREMAINING");
+    DisplayTimeShade.setXmlParam("display", "TIMEREMAINING");
     timemodestring = 1;
   }
   else if (DisplayTime.getXmlParam("display") == "TIMEREMAINING")
   {
     DisplayTime.setXmlParam("display", "TIMEELAPSED");
-    //DisplayTimeShade.setXmlParam("display", "TIMEELAPSED");
+    DisplayTimeShade.setXmlParam("display", "TIMEELAPSED");
     timemodestring = 2;
   }
   
   setPrivateInt(getSkinName(), "timemodestring", timemodestring);
 }
+
 
 DisplayTime.onRightButtonUp (int x, int y)
 {
@@ -780,20 +764,20 @@ DisplayTime.onRightButtonUp (int x, int y)
   if (result == 1)
 	{
     DisplayTime.setXmlParam("display", "TIMEELAPSED");
-    //DisplayTimeShade.setXmlParam("display", "TIMEELAPSED");
+    DisplayTimeShade.setXmlParam("display", "TIMEELAPSED");
     timemodestring = 1;
     setPrivateInt(getSkinName(), "timemodestring", timemodestring);
 	}
   else if (result == 2)
 	{
     DisplayTime.setXmlParam("display", "TIMEREMAINING");
-    //DisplayTimeShade.setXmlParam("display", "TIMEREMAINING");
+    DisplayTimeShade.setXmlParam("display", "TIMEREMAINING");
     timemodestring = 2;
     setPrivateInt(getSkinName(), "timemodestring", timemodestring);
 	}
 	complete;
 }
-
+*/
 
 StopBtn.onLeftClick()
 {

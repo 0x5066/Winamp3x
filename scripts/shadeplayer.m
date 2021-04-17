@@ -3,7 +3,7 @@ Function unloadShadePlayer();
 
 Global Group ScriptGroup, MainGroupShade, DisplayGroupShade, MainGroupMainPlayer, MainGroupPlayerDisplay;
 Global Button VisMenuEntry1, VisMenuEntry2, VisMenuEntry3;
-Global GuiObject Visualization, DisplayTimeMainPlayer;
+Global GuiObject DisplayTimeShade, Visualization, DisplayTimeMainPlayer;
 Global int timemodestring;
 
 initShadePlayer() {
@@ -13,7 +13,7 @@ initShadePlayer() {
 
 	MainGroupShade = layoutMainShade.getObject("player.shade.group.main");
 	DisplayGroupShade = MainGroupShade.getObject("player.shade.group.display");
-  //DisplayTimeShade = DisplayGroupShade.getObject("shade.time");
+  DisplayTimeShade = DisplayGroupShade.getObject("shade.time");
 
   VisMenuEntry1 = DisplayGroupShade.getObject("vismenu.menuentry1");
   VisMenuEntry2 = DisplayGroupShade.getObject("vismenu.menuentry2");
@@ -25,14 +25,10 @@ initShadePlayer() {
 
   if (timemodestring == 1)
   {
-    DisplayTimeMainPlayer.setXmlParam("display", "TIMEELAPSED");
-    //DisplayTimeShade.setXmlParam("display", "TIMEELAPSED");
     timemodestring = 1;
   }
   else if (timemodestring == 2)
   {
-    DisplayTimeMainPlayer.setXmlParam("display", "TIMEREMAINING");
-    //DisplayTimeShade.setXmlParam("display", "TIMEREMAINING");
     timemodestring = 2;
   }
 }
@@ -73,7 +69,7 @@ Visualization.onLeftButtonDblClk(int x, int y)
   VisMenuEntry1.Leftclick ();
 }
 
-/*System.onKeyDown(String key)
+System.onKeyDown(String key)
 {
 	if (key == "ctrl+d")
 	{
@@ -87,10 +83,10 @@ Visualization.onLeftButtonDblClk(int x, int y)
   }
 	}
 	return;
-}*/
+}
 
-
-/*DisplayTimeShade.onLeftButtonUp (int x, int y)
+/*
+DisplayTimeShade.onLeftButtonUp (int x, int y)
 {
   if (DisplayTimeShade.getXmlParam("display") == "TIMEELAPSED")
   {
@@ -143,4 +139,5 @@ DisplayTimeShade.onRightButtonUp (int x, int y)
     setPrivateInt(getSkinName(), "timemodestring", timemodestring);
 	}
 	complete;
-}*/
+}
+*/
