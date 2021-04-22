@@ -15,11 +15,14 @@ Global String currentpos, strremainder, currentpos_rev;
 Global GuiObject DisplayTime, DisplayTimeShade;
 Global Timer timerSongTimer;
 Global Timer timerSongTimerReverse;
+Global Timer PauseBlinkPaused, PauseBlink, Clock;
 //Global int ZZorNot;
+Global int timermode;
 Global int milliseconds;
 Global int songlength;
 Global int remainder;
 Global int milliseconds_rev;
+Global int i;
 
 Global PopUpMenu clockMenu;
 
@@ -31,14 +34,15 @@ Function setTimer(int timermode);
 Function StaticTime();
 Function StaticTimeRemainder();
 Function endless();
+Function endlesspaused();
 Function notendless();
+Function notendlesspaused();
+Function notendlesspaused_rev();
 Function stopped();
 Function initplaytimer();
 Function playing();
 Function playing_rev();
 Function ItsBeenMuchTooLong();
-//Function YesZZ();
-//Function NoZZ();
 
 System.onScriptLoaded() 
 {
@@ -63,10 +67,17 @@ System.onScriptLoaded()
     strremainder = System.integerToTime(remainder);
     currentpos_rev = System.integerToTime(milliseconds-songlength);
 
-  	timerSongTimer = new Timer;
+    timerSongTimer = new Timer;
 	timerSongTimer.setDelay(50);
     timerSongTimerReverse = new Timer;
     timerSongTimerReverse.setDelay(50);
+    PauseBlink = new Timer;
+    PauseBlink.setDelay(50);
+    PauseBlinkPaused = new Timer;
+    PauseBlinkPaused.setDelay(50);
+    Clock = new Timer;
+    Clock.setDelay(2000);
+    Clock.start();
 
     setTimer(getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1));
     TimeElapsedOrRemaining();
@@ -78,47 +89,73 @@ TimeElapsedOrRemaining()
     setTimer(timermode);
 }
 
+Clock.onTimer(){
+    if(i >= 1){
+        i = 0;
+    }else{
+        i++;
+    }
+}
+
+PauseBlinkPaused.onTimer(){ //Remainder
+    if(i >= 1){
+        StaticTimeRemainder();
+    }else{
+        StaticTimeRemainder();
+        timerSongTimer.stop();
+        DisplayTime.setXmlParam("text", "---:--");
+        DisplayTimeShade.setXmlParam("text", "---:--");
+    }
+}
+
+PauseBlink.onTimer(){ //Elapsed
+    if(i >= 1){
+        StaticTime();
+    }else{
+        StaticTime();
+        timerSongTimer.stop();
+        DisplayTime.setXmlParam("text", "--:--");
+        DisplayTimeShade.setXmlParam("text", "--:--");
+    }
+}
+
 DisplayTime.onRightButtonUp (int x, int y){
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
 
-  	clockMenu = new PopUpMenu;
+    clockMenu = new PopUpMenu;
 
   	//clockMenu.addCommand("Presets:", 0, 0, 1);
-  	  
+
 	clockMenu.addcommand("Time elapsed", 1, timermode == 1,0);
 	clockMenu.addcommand("Time remaining", 2, timermode == 2,0);
 	//clockMenu.addSeparator();
     //clockMenu.addcommand("No 00", 2, timermode == 2,0);
 	//clockMenu.addcommand("Yes 00", 3, timermode == 3,0);
-  	
+
 	timermode = clockMenu.popAtMouse();
-    //int result2 = clockMenu.popAtMouse();
- 
+
+
 	setTimer(timermode);
-    //setDigits(result2);
-	
+
 	complete;
 }
 
 DisplayTimeShade.onRightButtonUp (int x, int y){
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
 
-  	clockMenu = new PopUpMenu;
+    clockMenu = new PopUpMenu;
 
   	//clockMenu.addCommand("Presets:", 0, 0, 1);
-  	  
+
 	clockMenu.addcommand("Time elapsed", 1, timermode == 1,0);
 	clockMenu.addcommand("Time remaining", 2, timermode == 2,0);
 	//clockMenu.addSeparator();
     //clockMenu.addcommand("No 00", 2, timermode == 2,0);
 	//clockMenu.addcommand("Yes 00", 3, timermode == 3,0);
-  	
+
 	timermode = clockMenu.popAtMouse();
-    //int result2 = clockMenu.popAtMouse();
- 
+
 	setTimer(timermode);
-    //setDigits(result2);
-	
 	complete;
 }
 
@@ -154,6 +191,14 @@ System.onPlay(){
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
 
     TimeElapsedOrRemaining();
+
+    if(timermode == 2){
+        StaticTimeRemainder();
+    }
+    else{
+        StaticTime();
+    }
+
     if (timermode == 2){
         if(songlength <= 0){
             endless();
@@ -171,19 +216,33 @@ System.onPlay(){
 System.onPause(){
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
 
+    if(timermode == 2){
+        StaticTimeRemainder();
+    }
+    else{
+        StaticTime();
+    }
+
     TimeElapsedOrRemaining();
     if (timermode == 2){
         if(songlength <= 0){
-            endless();
+            endlesspaused();
         }
         else{
-            notendless();
+            notendlesspaused_rev();
         }
     }
 }
 
 System.onResume(){
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
+
+    if(timermode == 2){
+        StaticTimeRemainder();
+    }
+    else{
+        StaticTime();
+    }
 
     TimeElapsedOrRemaining();
     if (timermode == 2){
@@ -198,6 +257,13 @@ System.onResume(){
 
 System.onInfoChange(String info){
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
+
+    if(timermode == 2){
+        StaticTimeRemainder();
+    }
+    else{
+        StaticTime();
+    }
 
     TimeElapsedOrRemaining();
     if (timermode == 2){
@@ -264,10 +330,11 @@ timerSongTimerReverse.onTimer(){
     }
 }
 
-AreWePlaying() {
+AreWePlaying(){
 //Just some sanity checks to ensure we're in the right modes
     if (getStatus() == -1){ //Paused
-        initplaytimer();
+        StaticTime();
+        notendlesspaused();
 	}
     else if (getStatus() == 0){ //Stopped
         stopped();
@@ -287,25 +354,27 @@ InReverse(){
 //This has now been actually fixed
     if(songlength <= 0){
         if (getStatus() == -1){ //Paused
-            endless();
-	    }
+            StaticTime();
+            endlesspaused();
+        }
     else if (getStatus() == 0){ //Stopped
             stopped();
-	    }
+        }
 	    else if (getStatus() == 1){ //Playing
             endless(); 
-	    }
+        }
     }
     else{
         if (getStatus() == -1){ //Paused
-            notendless();    
+            StaticTimeRemainder();
+            notendlesspaused_rev();    
 		}
     else if (getStatus() == 0){ //Stopped
             stopped();
 		}
 	else if (getStatus() == 1){ //Playing
             notendless();  
-	    }
+        }
     }
 }
 
@@ -321,56 +390,58 @@ NoZZ(){
 
 setTimer(int timermode){
     if(timermode>=1 && timermode<=2){ //i fucking hate building menus
-	    if (timermode == 1){
+        if (timermode == 1){
             AreWePlaying();
-	    }
-	    else if (timermode == 2){
+        }
+        else if (timermode == 2){
             InReverse();
         }
-    /*
-    else if (mode == 2)
-	{
-        NoZZ();
-	}
-	else if (mode == 3)
-	{
-        YesZZ();
-	}
-    */
-	    setPrivateInt(getSkinName(), "TimerElapsedRemaining", timermode);
+        setPrivateInt(getSkinName(), "TimerElapsedRemaining", timermode);
     }
 }
 
-/*
-setDigits (int mode2){
-	setPrivateInt(getSkinName(), "00 or not", mode2);
-	if (mode2 == 0)
-	{
-        NoZZ();
-	}
-	else if (mode2 == 1)
-	{
-        YesZZ();
-	}
-	ZZorNot = mode2;
-}
-*/
-
-endless(){
+endless(){ //Playing for endless stuff
     StaticTime();
     timerSongTimerReverse.stop();
+    PauseBlink.stop();
+    PauseBlinkPaused.stop();
     timerSongTimer.start();
 }
 
-notendless(){
+notendless(){ //Playing for non endless stuff
     StaticTimeRemainder();
     timerSongTimer.stop();
+    PauseBlink.stop();
+    PauseBlinkPaused.stop();
     timerSongTimerReverse.start();
+}
+
+endlesspaused(){ //Paused for endless stuff
+    timerSongTimerReverse.stop();
+    timerSongTimer.stop();
+    PauseBlinkPaused.stop();
+    PauseBlink.start();
+}
+
+notendlesspaused(){ //Paused for non endless stuff
+    timerSongTimer.stop();
+    timerSongTimerReverse.stop();
+    PauseBlinkPaused.stop();
+    PauseBlink.start();
+}
+
+notendlesspaused_rev(){ //Paused for non endless stuff, time remaining
+    timerSongTimer.stop();
+    timerSongTimerReverse.stop();
+    PauseBlink.stop();
+    PauseBlinkPaused.start();
 }
 
 stopped(){
     timerSongTimer.stop();
     timerSongTimerReverse.stop();
+    PauseBlink.stop();
+    PauseBlinkPaused.stop();
     //DisplayTime.setXmlParam("text", digits);
     //DisplayTimeShade.setXmlParam("text", digits);
     DisplayTime.setXmlParam("text", "  :  ");
@@ -425,6 +496,8 @@ ItsBeenMuchTooLong(){ //I feel it coming on, the feeling's gettin' strong
 }
 
 initplaytimer(){
+    PauseBlink.stop();
+    PauseBlinkPaused.stop();
     timerSongTimerReverse.stop();
     StaticTime();
     timerSongTimer.start();   
