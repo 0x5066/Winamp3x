@@ -10,13 +10,11 @@
 
 #include "lib/std.mi"
 
-//Global String digits;
 Global String currentpos, strremainder, currentpos_rev;
 Global GuiObject DisplayTime, DisplayTimeShade;
 Global Timer timerSongTimer;
 Global Timer timerSongTimerReverse;
 Global Timer PauseBlinkPaused, PauseBlink, Clock;
-//Global int ZZorNot;
 Global int timermode;
 Global int milliseconds;
 Global int songlength;
@@ -30,7 +28,6 @@ Function AreWePlaying();
 Function InReverse();
 Function TimeElapsedOrRemaining();
 Function setTimer(int timermode);
-//Function setDigits(int mode2);
 Function StaticTime();
 Function StaticTimeRemainder();
 Function endless();
@@ -76,7 +73,7 @@ System.onScriptLoaded()
     PauseBlinkPaused = new Timer;
     PauseBlinkPaused.setDelay(50);
     Clock = new Timer;
-    Clock.setDelay(2000);
+    Clock.setDelay(1000);
     Clock.start();
 
     setTimer(getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1));
@@ -88,23 +85,24 @@ TimeElapsedOrRemaining()
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
     setTimer(timermode);
 
-    if (timermode == 2){
-        if(songlength <= 0){
+    if(timermode == 1){ //Time elapsed
+        if(songlength <= 0){ //If below 0, then run StaticTime()
             StaticTime();
         }
-        else if(timermode == 1){
-            if(songlength <= 0){
-                StaticTime();
-            }
-            else{ 
-                StaticTime();
-            }
-        }
-        else{
-            StaticTimeRemainder();
+        else{ //If not, also run StaticTime(), reason why is below
+            StaticTime(); //this actually needs to exist specifically for the pause state, dont ask me why
         }
     }
 
+    if (timermode == 2){ //Time remaining
+        if(songlength <= 0){
+            StaticTime();
+        }
+    else{
+        StaticTimeRemainder(); //same
+    }
+
+}
     if (getStatus() == 0){ //Stopped
             stopped();
     }
@@ -144,19 +142,13 @@ DisplayTime.onRightButtonUp (int x, int y){
 
     clockMenu = new PopUpMenu;
 
-  	//clockMenu.addCommand("Presets:", 0, 0, 1);
-
 	clockMenu.addcommand("Time elapsed", 1, timermode == 1,0);
 	clockMenu.addcommand("Time remaining", 2, timermode == 2,0);
-	//clockMenu.addSeparator();
-    //clockMenu.addcommand("No 00", 2, timermode == 2,0);
-	//clockMenu.addcommand("Yes 00", 3, timermode == 3,0);
 
 	timermode = clockMenu.popAtMouse();
 
 
 	setTimer(timermode);
-
 	complete;
 }
 
@@ -165,13 +157,8 @@ DisplayTimeShade.onRightButtonUp (int x, int y){
 
     clockMenu = new PopUpMenu;
 
-  	//clockMenu.addCommand("Presets:", 0, 0, 1);
-
 	clockMenu.addcommand("Time elapsed", 1, timermode == 1,0);
 	clockMenu.addcommand("Time remaining", 2, timermode == 2,0);
-	//clockMenu.addSeparator();
-    //clockMenu.addcommand("No 00", 2, timermode == 2,0);
-	//clockMenu.addcommand("Yes 00", 3, timermode == 3,0);
 
 	timermode = clockMenu.popAtMouse();
 
@@ -367,16 +354,6 @@ InReverse(){
     }
 }
 
-/*
-YesZZ(){
-    digits = "00:00";
-}
-
-NoZZ(){
-    digits = "  :  ";
-}
-*/
-
 setTimer(int timermode){
     if(timermode>=1 && timermode<=2){ //i fucking hate building menus
         if (timermode == 1){
@@ -431,8 +408,6 @@ stopped(){
     timerSongTimerReverse.stop();
     PauseBlink.stop();
     PauseBlinkPaused.stop();
-    //DisplayTime.setXmlParam("text", digits);
-    //DisplayTimeShade.setXmlParam("text", digits);
     DisplayTime.setXmlParam("text", "  :  ");
     DisplayTimeShade.setXmlParam("text", "  :  ");
 }
