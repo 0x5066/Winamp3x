@@ -55,7 +55,7 @@ System.onScriptLoaded()
 
     //ints for playback
     milliseconds = System.getPosition();
-    songlength = System.getPlayItemLength();
+    songlength = StringtoInteger(System.getPlayItemMetaDataString("length"));
     remainder = songlength - milliseconds;
     milliseconds_rev = milliseconds-songlength;
 
@@ -122,8 +122,8 @@ PauseBlinkPaused.onTimer(){ //Remainder
         StaticTimeRemainder();
     }else{
         timerSongTimer.stop();
-        DisplayTime.setXmlParam("text", "---:--");
-        DisplayTimeShade.setXmlParam("text", "---:--");
+        DisplayTime.setXmlParam("text", "...:..");
+        DisplayTimeShade.setXmlParam("text", "...:..");
     }
 }
 
@@ -132,8 +132,8 @@ PauseBlink.onTimer(){ //Elapsed
         StaticTime();
     }else{
         timerSongTimer.stop();
-        DisplayTime.setXmlParam("text", "--:--");
-        DisplayTimeShade.setXmlParam("text", "--:--");
+        DisplayTime.setXmlParam("text", "..:..");
+        DisplayTimeShade.setXmlParam("text", "..:..");
     }
 }
 
@@ -269,7 +269,7 @@ StaticTime(){ //Needed since the timer has a delay of 50ms and we don't want any
 
 StaticTimeRemainder(){ //Needed since the timer has a delay of 50ms and we don't want any odd flashing on loading
     milliseconds = System.getPosition();
-    songlength = System.getPlayItemLength();
+    songlength = StringtoInteger(System.getPlayItemMetaDataString("length"));
 
 //The purpose of this check is to ensure we properly place
 //a "0" if we happen to be below 600000ms, or 10 minutes
@@ -295,7 +295,7 @@ timerSongTimer.onTimer(){
 
 timerSongTimerReverse.onTimer(){
     milliseconds = System.getPosition();
-    songlength = System.getPlayItemLength();
+    songlength = StringtoInteger(System.getPlayItemMetaDataString("length"));
 
 //The purpose of this check is to ensure we properly place
 //a "0" if we happen to be below 600000ms, or 10 minutes
@@ -324,7 +324,7 @@ AreWePlaying(){
 
 InReverse(){
 //Just some sanity checks to ensure we're in the right modes
-    songlength = System.getPlayItemLength();
+    songlength = StringtoInteger(System.getPlayItemMetaDataString("length"));
 //In case of streams or VGM formats with endless playback
 //We don't want the user to still be able to toggle
 //between time remaining or elapsed, so we force
@@ -428,7 +428,7 @@ playing(){
 
 playing_rev(){
     milliseconds = System.getPosition();
-    songlength = System.getPlayItemLength();
+    songlength = StringtoInteger(System.getPlayItemMetaDataString("length"));
     remainder = songlength - milliseconds;
     milliseconds_rev = milliseconds-songlength;
     strremainder = System.integerToTime(remainder);
@@ -446,7 +446,7 @@ playing_rev(){
 
 ItsBeenMuchTooLong(){ //I feel it coming on, the feeling's gettin' strong
     milliseconds = System.getPosition();
-    songlength = System.getPlayItemLength();
+    songlength = StringtoInteger(System.getPlayItemMetaDataString("length"));
     milliseconds_rev = milliseconds-songlength;
 
     if(milliseconds_rev < 600000){
